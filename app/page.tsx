@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { generatePageMetadata } from "@/lib/seo";
 import { faqPageSchema, organizationSchema } from "@/lib/schema";
 import { JsonLd } from "@/components/seo/json-ld";
@@ -7,7 +8,6 @@ import { Reveal } from "@/components/animations/reveal";
 import { Stagger, StaggerItem } from "@/components/animations/stagger";
 import { Counter } from "@/components/animations/counter";
 import { TiltCard } from "@/components/animations/tilt-card";
-import { SparklineLive } from "@/components/animations/sparkline-live";
 import { MagneticButton } from "@/components/animations/magnetic-button";
 import { DoubleBezelCard, CardGlow } from "@/components/marketing/double-bezel-card";
 import { MarqueeLogos } from "@/components/marketing/marquee-logos";
@@ -145,49 +145,31 @@ export default function HomePage() {
               </div>
             </Reveal>
             <Reveal delay={0.24}>
-              <p className="mt-6 flex items-center gap-2 text-[13px] text-muted-2">
-                <span
-                  aria-hidden
-                  className="size-1.5 rounded-full bg-accent shadow-[0_0_8px_var(--color-accent)] motion-safe:animate-pulse"
-                />
-                3 créneaux d&apos;audit disponibles ce mois-ci
+              <p className="mt-6 text-[13px] text-muted-2">
+                Audit chiffré sous 10 jours ouvrés. Sans engagement, que vous
+                signiez ensuite ou non.
               </p>
             </Reveal>
           </div>
 
-          {/* Card proof avec tilt 3D */}
+          {/* Visuel éditorial : un consultant au travail, la nuit, à Paris */}
           <Reveal delay={0.2} className="[perspective:1200px]">
             <TiltCard>
-              <DoubleBezelCard className="relative overflow-hidden">
-                <CardGlow position="top-right" />
-                <div className="relative">
-                  <div className="flex items-center justify-between">
-                    <p className="text-[11.5px] text-muted-2">trafic organique, mission type</p>
-                    <span className="rounded-full border border-accent/30 bg-accent-soft px-2.5 py-1 font-mono text-[11px] text-accent">
-                      12 mois
-                    </span>
-                  </div>
-                  <p className="mt-4 text-5xl font-extrabold tracking-tight">
-                    <Counter value={41} prefix="+" suffix=" %" />
-                  </p>
-                  <SparklineLive className="mt-5 w-full" />
-                  <div className="mt-5 grid grid-cols-2 gap-3 border-t border-border pt-4">
-                    <div>
-                      <p className="font-mono text-lg font-medium text-text">
-                        <Counter value={9} />
-                        /12
-                      </p>
-                      <p className="text-[12px] text-muted-2">requêtes citées par Perplexity</p>
-                    </div>
-                    <div>
-                      <p className="font-mono text-lg font-medium text-text">
-                        <Counter value={0} />
-                      </p>
-                      <p className="text-[12px] text-muted-2">404 après migration</p>
-                    </div>
-                  </div>
-                </div>
-              </DoubleBezelCard>
+              <div className="relative overflow-hidden rounded-3xl border border-border bg-bg-2 p-1.5">
+                <div
+                  aria-hidden
+                  className="pointer-events-none absolute -right-16 -top-16 z-10 size-52 rounded-full bg-accent/15 blur-3xl"
+                />
+                <Image
+                  src="/images/hero-atelier.webp"
+                  alt="Un consultant analyse le trafic organique et les campagnes d'un client, la nuit, dans un bureau parisien"
+                  width={1800}
+                  height={1350}
+                  priority
+                  sizes="(max-width: 768px) 100vw, 40vw"
+                  className="relative w-full rounded-[18px] object-cover"
+                />
+              </div>
             </TiltCard>
           </Reveal>
         </div>
@@ -197,15 +179,13 @@ export default function HomePage() {
 
       {/* ============ STATS ============ */}
       <section className="mx-auto max-w-7xl px-4 py-20 md:px-8 md:py-28 lg:px-12">
-        <Stagger className="grid grid-cols-2 gap-3.5 lg:grid-cols-4">
+        <Stagger className="grid grid-cols-2 gap-x-6 gap-y-10 sm:gap-x-10 lg:grid-cols-4 lg:divide-x lg:divide-border">
           {STATS.map((s) => (
-            <StaggerItem key={s.label}>
-              <DoubleBezelCard>
-                <p className="text-4xl font-extrabold tracking-tight text-text">
-                  <Counter value={s.value} prefix={s.prefix} suffix={s.suffix} decimals={s.decimals} />
-                </p>
-                <p className="mt-2 text-[13px] leading-snug text-muted-2">{s.label}</p>
-              </DoubleBezelCard>
+            <StaggerItem key={s.label} className="lg:px-8 lg:first:pl-0">
+              <p className="text-4xl font-extrabold tracking-tight text-text md:text-5xl">
+                <Counter value={s.value} prefix={s.prefix} suffix={s.suffix} decimals={s.decimals} />
+              </p>
+              <p className="mt-2 text-[13px] leading-snug text-muted-2">{s.label}</p>
             </StaggerItem>
           ))}
         </Stagger>
@@ -231,10 +211,7 @@ export default function HomePage() {
                 <div className="relative flex h-full flex-col">
                   <div className="flex items-start justify-between gap-6">
                     <div>
-                      <p className="font-mono text-xs text-accent">
-                        {String(i + 1).padStart(2, "0")}
-                      </p>
-                      <h3 className="mt-2 text-2xl font-bold tracking-tight text-text transition-colors duration-300 group-hover:text-accent">
+                      <h3 className="text-2xl font-bold tracking-tight text-text transition-colors duration-300 group-hover:text-accent">
                         {s.label}
                       </h3>
                     </div>
@@ -418,11 +395,16 @@ export default function HomePage() {
       {/* ============ CTA FINAL ============ */}
       <section className="mx-auto max-w-7xl px-4 pb-24 md:px-8 lg:px-12">
         <Reveal>
-          <div className="relative overflow-hidden rounded-3xl border border-accent/20 bg-bg-2 px-7 py-14 text-center md:py-20">
-            <div
+          <div className="relative overflow-hidden rounded-3xl border border-accent/20 bg-bg-2 px-7 py-16 text-center md:py-24">
+            <Image
+              src="/images/brand-sillage.webp"
+              alt=""
               aria-hidden
-              className="pointer-events-none absolute left-1/2 top-0 h-64 w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/10 blur-3xl"
+              fill
+              sizes="100vw"
+              className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-40 [mask-image:radial-gradient(ellipse_at_center,black,transparent_72%)]"
             />
+            <div aria-hidden className="pointer-events-none absolute inset-0 bg-bg/50" />
             <div className="relative">
               <h2 className="mx-auto max-w-2xl text-[clamp(1.9rem,3.8vw,3rem)] font-extrabold leading-[1.05] tracking-[-0.03em]">
                 Un audit <em className="em-accent">honnête</em>, pour commencer.
