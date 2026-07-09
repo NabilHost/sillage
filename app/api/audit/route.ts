@@ -48,22 +48,34 @@ export async function POST(req: NextRequest) {
 
   const apiKey = process.env.RESEND_API_KEY;
   if (apiKey) {
-    const { Resend } = await import("resend");
-    const resend = new Resend(apiKey);
-    await resend.emails.send({
-      from: `Sillage <formulaire@${new URL(SITE.url).hostname.replace("www.", "")}>`,
-      to: [SITE.email],
-      replyTo: email,
-      subject: `[${sujet}] ${nom}${site ? ` · ${site}` : ""}`,
-      html: `
-        <p><strong>Nom :</strong> ${escapeHtml(nom)}</p>
-        <p><strong>Email :</strong> ${escapeHtml(email)}</p>
-        <p><strong>Site :</strong> ${escapeHtml(site || "non renseigné")}</p>
-        <p><strong>Sujet :</strong> ${escapeHtml(sujet)}</p>
-        <p><strong>Message :</strong></p>
-        <p>${escapeHtml(message).replace(/\n/g, "<br>")}</p>
-      `,
-    });
+    /* Adresses surchargeable par env : permet un routage de test (onboarding@resend.dev
+       vers une boîte perso) tant que le domaine définitif n'est pas vérifié dans Resend. */
+    const from =
+      process.env.RESEND_FROM ??
+      `Sillage <formulaire@${new URL(SITE.url).hostname.replace("www.", "")}>`;
+    const to = process.env.CONTACT_TO ?? SITE.email;
+    try {
+      const { Resend } = await import("resend");
+      const resend = new Resend(apiKey);
+      await resend.emails.send({
+        from,
+        to: [to],
+        replyTo: email,
+        subject: `[${sujet}] ${nom}${site ? ` · ${site}` : ""}`,
+        html: `
+          <p><strong>Nom :</strong> ${escapeHtml(nom)}</p>
+          <p><strong>Email :</strong> ${escapeHtml(email)}</p>
+          <p><strong>Site :</strong> ${escapeHtml(site || "non renseigné")}</p>
+          <p><strong>Sujet :</strong> ${escapeHtml(sujet)}</p>
+          <p><strong>Message :</strong></p>
+          <p>${escapeHtml(message).replace(/\n/g, "<br>")}</p>
+        `,
+      });
+    } catch (err) {
+      /* Échec Resend (domaine non vérifié, quota…) : on log le lead pour ne pas le
+         perdre, sans renvoyer d'erreur 500 au visiteur. */
+      console.error("[contact] envoi Resend échoué, lead loggé :", err, { nom, email, site, sujet });
+    }
   } else {
     /* Pas de clé Resend configurée : log serveur pour ne pas perdre le lead en dev */
     console.log("[contact] lead reçu (RESEND_API_KEY absente) :", { nom, email, site, sujet });
