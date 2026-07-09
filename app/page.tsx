@@ -110,6 +110,25 @@ const METHOD = [
   },
 ];
 
+const REALISATIONS = [
+  {
+    img: "/images/work/corkflow.webp",
+    domain: "corkflow.fr",
+    sector: "e-commerce · liège & yoga",
+    title: "Corkflow, boutique de liège naturel",
+    text: "Création du site e-commerce et acquisition organique : catalogue, pages piliers et fiches produits pensées pour la recherche.",
+    alt: "Page d'accueil du site e-commerce Corkflow, tapis de yoga en liège naturel",
+  },
+  {
+    img: "/images/work/dahab.webp",
+    domain: "dahab-paris.fr",
+    sector: "service premium · chauffeur privé",
+    title: "Dahab, chauffeur privé à Paris",
+    text: "Site de réservation et visibilité locale : tunnel de commande en deux minutes, référencement Paris et Île-de-France.",
+    alt: "Page d'accueil du site Dahab, service de chauffeur privé à Paris",
+  },
+];
+
 export default function HomePage() {
   return (
     <article>
@@ -235,6 +254,63 @@ export default function HomePage() {
                   </span>
                 </div>
               </Link>
+            </StaggerItem>
+          ))}
+        </Stagger>
+      </section>
+
+      {/* ============ RÉALISATIONS ============ */}
+      <section className="mx-auto max-w-7xl px-4 py-20 md:px-8 md:py-28 lg:px-12 lg:py-32">
+        <Reveal>
+          <h2 className="max-w-2xl text-[clamp(1.9rem,3.6vw,2.8rem)] font-bold leading-[1.06] tracking-[-0.03em]">
+            Des sites qu&apos;on a conçus, en ligne aujourd&apos;hui.
+          </h2>
+          <p className="mt-4 max-w-xl text-[15px] text-muted">
+            Deux réalisations récentes, publiques et vérifiables. Cliquez pour
+            ouvrir le site en conditions réelles.
+          </p>
+        </Reveal>
+
+        <Stagger className="mt-12 grid gap-8 md:grid-cols-2">
+          {REALISATIONS.map((r) => (
+            <StaggerItem key={r.domain}>
+              <a
+                href={`https://${r.domain}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block"
+              >
+                <div className="overflow-hidden rounded-2xl border border-border bg-bg-2 transition-colors duration-300 group-hover:border-accent/30">
+                  <div className="flex items-center gap-2 border-b border-border bg-bg-3 px-4 py-2.5">
+                    <span aria-hidden className="size-2.5 rounded-full bg-muted-2/40" />
+                    <span aria-hidden className="size-2.5 rounded-full bg-muted-2/40" />
+                    <span aria-hidden className="size-2.5 rounded-full bg-muted-2/40" />
+                    <span className="ml-3 truncate rounded-md bg-bg px-3 py-1 font-mono text-[11px] text-muted-2">
+                      {r.domain}
+                    </span>
+                  </div>
+                  <div className="relative aspect-[16/10] overflow-hidden">
+                    <Image
+                      src={r.img}
+                      alt={r.alt}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      className="object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.02]"
+                    />
+                  </div>
+                </div>
+                <p className="mt-4 text-[11.5px] text-muted-2">{r.sector}</p>
+                <h3 className="mt-1 text-lg font-bold tracking-tight transition-colors duration-300 group-hover:text-accent">
+                  {r.title}
+                </h3>
+                <p className="mt-1.5 text-[14px] leading-relaxed text-muted">{r.text}</p>
+                <span
+                  aria-hidden
+                  className="mt-3 inline-flex items-center gap-1.5 text-[13px] font-semibold text-muted-2 transition-all duration-300 group-hover:translate-x-0.5 group-hover:text-text"
+                >
+                  Voir le site <span>↗</span>
+                </span>
+              </a>
             </StaggerItem>
           ))}
         </Stagger>
