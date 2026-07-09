@@ -1,0 +1,33 @@
+{
+  "name": "sillage",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Sillage — Agence SEO, SEA, création de sites & visibilité IA. Next.js 16 + Tailwind v4 + Framer Motion.",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.1.0",
+    "cmdk": "^1.1.1",
+    "framer-motion": "^12.15.0",
+    "next": "^16.2.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-hook-form": "^7.57.0",
+    "resend": "^6.12.0",
+    "web-vitals": "^5.0.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.8",
+    "tw-animate-css": "^1.3.0",
+    "typescript": "^5.8.0"
+  }
+}

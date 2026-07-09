@@ -1,0 +1,209 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-bg: #0a0a0a;
+  --color-bg-2: #111111;
+  --color-bg-3: #161616;
+  --color-accent: #ff6b35;
+  --color-accent-deep: #e5551f;
+  --color-accent-soft: rgba(255, 107, 53, 0.08);
+  --color-accent-glow: rgba(255, 107, 53, 0.22);
+  --color-text: #ffffff;
+  --color-muted: #a3a3a3;
+  --color-muted-2: #6b6b6b;
+  --color-border: #262626;
+
+  --radius-pill: 999px;
+  --radius-card: 24px;
+  --radius-inner: 18px;
+  --radius-input: 10px;
+
+  --font-display: var(--font-bricolage), system-ui, sans-serif;
+  --font-italic: var(--font-fraunces), serif;
+  --font-mono: var(--font-jetbrains), monospace;
+
+  --ease-smooth: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-out-quart: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --animate-marquee: marquee 32s linear infinite;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+}
+
+@layer base {
+  html {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-display);
+    letter-spacing: -0.015em;
+    scroll-behavior: smooth;
+  }
+  body { min-height: 100dvh; }
+  ::selection { background: var(--color-accent); color: var(--color-bg); }
+  *:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+}
+
+/* Emphase Fraunces italic : max 3-5 mots par page */
+.em-accent {
+  font-family: var(--font-italic);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--color-accent);
+}
+
+/* Sparkline */
+@keyframes sparklineDraw {
+  to { stroke-dashoffset: 0; }
+}
+
+/* ==========================================================================
+   Article-prose : typographie long-form (articles blog uniquement)
+   ========================================================================== */
+
+.article-prose > h2 {
+  scroll-margin-top: 6rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: clamp(1.6rem, 2.6vw, 2.1rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: var(--color-text);
+}
+.article-prose > h2:first-child { margin-top: 0; }
+.article-prose > h3 {
+  scroll-margin-top: 6rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: clamp(1.15rem, 1.8vw, 1.35rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+.article-prose > p { margin-bottom: 1.15rem; }
+.article-prose { color: var(--color-muted); line-height: 1.75; }
+
+/* SCOPÉ aux p/li/dd/blockquote uniquement pour ne pas casser les buttons */
+.article-prose :is(p, li, dd, blockquote) a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(255, 107, 53, 0.35);
+}
+
+.article-prose ul > li {
+  position: relative;
+  margin-bottom: 0.5rem;
+  list-style: none;
+  padding-left: 1.25rem;
+}
+.article-prose ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 0.5rem;
+  height: 1px;
+  background: var(--color-accent);
+}
+
+.article-prose blockquote {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 2px solid var(--color-accent);
+  background: rgba(255, 107, 53, 0.04);
+  font-style: italic;
+  color: var(--color-text);
+}
+
+.article-prose code {
+  background: var(--color-bg-3);
+  border: 1px solid var(--color-border);
+  padding: 0.1rem 0.4rem;
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: var(--color-text);
+}
+
+.article-prose pre {
+  margin: 1.5rem 0;
+  padding: 1.25rem 1.5rem;
+  background: var(--color-bg-3);
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  overflow-x: auto;
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+.article-prose pre code { border: 0; background: transparent; padding: 0; }
+
+.article-prose table {
+  width: 100%;
+  margin: 1.75rem 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  overflow: hidden;
+  font-size: 14px;
+}
+.article-prose thead { background: var(--color-bg-3); }
+.article-prose th {
+  padding: 0.85rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: var(--color-text);
+  border-bottom: 1px solid var(--color-border);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.article-prose td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+.article-prose tbody tr:last-child td { border-bottom: 0; }
+.article-prose tbody tr:nth-child(even) { background: rgba(255, 255, 255, 0.015); }
+
+/* Callout box (À retenir, Formule, etc.) */
+.article-prose .callout,
+.callout {
+  margin: 1.75rem 0;
+  padding: 1.1rem 1.35rem;
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 10px;
+  background: var(--color-bg-2);
+}
+.article-prose .callout-label,
+.callout-label {
+  display: inline-block;
+  margin-bottom: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+.callout p { margin: 0; color: var(--color-text); }
+
+/* ---------- Tables longues : scroll horizontal sur mobile ---------- */
+@media (max-width: 640px) {
+  .article-prose table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}

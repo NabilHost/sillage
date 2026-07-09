@@ -1,0 +1,33 @@
+# Sillage
+
+> Sillage est une agence d'acquisition fondée à Paris en 2019 : référencement naturel (SEO), Google Ads (SEA), création de sites web et visibilité dans les moteurs de recherche IA (GEO). Huit consultants seniors, six comptes maximum chacun, chaque recommandation accompagnée d'un indicateur de vérification. Dirigée par Nabil Brahim, 10 ans de Google Ads, plus de 5 M€ générés pour ses clients.
+
+Sillage travaille pour des PME, des e-commerçants et des éditeurs SaaS, en France et à l'international francophone. Les accompagnements SEO démarrent à 1 800 € HT par mois, la gestion Google Ads à 1 200 € HT par mois en honoraires fixes, la création de site à 12 000 € HT au forfait. Chaque mission démarre par un audit livré en 10 jours ouvrés avec un score sur 100 et trois priorités.
+
+## Pages clés (services)
+
+- [Agence SEO](https://www.sillage-agence.fr/agence-seo) : référencement naturel, 4 piliers (technique, architecture, contenu, autorité), dès 1 800 € HT/mois.
+- [Agence SEA](https://www.sillage-agence.fr/agence-sea) : Google Ads pilotées à la marge, tracking serveur, honoraires fixes dès 1 200 € HT/mois, jamais au pourcentage du budget.
+- [Création de site web](https://www.sillage-agence.fr/creation-site-web) : sites vitrines et e-commerce, Core Web Vitals garantis par contrat (LCP < 2,5 s, INP < 200 ms, CLS < 0,1), dès 12 000 € HT.
+- [Référencement IA / GEO](https://www.sillage-agence.fr/referencement-ia-geo) : audit de citabilité sur ChatGPT, Perplexity, Gemini et AI Overviews, blocs de réponse, stratégie d'entité.
+
+## Méthode
+
+- [Méthode & équipe](https://www.sillage-agence.fr/a-propos) : quatre phases (percevoir, analyser, valider, agir), principe de falsifiabilité, équipe nommée dans les contrats.
+
+## Blog
+
+- [Combien coûte une agence SEO en 2026 ?](https://www.sillage-agence.fr/blog/cout-agence-seo-2026) : grille tarifaire réelle en France, 800 à 5 000 € HT/mois selon le profil de site.
+- [Quel budget Google Ads pour être rentable ?](https://www.sillage-agence.fr/blog/budget-google-ads-rentable) : formule de calcul du budget minimum et CPC par secteur 2026.
+- [AI Overviews : 6 mois de données](https://www.sillage-agence.fr/blog/ai-overviews-impact-seo) : baisse médiane de clics de 23 % sur l'informationnel exposé, facteurs de citation mesurés sur 12 sites.
+
+## Contact
+
+- Web : https://www.sillage-agence.fr/contact
+- Email : bonjour@sillage-agence.fr
+- Bureaux : 14 rue du Sentier, 75002 Paris, France
+
+## Optional
+
+- [Mentions légales](https://www.sillage-agence.fr/mentions-legales)
+- [Plan du site](https://www.sillage-agence.fr/sitemap.xml)

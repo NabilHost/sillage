@@ -1,0 +1,149 @@
+{
+  "_readme": "Backlog éditorial consommé par la routine quotidienne. status: todo | done | skipped. Ordre = priorité. KD estimé sur 100 (viser < 30).",
+  "topics": [
+    {
+      "slug": "seo-ou-sea-que-choisir",
+      "keyword": "SEO ou SEA",
+      "intent": "informational",
+      "category": "Stratégie",
+      "kd_est": 22,
+      "volume_est": "1900/mois",
+      "angle": "Arbre de décision selon horizon, budget et volume de recherche du marché. Tableau comparatif coût/délai/durabilité. Position honnête : souvent les deux, jamais au même moment.",
+      "author": "nabil",
+      "links": ["/agence-seo", "/agence-sea", "/blog/budget-google-ads-rentable"],
+      "status": "todo"
+    },
+    {
+      "slug": "combien-de-temps-seo-resultats",
+      "keyword": "combien de temps SEO résultats",
+      "intent": "informational",
+      "category": "SEO",
+      "kd_est": 18,
+      "volume_est": "880/mois",
+      "angle": "Timeline réelle par type d'action (technique 4-8 sem., contenu 3-6 mois, autorité 6-12 mois) avec les indicateurs avancés à surveiller mois par mois. Données de nos missions.",
+      "author": "claire",
+      "links": ["/agence-seo", "/blog/cout-agence-seo-2026", "/a-propos"],
+      "status": "todo"
+    },
+    {
+      "slug": "etre-cite-par-chatgpt",
+      "keyword": "comment être cité par ChatGPT",
+      "intent": "informational",
+      "category": "Visibilité IA",
+      "kd_est": 12,
+      "volume_est": "590/mois, en croissance",
+      "angle": "Les 3 facteurs de citation mesurés sur notre panel (bloc citable, donnée propriétaire, entité cohérente), avec protocole de test reproductible. Démonter le mythe llms.txt.",
+      "author": "nabil",
+      "links": ["/referencement-ia-geo", "/blog/ai-overviews-impact-seo"],
+      "status": "todo"
+    },
+    {
+      "slug": "optimiser-fiche-google-business",
+      "keyword": "optimiser fiche Google Business Profile",
+      "intent": "informational",
+      "category": "SEO local",
+      "kd_est": 20,
+      "volume_est": "1300/mois",
+      "angle": "Checklist complète 2026 : catégories, attributs, photos, posts, avis (avec taux de réponse cible), NAP. Ce qui a été déprécié et que les guides recopient encore.",
+      "author": "claire",
+      "links": ["/agence-seo", "/creation-site-web"],
+      "status": "todo"
+    },
+    {
+      "slug": "refonte-site-sans-perdre-seo",
+      "keyword": "refonte site internet sans perdre référencement",
+      "intent": "informational",
+      "category": "Sites web",
+      "kd_est": 16,
+      "volume_est": "480/mois",
+      "angle": "Le protocole de migration complet : inventaire, plan 301, parité sémantique, recette pré-bascule, surveillance 8 semaines. Notre cas mobilier +41 % pendant la migration.",
+      "author": "claire",
+      "links": ["/creation-site-web", "/agence-seo", "/contact"],
+      "status": "todo"
+    },
+    {
+      "slug": "agence-seo-ou-freelance",
+      "keyword": "agence SEO ou freelance",
+      "intent": "research",
+      "category": "SEO",
+      "kd_est": 15,
+      "volume_est": "390/mois",
+      "angle": "Grille de décision honnête par taille de projet. Un freelance senior bat une agence junior ; les vrais critères : heures senior réelles, continuité, périmètre. Concession : en dessous de 800 €/mois, le freelance gagne.",
+      "author": "nabil",
+      "links": ["/blog/cout-agence-seo-2026", "/agence-seo", "/a-propos"],
+      "status": "todo"
+    },
+    {
+      "slug": "cout-creation-site-internet-2026",
+      "keyword": "prix création site internet",
+      "intent": "research",
+      "category": "Sites web",
+      "kd_est": 28,
+      "volume_est": "2400/mois",
+      "angle": "Grille par type (vitrine, e-commerce, sur-mesure), coût de possession à 3 ans, les postes que les devis low-cost omettent (contenu, migration, maintenance).",
+      "author": "nabil",
+      "links": ["/creation-site-web", "/blog/refonte-site-sans-perdre-seo"],
+      "status": "todo"
+    },
+    {
+      "slug": "performance-max-ou-shopping",
+      "keyword": "Performance Max ou Shopping",
+      "intent": "informational",
+      "category": "Google Ads",
+      "kd_est": 14,
+      "volume_est": "320/mois",
+      "angle": "Quand PMax se justifie, quand le Shopping standard suffit, les garde-fous anti-cannibalisation de marque, et le protocole de test à budget constant.",
+      "author": "nabil",
+      "links": ["/agence-sea", "/blog/budget-google-ads-rentable"],
+      "status": "todo"
+    },
+    {
+      "slug": "core-web-vitals-guide-2026",
+      "keyword": "Core Web Vitals 2026",
+      "intent": "informational",
+      "category": "Technique",
+      "kd_est": 24,
+      "volume_est": "720/mois",
+      "angle": "LCP, INP, CLS expliqués sans jargon, seuils actuels, données terrain vs labo, décomposition des goulots. INP a remplacé FID : les guides obsolètes à repérer.",
+      "author": "claire",
+      "links": ["/creation-site-web", "/agence-seo"],
+      "status": "todo"
+    },
+    {
+      "slug": "seo-local-pme-artisans",
+      "keyword": "SEO local PME",
+      "intent": "informational",
+      "category": "SEO local",
+      "kd_est": 17,
+      "volume_est": "260/mois",
+      "angle": "Les 3 couches du local (GBP, NAP, avis) + pages de zone sans doorway pages. Seuil d'alerte : au-delà de 30 pages villes, risque de pénalité.",
+      "author": "claire",
+      "links": ["/agence-seo", "/blog/optimiser-fiche-google-business"],
+      "status": "todo"
+    },
+    {
+      "slug": "donnees-structurees-seo-guide",
+      "keyword": "données structurées SEO",
+      "intent": "informational",
+      "category": "Technique",
+      "kd_est": 21,
+      "volume_est": "590/mois",
+      "angle": "JSON-LD pratique : les types qui comptent en 2026, ceux que Google a retirés (HowTo, FAQ rich results), et le rôle des schemas dans la citation IA.",
+      "author": "claire",
+      "links": ["/referencement-ia-geo", "/agence-seo"],
+      "status": "todo"
+    },
+    {
+      "slug": "taux-de-conversion-landing-page",
+      "keyword": "améliorer taux de conversion landing page",
+      "intent": "informational",
+      "category": "Google Ads",
+      "kd_est": 19,
+      "volume_est": "410/mois",
+      "angle": "Pourquoi 2 % n'est pas une fatalité : les 6 frictions mesurées sur nos comptes, avec l'impact chiffré de chaque correction sur le coût par lead.",
+      "author": "nabil",
+      "links": ["/agence-sea", "/creation-site-web"],
+      "status": "todo"
+    }
+  ]
+}
