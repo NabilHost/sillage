@@ -26,8 +26,8 @@ export const NAV_SERVICES = [
   },
   {
     href: "/creation-site-web",
-    label: "Création de site",
-    desc: "Livré prêt à référencer, Core Web Vitals garantis.",
+    label: "Création de sites et d'applications",
+    desc: "Sites et applications web, livrés prêts à référencer.",
   },
   {
     href: "/referencement-ia-geo",
