@@ -12,6 +12,12 @@ import { Reveal } from "@/components/animations/reveal";
 import { FAQ } from "@/components/marketing/faq";
 import { MagneticButton } from "@/components/animations/magnetic-button";
 
+const AUTHOR = {
+  name: "Claire Vasseur",
+  jobTitle: "Directrice SEO",
+  sameAs: ["https://www.linkedin.com/in/claire-vasseur-seo"],
+};
+
 export const metadata = generatePageMetadata({
   title: "AI Overviews : 6 mois de données, impact SEO réel | Sillage",
   description:
@@ -51,8 +57,9 @@ export default function ArticlePage() {
             description:
               "Suivi de 12 sites clients depuis l'arrivée des AI Overviews en France : baisse de clics mesurée, typologie des pages qui résistent, facteurs de citation.",
             datePublished: "2026-06-18",
+            author: AUTHOR,
           }),
-          personSchema(),
+          personSchema(AUTHOR),
           organizationSchema(),
           breadcrumbSchema([
             { name: "Accueil", path: "/" },
@@ -94,7 +101,7 @@ export default function ArticlePage() {
               citation.
             </p>
             <p className="mt-5 border-y border-border py-3 text-[13px] text-muted-2">
-              Par Nabil Brahim, directeur de Sillage. Données : panel interne de
+              Par Claire Vasseur, directrice SEO. Données : panel interne de
               12 sites, 4 100 requêtes suivies, janvier à juin 2026.
             </p>
           </header>

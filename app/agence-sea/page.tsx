@@ -3,11 +3,12 @@ import { generatePageMetadata } from "@/lib/seo";
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from "@/lib/schema";
 import { JsonLd } from "@/components/seo/json-ld";
 import { ServicePageLayout } from "@/components/services/service-page-layout";
+import { SeaResults } from "@/components/services/sea-results";
 
 export const metadata = generatePageMetadata({
   title: "Agence SEA : Google Ads pilotées à la marge | Sillage",
   description:
-    "Search, Shopping et PMax pilotées à la marge, pas au clic. Tracking serveur, structure propre, honoraires fixes dès 1 200 € HT/mois, jamais au pourcentage",
+    "Search, Shopping et PMax pilotées à la marge, pas au clic. Tracking serveur, structure propre, honoraires fixes dès 500 € HT/mois, jamais au pourcentage",
   path: "/agence-sea",
   titleAbsolute: true,
 });
@@ -15,7 +16,7 @@ export const metadata = generatePageMetadata({
 const FAQ_PLAIN = [
   {
     q: "Comment facturez-vous la gestion Google Ads ?",
-    a: "Honoraires fixes, jamais un pourcentage du budget dépensé : facturer au pourcentage récompense l'agence qui dépense plus, pas celle qui dépense mieux. À partir de 1 200 € HT par mois pour un compte mono-pays, devis précis après audit du compte existant.",
+    a: "Honoraires fixes, jamais un pourcentage du budget dépensé : facturer au pourcentage récompense l'agence qui dépense plus, pas celle qui dépense mieux. À partir de 500 € HT par mois pour un compte mono-pays, devis précis après audit du compte existant.",
   },
   {
     q: "Reprenez-vous des comptes existants ?",
@@ -41,8 +42,8 @@ export default function AgenceSeaPage() {
             name: "Gestion Google Ads",
             serviceType: "Publicité sur les moteurs de recherche (SEA)",
             description:
-              "Gestion de campagnes Google Ads : Search, Shopping, Performance Max. Pilotage à la marge, tracking serveur, honoraires fixes à partir de 1 200 € HT par mois.",
-            price: "1200",
+              "Gestion de campagnes Google Ads : Search, Shopping, Performance Max. Pilotage à la marge, tracking serveur, honoraires fixes à partir de 500 € HT par mois.",
+            price: "500",
           }),
           breadcrumbSchema([
             { name: "Accueil", path: "/" },
@@ -69,13 +70,13 @@ export default function AgenceSeaPage() {
           ),
           cta: "Faire auditer mon compte",
           asideFacts: [
-            { strong: "Honoraires fixes dès 1 200 € HT / mois.", rest: "Jamais de pourcentage du budget dépensé." },
+            { strong: "Honoraires fixes dès 500 € HT / mois.", rest: "Jamais de pourcentage du budget dépensé." },
             { strong: "Audit de compte offert", rest: "à partir de 2 000 € de budget média mensuel." },
             { strong: "Fuites chiffrées en euros par mois", rest: "dans chaque audit de reprise." },
           ],
           definitionTitle: "Comment gérons-nous vos campagnes Google Ads ?",
           definition:
-            "La gestion Google Ads chez Sillage repose sur trois fondations posées avant toute enchère. D'abord le tracking : conversions mesurées côté serveur, valeurs réelles importées (marge pour l'e-commerce, taux de qualification pour les leads), doublons éliminés. Ensuite la structure : dix-huit campagnes bien découpées valent mieux que deux cents qui se cannibalisent, chaque campagne a un rôle et un objectif de rentabilité propre. Enfin le pilotage : les enchères s'optimisent sur la marge après coûts publicitaires, jamais sur le volume de clics. Les honoraires sont fixes, à partir de 1 200 € HT par mois, jamais indexés sur le budget dépensé. Le rapport mensuel tient sur une page : dépense, revenus attribués, coût par acquisition, marge, et les trois décisions prises dans le mois.",
+            "La gestion Google Ads chez Sillage repose sur trois fondations posées avant toute enchère. D'abord le tracking : conversions mesurées côté serveur, valeurs réelles importées (marge pour l'e-commerce, taux de qualification pour les leads), doublons éliminés. Ensuite la structure : dix-huit campagnes bien découpées valent mieux que deux cents qui se cannibalisent, chaque campagne a un rôle et un objectif de rentabilité propre. Enfin le pilotage : les enchères s'optimisent sur la marge après coûts publicitaires, jamais sur le volume de clics. Les honoraires sont fixes, à partir de 500 € HT par mois, jamais indexés sur le budget dépensé. Le rapport mensuel tient sur une page : dépense, revenus attribués, coût par acquisition, marge, et les trois décisions prises dans le mois.",
           calloutText:
             "Tracking serveur, structure resserrée, pilotage à la marge. Honoraires fixes, jamais au pourcentage du budget.",
           deliverablesTitle: "Le déroulé d'une reprise de compte",
@@ -95,6 +96,7 @@ export default function AgenceSeaPage() {
             ["Display & YouTube", "Retargeting et notoriété ciblée", "Audiences sur vos données, plafonds de répétition stricts"],
             ["Microsoft Ads", "B2B, audiences professionnelles", "Duplication maîtrisée des campagnes Search rentables"],
           ],
+          extraSection: <SeaResults />,
           faqTitle: "Questions fréquentes sur le SEA",
           faq: FAQ_PLAIN,
           ctaFinalTitle: (

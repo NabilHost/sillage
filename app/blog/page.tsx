@@ -16,6 +16,50 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/optimiser-fiche-google-business",
+    category: "SEO local",
+    date: "2026-07-14",
+    dateDisplay: "14 juillet 2026",
+    reading: "8 min",
+    title: "Optimiser sa fiche Google Business Profile : la checklist 2026",
+    excerpt:
+      "Une fiche complète reçoit 7 fois plus de clics et les signaux GBP pèsent 32 % du classement local. La checklist poste par poste, et ce que Google a déprécié.",
+    wide: true,
+  },
+  {
+    href: "/blog/etre-cite-par-chatgpt",
+    category: "Visibilité IA",
+    date: "2026-07-13",
+    dateDisplay: "13 juillet 2026",
+    reading: "8 min",
+    title: "Comment être cité par ChatGPT ? Les 3 facteurs qui comptent",
+    excerpt:
+      "Bloc citable, donnée propriétaire, entité cohérente : 74 % des citations observées sur notre panel combinent ces trois facteurs. Protocole de test en 30 requêtes.",
+    wide: false,
+  },
+  {
+    href: "/blog/combien-de-temps-seo-resultats",
+    category: "SEO",
+    date: "2026-07-12",
+    dateDisplay: "12 juillet 2026",
+    reading: "8 min",
+    title: "Combien de temps pour voir des résultats SEO ? La timeline réelle",
+    excerpt:
+      "Technique en 4 à 8 semaines, contenu en 3 à 6 mois, autorité en 6 à 12 mois : la timeline de nos missions et les indicateurs qui prédisent le trafic.",
+    wide: false,
+  },
+  {
+    href: "/blog/seo-ou-sea-que-choisir",
+    category: "Stratégie",
+    date: "2026-07-11",
+    dateDisplay: "11 juillet 2026",
+    reading: "7 min",
+    title: "SEO ou SEA : lequel choisir pour votre acquisition ?",
+    excerpt:
+      "L'arbre de décision en quatre questions : horizon, volume de recherche, budget total et ratio valeur client sur CPC. Coûts comparés à 12 et 36 mois.",
+    wide: false,
+  },
+  {
     href: "/blog/cout-agence-seo-2026",
     category: "SEO",
     date: "2026-07-02",
@@ -24,7 +68,7 @@ const POSTS = [
     title: "Combien coûte une agence SEO en 2026 ? Grilles réelles et pièges",
     excerpt:
       "De 800 à 5 000 € HT par mois : la grille pratiquée en France, ce que cachent les écarts, et les cinq questions qui protègent votre budget.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/budget-google-ads-rentable",

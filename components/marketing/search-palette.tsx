@@ -12,6 +12,10 @@ const PAGES = [
 ];
 
 const ARTICLES = [
+  { label: "Optimiser sa fiche Google Business Profile", href: "/blog/optimiser-fiche-google-business" },
+  { label: "Comment être cité par ChatGPT ?", href: "/blog/etre-cite-par-chatgpt" },
+  { label: "Combien de temps pour des résultats SEO ?", href: "/blog/combien-de-temps-seo-resultats" },
+  { label: "SEO ou SEA : que choisir ?", href: "/blog/seo-ou-sea-que-choisir" },
   { label: "Combien coûte une agence SEO en 2026 ?", href: "/blog/cout-agence-seo-2026" },
   { label: "Quel budget Google Ads pour être rentable ?", href: "/blog/budget-google-ads-rentable" },
   { label: "AI Overviews : 6 mois de données", href: "/blog/ai-overviews-impact-seo" },

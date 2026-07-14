@@ -27,7 +27,7 @@ export const metadata = generatePageMetadata({
 const HOME_FAQ_PLAIN = [
   {
     q: "Combien coûte un accompagnement avec Sillage ?",
-    a: "SEO : à partir de 1 800 € HT par mois pour un site vitrine, 3 200 € HT pour un e-commerce ou multi-pays. Google Ads : honoraires fixes dès 1 200 € HT par mois, jamais de pourcentage du budget. Création de site : forfait dès 12 000 € HT. Chaque devis détaille les livrables mois par mois.",
+    a: "SEO : à partir de 1 800 € HT par mois pour un site vitrine, 3 200 € HT pour un e-commerce ou multi-pays. Google Ads : honoraires fixes dès 500 € HT par mois, jamais de pourcentage du budget. Création de site ou d'application web : forfait dès 12 000 € HT. Chaque devis détaille les livrables mois par mois.",
   },
   {
     q: "En combien de temps le SEO produit-il des résultats ?",
@@ -49,7 +49,7 @@ const HOME_FAQ_PLAIN = [
 
 const STATS = [
   { value: 5, prefix: "+", suffix: " M€", decimals: 0, label: "générés en Google Ads pour nos clients en 10 ans" },
-  { value: 60, prefix: "", suffix: "", decimals: 0, label: "marques accompagnées depuis 2019" },
+  { value: 60, prefix: "", suffix: "", decimals: 0, label: "marques accompagnées depuis 2024" },
   { value: 41, prefix: "+", suffix: " %", decimals: 0, label: "de trafic organique médian à 12 mois" },
   { value: 2.7, prefix: "÷", suffix: "", decimals: 1, label: "coût par lead médian après reprise Ads" },
 ];
@@ -263,15 +263,16 @@ export default function HomePage() {
       <section className="mx-auto max-w-7xl px-4 py-20 md:px-8 md:py-28 lg:px-12 lg:py-32">
         <Reveal>
           <h2 className="max-w-2xl text-[clamp(1.9rem,3.6vw,2.8rem)] font-bold leading-[1.06] tracking-[-0.03em]">
-            Des sites qu&apos;on a conçus, en ligne aujourd&apos;hui.
+            Des sites et des applications qu&apos;on a conçus.
           </h2>
           <p className="mt-4 max-w-xl text-[15px] text-muted">
-            Deux réalisations récentes, publiques et vérifiables. Cliquez pour
-            ouvrir le site en conditions réelles.
+            Des réalisations récentes, publiques et vérifiables. Cliquez pour les
+            ouvrir en conditions réelles.
           </p>
         </Reveal>
 
-        <Stagger className="mt-12 grid gap-8 md:grid-cols-2">
+        <p className="mt-14 text-[11.5px] text-muted-2">Sites web</p>
+        <Stagger className="mt-5 grid gap-8 md:grid-cols-2">
           {REALISATIONS.map((r) => (
             <StaggerItem key={r.domain}>
               <a
@@ -314,6 +315,78 @@ export default function HomePage() {
             </StaggerItem>
           ))}
         </Stagger>
+
+        {/* --- Applications --- */}
+        <p className="mt-20 text-[11.5px] text-muted-2">Applications</p>
+
+        {/* Tabib : application mobile réelle */}
+        <Reveal>
+          <div className="mt-5 grid items-center gap-10 md:grid-cols-[0.85fr_1.15fr]">
+            <div className="mx-auto w-full max-w-[260px]">
+              <div className="relative rounded-[2.4rem] border border-border bg-bg-3 p-2.5 shadow-[0_30px_80px_-20px_rgba(0,0,0,0.7)]">
+                <span
+                  aria-hidden
+                  className="absolute left-1/2 top-3 z-10 h-1.5 w-16 -translate-x-1/2 rounded-full bg-black/25"
+                />
+                <div className="overflow-hidden rounded-[1.9rem]">
+                  <Image
+                    src="/images/work/tabib.webp"
+                    alt="Écran d'accueil de l'application mobile Tabib, recherche de médecin par langue"
+                    width={390}
+                    height={844}
+                    sizes="260px"
+                    className="w-full"
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
+              <p className="text-[11.5px] text-muted-2">santé · application mobile multilingue</p>
+              <h3 className="mt-1 text-xl font-bold tracking-tight">
+                Tabib, trouver un médecin qui vous comprend
+              </h3>
+              <p className="mt-2 max-w-md text-[14px] leading-relaxed text-muted">
+                Application de mise en relation patient-médecin par langue et pays
+                d&apos;origine, en cabinet ou en visio. Interface pensée pour le
+                mobile, traduite en plusieurs langues dont l&apos;arabe et le
+                portugais.
+              </p>
+              <a
+                href="https://tabib-web.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group/l mt-4 inline-flex items-center gap-1.5 text-[13px] font-semibold text-muted-2 transition-colors duration-300 hover:text-accent"
+              >
+                Ouvrir l&apos;application
+                <span aria-hidden className="transition-transform duration-300 group-hover/l:translate-x-0.5">↗</span>
+              </a>
+            </div>
+          </div>
+        </Reveal>
+
+        {/* White-label : démo produit */}
+        <Reveal delay={0.1}>
+          <div className="mt-14 overflow-hidden rounded-2xl border border-border">
+            <Image
+              src="/images/work/whitelabel.webp"
+              alt="Démo d'une plateforme white-label multi-marques : une base de code, la marque de chaque commerçant injectée en design tokens"
+              width={2000}
+              height={1300}
+              sizes="(max-width: 1280px) 100vw, 1200px"
+              className="w-full"
+            />
+          </div>
+          <p className="mt-4 text-[11.5px] text-muted-2">plateforme SaaS · white-label</p>
+          <h3 className="mt-1 text-xl font-bold tracking-tight">
+            Une base de code, la marque de chaque client
+          </h3>
+          <p className="mt-2 max-w-2xl text-[14px] leading-relaxed text-muted">
+            Plateforme de réservation white-label : le tunnel de commande, les
+            récompenses et la messagerie sont identiques pour chaque marque. Logo,
+            couleurs et typographie sont injectés en design tokens, sans
+            redéveloppement.
+          </p>
+        </Reveal>
       </section>
 
       {/* ============ DÉFINITION (bloc citable IA) ============ */}
@@ -331,7 +404,7 @@ export default function HomePage() {
             <Reveal delay={0.1}>
               <div className="text-[16px] leading-relaxed text-muted">
                 <p>
-                  Sillage est une agence d&apos;acquisition fondée à Paris en 2019,
+                  Sillage est une agence d&apos;acquisition fondée à Paris en 2024,
                   spécialisée dans quatre métiers complémentaires : le référencement
                   naturel (SEO), la publicité sur les moteurs de recherche (SEA), la
                   création de sites web orientés performance et la visibilité dans les

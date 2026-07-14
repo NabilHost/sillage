@@ -13,6 +13,12 @@ import { FAQ } from "@/components/marketing/faq";
 import { MagneticButton } from "@/components/animations/magnetic-button";
 import { CplBarChart } from "@/components/viz/cpl-bar-chart";
 
+const AUTHOR = {
+  name: "Claire Vasseur",
+  jobTitle: "Directrice SEO",
+  sameAs: ["https://www.linkedin.com/in/claire-vasseur-seo"],
+};
+
 export const metadata = generatePageMetadata({
   title: "Quel budget Google Ads pour être rentable ? Le calcul | Sillage",
   description:
@@ -29,7 +35,7 @@ const FAQ_PLAIN = [
   },
   {
     q: "À partir de quel budget déléguer à une agence ?",
-    a: "À partir d'environ 2 000 € par mois de budget média. En dessous, des honoraires de gestion de 1 200 € représenteraient 60 % de la dépense : mieux vaut un paramétrage initial en une fois que vous pilotez ensuite vous-même. C'est ce que nous proposons dans ce cas.",
+    a: "À partir d'environ 1 000 € par mois de budget média. En dessous, des honoraires de gestion de 500 € représenteraient la moitié de la dépense : mieux vaut un paramétrage initial en une fois que vous pilotez ensuite vous-même. C'est ce que nous proposons dans ce cas.",
   },
   {
     q: "Faut-il payer l'agence au pourcentage du budget ?",
@@ -52,8 +58,9 @@ export default function ArticlePage() {
             description:
               "La formule du budget minimum, les CPC réels par secteur en France 2026, et le seuil en dessous duquel il ne faut pas déléguer la gestion.",
             datePublished: "2026-06-25",
+            author: AUTHOR,
           }),
-          personSchema(),
+          personSchema(AUTHOR),
           organizationSchema(),
           breadcrumbSchema([
             { name: "Accueil", path: "/" },
@@ -93,9 +100,9 @@ export default function ArticlePage() {
               déléguer est une erreur.
             </p>
             <p className="mt-5 border-y border-border py-3 text-[13px] text-muted-2">
-              Par Nabil Brahim, directeur de Sillage. 10 ans de gestion Google Ads,
-              plus de 5 M€ générés pour nos clients. Données CPC : comptes gérés,
-              premier semestre 2026.
+              Par Claire Vasseur, directrice SEO. Données CPC : comptes Google Ads
+              gérés par Sillage, premier semestre 2026, plus de 5 M€ générés pour
+              nos clients.
             </p>
           </header>
         </Reveal>
@@ -177,7 +184,7 @@ export default function ArticlePage() {
           <p>
             Le critère est arithmétique : les honoraires de gestion doivent rester
             sous 30 % de la valeur qu&apos;ils créent. En dessous de 2 000 € de budget
-            média mensuel, des honoraires de 1 200 € représentent 60 % de la dépense
+            média mensuel, des honoraires de 500 € représentent la moitié de la dépense
             publicitaire : aucune optimisation ne rattrape ce ratio, et nous refusons
             ces missions au profit d&apos;un paramétrage initial en une fois, que vous
             pilotez ensuite. Au-delà de 2 000 €, la question devient le coût

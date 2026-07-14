@@ -26,6 +26,7 @@ export type ServicePageData = {
   tableHead: [string, string, string];
   tableRows: [string, string, string][];
   tableNote?: ReactNode;
+  extraSection?: ReactNode;
   faqTitle: string;
   faq: { q: string; a: string }[];
   ctaFinalTitle: ReactNode;
@@ -217,6 +218,8 @@ export function ServicePageLayout({ data }: { data: ServicePageData }) {
           </Reveal>
         )}
       </section>
+
+      {data.extraSection}
 
       {/* FAQ */}
       <section className="mx-auto max-w-4xl px-4 pb-20 md:px-8 md:pb-28 lg:px-12">

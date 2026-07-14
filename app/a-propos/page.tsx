@@ -18,7 +18,7 @@ export const metadata = generatePageMetadata({
 });
 
 const TEAM = [
-  { name: "Nabil Brahim", role: "Directeur & fondateur, SEA", bio: "10 ans de Google Ads, plus de 5 M€ de chiffre d'affaires générés pour ses clients. Fonde Sillage en 2019, arbitre les stratégies et garde la main sur trois comptes.", sameAs: ["https://www.linkedin.com/in/nabil-brahim"] },
+  { name: "Nabil Brahim", role: "Directeur & fondateur, SEA", bio: "10 ans de Google Ads, plus de 5 M€ de chiffre d'affaires générés pour ses clients. Fonde Sillage en 2024, arbitre les stratégies et garde la main sur trois comptes.", sameAs: ["https://www.linkedin.com/in/nabil-brahim"] },
   { name: "Claire Vasseur", role: "Directrice SEO", bio: "12 ans de SEO, ex-responsable acquisition d'un e-commerçant du top 50 français. Obsédée par la falsifiabilité : chaque recommandation porte son test.", sameAs: ["https://www.linkedin.com/in/claire-vasseur-seo"] },
   { name: "Inès Bellamy", role: "Consultante senior, GEO & contenu", bio: "Linguiste de formation. Conçoit les blocs de réponse et le panel de mesure de citation IA. Publie la veille trimestrielle.", sameAs: ["https://www.linkedin.com/in/ines-bellamy"] },
   { name: "Thomas Roussel", role: "Lead développeur", bio: "Next.js, Astro, Shopify. Garantit les Core Web Vitals contractuels et forme les équipes clientes à l'autonomie.", sameAs: ["https://www.linkedin.com/in/thomas-roussel-dev"] },
@@ -74,7 +74,7 @@ export default function AProposPage() {
               <CardGlow position="top-left" />
               <div className="relative grid grid-cols-3 gap-4 text-center">
                 <div>
-                  <p className="text-3xl font-extrabold"><Counter value={2019} /></p>
+                  <p className="text-3xl font-extrabold"><Counter value={2024} /></p>
                   <p className="mt-1 text-[11.5px] text-muted-2">fondation, Paris</p>
                 </div>
                 <div>

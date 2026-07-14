@@ -20,7 +20,7 @@ export function organizationSchema() {
     url: `${SITE.url}/`,
     email: SITE.email,
     telephone: SITE.phone,
-    foundingDate: "2019-03-01",
+    foundingDate: "2024-03-01",
     address: {
       "@type": "PostalAddress",
       streetAddress: SITE.street,
