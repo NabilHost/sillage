@@ -376,15 +376,16 @@ export default function HomePage() {
               className="w-full"
             />
           </div>
-          <p className="mt-4 text-[11.5px] text-muted-2">plateforme SaaS · white-label</p>
+          <p className="mt-4 text-[11.5px] text-muted-2">coworking · plateforme SaaS en marque blanche</p>
           <h3 className="mt-1 text-xl font-bold tracking-tight">
             Une base de code, la marque de chaque client
           </h3>
           <p className="mt-2 max-w-2xl text-[14px] leading-relaxed text-muted">
-            Plateforme de réservation white-label : le tunnel de commande, les
-            récompenses et la messagerie sont identiques pour chaque marque. Logo,
-            couleurs et typographie sont injectés en design tokens, sans
-            redéveloppement.
+            Application de réservation d&apos;espaces de coworking : postes,
+            salles et ateliers, avec paiement, cashback et messagerie. Livrée en
+            marque blanche, chaque opérateur obtient son application client, son
+            tableau de bord commerçant et sa console, sous sa propre marque, à
+            partir d&apos;une seule base de code personnalisée par design tokens.
           </p>
         </Reveal>
       </section>
