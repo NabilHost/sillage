@@ -331,7 +331,7 @@ export default function HomePage() {
                 <div className="overflow-hidden rounded-[1.9rem]">
                   <Image
                     src="/images/work/tabib.webp"
-                    alt="Écran d'accueil de l'application mobile Tabib, recherche de médecin par langue"
+                    alt="Écran d'accueil de l'application Tabib : médecins, infirmières et ambulance, recherche par langue parlée"
                     width={390}
                     height={844}
                     sizes="260px"
@@ -346,10 +346,10 @@ export default function HomePage() {
                 Tabib, trouver un médecin qui vous comprend
               </h3>
               <p className="mt-2 max-w-md text-[14px] leading-relaxed text-muted">
-                Application de mise en relation patient-médecin par langue et pays
-                d&apos;origine, en cabinet ou en visio. Interface pensée pour le
-                mobile, traduite en plusieurs langues dont l&apos;arabe et le
-                portugais.
+                Application santé pour trouver un médecin, une infirmière ou une
+                ambulance qui parle votre langue. Recherche par spécialité,
+                géolocalisation et plus de vingt langues parlées, du français au
+                wolof.
               </p>
               <a
                 href="https://tabib-web.vercel.app/"
