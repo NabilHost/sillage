@@ -19,7 +19,7 @@ const AUTHOR = {
 };
 
 export const metadata = generatePageMetadata({
-  title: "Combien de temps pour des résultats SEO ? | Sillage",
+  title: "Combien de temps pour des résultats SEO ? | Essor",
   description:
     "Timeline SEO réelle : technique 4 à 8 semaines, contenu 3 à 6 mois, autorité 6 à 12 mois. Les indicateurs à surveiller mois par mois, sur 24 missions",
   path: "/blog/combien-de-temps-seo-resultats",
@@ -100,7 +100,7 @@ export default function ArticlePage() {
               s&apos;inquiéter.
             </p>
             <p className="mt-5 border-y border-border py-3 text-[13px] text-muted-2">
-              Par Claire Vasseur, directrice SEO. Données : 24 missions Sillage
+              Par Claire Vasseur, directrice SEO. Données : 24 missions Essor
               suivies entre 2023 et 2026, croisées avec Search Console.
             </p>
           </header>
@@ -285,7 +285,7 @@ export default function ArticlePage() {
             <Link href="/blog/cout-agence-seo-2026">
               combien coûte une agence SEO en 2026
             </Link>{" "}
-            chiffre les budgets à prévoir, et la <Link href="/a-propos">méthode Sillage</Link>{" "}
+            chiffre les budgets à prévoir, et la <Link href="/a-propos">méthode Essor</Link>{" "}
             explique pourquoi chaque recommandation part avec son indicateur de
             vérification.
           </p>

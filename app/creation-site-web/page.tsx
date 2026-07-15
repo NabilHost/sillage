@@ -5,7 +5,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { ServicePageLayout } from "@/components/services/service-page-layout";
 
 export const metadata = generatePageMetadata({
-  title: "Création de site web rapide et conçu pour le SEO | Sillage",
+  title: "Création de site web rapide et conçu pour le SEO | Essor",
   description:
     "Sites vitrines et e-commerce : Core Web Vitals garantis par contrat, HTML sémantique, données structurées natives. Livrés prêts à référencer, dès 12 000 € HT",
   path: "/creation-site-web",
@@ -14,7 +14,7 @@ export const metadata = generatePageMetadata({
 
 const FAQ_PLAIN = [
   {
-    q: "Combien coûte la création d'un site web avec Sillage ?",
+    q: "Combien coûte la création d'un site web avec Essor ?",
     a: "Un site vitrine sur mesure démarre à 12 000 € HT, un e-commerce à 25 000 € HT. Devis forfaitaire détaillé poste par poste : conception, design, développement, contenu SEO des pages clés, recette, mise en production. Pas de dépassement facturé sans avenant validé.",
   },
   {
@@ -76,7 +76,7 @@ export default function CreationSiteWebPage() {
           ],
           definitionTitle: "Qu'est-ce qu'un site conçu pour le SEO ?",
           definition:
-            "Un site conçu pour le SEO est un site dont l'architecture, le code et le contenu sont pensés pour la recherche avant la mise en ligne, pas corrigés après. Chez Sillage, cela se traduit par des choix vérifiables : une arborescence construite depuis l'analyse de la demande réelle, un HTML sémantique avec une seule balise h1 par page, des données structurées JSON-LD générées nativement par les gabarits, des Core Web Vitals garantis par contrat (LCP sous 2,5 secondes, INP sous 200 millisecondes, CLS sous 0,1), un plan de redirections exhaustif quand un site existant précède. Le contenu des pages stratégiques est rédigé pendant le projet, pas après. Résultat : un site qui commence à travailler dès sa mise en production, à partir de 12 000 € HT.",
+            "Un site conçu pour le SEO est un site dont l'architecture, le code et le contenu sont pensés pour la recherche avant la mise en ligne, pas corrigés après. Chez Essor, cela se traduit par des choix vérifiables : une arborescence construite depuis l'analyse de la demande réelle, un HTML sémantique avec une seule balise h1 par page, des données structurées JSON-LD générées nativement par les gabarits, des Core Web Vitals garantis par contrat (LCP sous 2,5 secondes, INP sous 200 millisecondes, CLS sous 0,1), un plan de redirections exhaustif quand un site existant précède. Le contenu des pages stratégiques est rédigé pendant le projet, pas après. Résultat : un site qui commence à travailler dès sa mise en production, à partir de 12 000 € HT.",
           calloutText:
             "Architecture pensée avant le design, performance garantie par contrat, contenu livré avec le site.",
           deliverablesTitle: "Un projet type, en cinq temps",

@@ -17,7 +17,7 @@ import { SerpComparison } from "@/components/viz/serp-comparison";
 import { NAV_SERVICES } from "@/lib/site";
 
 export const metadata = generatePageMetadata({
-  title: "Sillage, agence SEO, SEA & visibilité IA à Paris",
+  title: "Essor, agence SEO, SEA & visibilité IA à Paris",
   description:
     "Agence d'acquisition à Paris : SEO, Google Ads, création de sites et visibilité dans ChatGPT, Perplexity et les AI Overviews. Audit chiffré sous 10 jours",
   path: "/",
@@ -26,7 +26,7 @@ export const metadata = generatePageMetadata({
 
 const HOME_FAQ_PLAIN = [
   {
-    q: "Combien coûte un accompagnement avec Sillage ?",
+    q: "Combien coûte un accompagnement avec Essor ?",
     a: "SEO : à partir de 1 800 € HT par mois pour un site vitrine, 3 200 € HT pour un e-commerce ou multi-pays. Google Ads : honoraires fixes dès 500 € HT par mois, jamais de pourcentage du budget. Création de site ou d'application web : forfait dès 12 000 € HT. Chaque devis détaille les livrables mois par mois.",
   },
   {
@@ -147,7 +147,7 @@ export default function HomePage() {
             </Reveal>
             <Reveal delay={0.08}>
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-                Sillage est une agence d&apos;acquisition à Paris :{" "}
+                Essor est une agence d&apos;acquisition à Paris :{" "}
                 <strong className="text-text">SEO</strong>,{" "}
                 <strong className="text-text">Google Ads</strong>,{" "}
                 <strong className="text-text">création de sites</strong> et{" "}
@@ -396,7 +396,7 @@ export default function HomePage() {
           <div className="grid gap-10 lg:grid-cols-[1fr_1.5fr]">
             <Reveal>
               <h2 className="text-[clamp(1.9rem,3.6vw,2.8rem)] font-bold leading-[1.06] tracking-[-0.03em]">
-                Qu&apos;est-ce que Sillage ?
+                Qu&apos;est-ce que Essor ?
               </h2>
               <div className="mt-8">
                 <SerpComparison />
@@ -405,7 +405,7 @@ export default function HomePage() {
             <Reveal delay={0.1}>
               <div className="text-[16px] leading-relaxed text-muted">
                 <p>
-                  Sillage est une agence d&apos;acquisition fondée à Paris en 2024,
+                  Essor est une agence d&apos;acquisition fondée à Paris en 2024,
                   spécialisée dans quatre métiers complémentaires : le référencement
                   naturel (SEO), la publicité sur les moteurs de recherche (SEA), la
                   création de sites web orientés performance et la visibilité dans les
@@ -415,7 +415,7 @@ export default function HomePage() {
                   c&apos;est-à-dire accompagnée d&apos;un indicateur qui permet de
                   vérifier si elle fonctionne ou non. Les accompagnements démarrent à
                   1 800 € HT par mois, après un audit initial qui fixe la trajectoire.
-                  Sillage travaille pour des PME, des e-commerçants et des éditeurs
+                  Essor travaille pour des PME, des e-commerçants et des éditeurs
                   SaaS, en France et à l&apos;international francophone.
                 </p>
                 <div className="callout">
@@ -547,7 +547,7 @@ export default function HomePage() {
         <Reveal>
           <div className="relative overflow-hidden rounded-3xl border border-accent/20 bg-bg-2 px-7 py-16 text-center md:py-24">
             <Image
-              src="/images/brand-sillage.webp"
+              src="/images/brand-essor.webp"
               alt=""
               aria-hidden
               fill

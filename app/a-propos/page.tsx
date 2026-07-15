@@ -10,15 +10,15 @@ import { MagneticButton } from "@/components/animations/magnetic-button";
 import { DoubleBezelCard, CardGlow } from "@/components/marketing/double-bezel-card";
 
 export const metadata = generatePageMetadata({
-  title: "Méthode & équipe : une agence qui montre son travail | Sillage",
+  title: "Méthode & équipe : une agence qui montre son travail | Essor",
   description:
-    "La méthode Sillage : percevoir, analyser, valider, agir. Chaque recommandation est falsifiable. 8 consultants seniors, 6 comptes maximum chacun, zéro sous-traitance",
+    "La méthode Essor : percevoir, analyser, valider, agir. Chaque recommandation est falsifiable. 8 consultants seniors, 6 comptes maximum chacun, zéro sous-traitance",
   path: "/a-propos",
   titleAbsolute: true,
 });
 
 const TEAM = [
-  { name: "Nabil Brahim", role: "Directeur & fondateur, SEA", bio: "10 ans de Google Ads, plus de 5 M€ de chiffre d'affaires générés pour ses clients. Fonde Sillage en 2024, arbitre les stratégies et garde la main sur trois comptes.", sameAs: ["https://www.linkedin.com/in/nabil-brahim"] },
+  { name: "Nabil Brahim", role: "Directeur & fondateur, SEA", bio: "10 ans de Google Ads, plus de 5 M€ de chiffre d'affaires générés pour ses clients. Fonde Essor en 2024, arbitre les stratégies et garde la main sur trois comptes.", sameAs: ["https://www.linkedin.com/in/nabil-brahim"] },
   { name: "Claire Vasseur", role: "Directrice SEO", bio: "12 ans de SEO, ex-responsable acquisition d'un e-commerçant du top 50 français. Obsédée par la falsifiabilité : chaque recommandation porte son test.", sameAs: ["https://www.linkedin.com/in/claire-vasseur-seo"] },
   { name: "Inès Bellamy", role: "Consultante senior, GEO & contenu", bio: "Linguiste de formation. Conçoit les blocs de réponse et le panel de mesure de citation IA. Publie la veille trimestrielle.", sameAs: ["https://www.linkedin.com/in/ines-bellamy"] },
   { name: "Thomas Roussel", role: "Lead développeur", bio: "Next.js, Astro, Shopify. Garantit les Core Web Vitals contractuels et forme les équipes clientes à l'autonomie.", sameAs: ["https://www.linkedin.com/in/thomas-roussel-dev"] },

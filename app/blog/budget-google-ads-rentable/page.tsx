@@ -20,7 +20,7 @@ const AUTHOR = {
 };
 
 export const metadata = generatePageMetadata({
-  title: "Quel budget Google Ads pour être rentable ? Le calcul | Sillage",
+  title: "Quel budget Google Ads pour être rentable ? Le calcul | Essor",
   description:
     "Budget Google Ads minimum : la formule (CPC × 100 clics × taux de conversion), les CPC réels par secteur en France 2026, et le seuil sous lequel ne pas déléguer",
   path: "/blog/budget-google-ads-rentable",
@@ -101,7 +101,7 @@ export default function ArticlePage() {
             </p>
             <p className="mt-5 border-y border-border py-3 text-[13px] text-muted-2">
               Par Claire Vasseur, directrice SEO. Données CPC : comptes Google Ads
-              gérés par Sillage, premier semestre 2026, plus de 5 M€ générés pour
+              gérés par Essor, premier semestre 2026, plus de 5 M€ générés pour
               nos clients.
             </p>
           </header>

@@ -19,7 +19,7 @@ const AUTHOR = {
 };
 
 export const metadata = generatePageMetadata({
-  title: "Refonte de site sans perdre son SEO : protocole | Sillage",
+  title: "Refonte de site sans perdre son SEO : protocole | Essor",
   description:
     "Refonte de site : le protocole en 5 étapes pour préserver votre référencement. Inventaire, plan 301, parité sémantique, recette et surveillance 8 semaines",
   path: "/blog/refonte-site-sans-perdre-seo",
@@ -101,7 +101,7 @@ export default function ArticlePage() {
             </p>
             <p className="mt-5 border-y border-border py-3 text-[13px] text-muted-2">
               Par Claire Vasseur, directrice SEO. Données : 9 migrations auditées ou
-              accompagnées par Sillage entre 2024 et juillet 2026.
+              accompagnées par Essor entre 2024 et juillet 2026.
             </p>
           </header>
         </Reveal>
@@ -110,7 +110,7 @@ export default function ArticlePage() {
           <h2 id="pourquoi-chute">Pourquoi une refonte fait-elle chuter le trafic organique ?</h2>
           <p>
             Une refonte mal préparée se paie en trafic : sur les 9 migrations que
-            Sillage a auditées ou accompagnées depuis 2024, les sites arrivés après une
+            Essor a auditées ou accompagnées depuis 2024, les sites arrivés après une
             bascule sans protocole avaient perdu en moyenne 43 % de leurs sessions
             organiques en huit semaines. La mécanique est connue. Google a indexé des
             URLs précises, leur a attribué un historique de signaux et les a reliées
@@ -269,7 +269,7 @@ export default function ArticlePage() {
             <span className="callout-label">À retenir</span>
             <p>
               Inventaire, 301 page à page, parité sémantique, recette 12 points,
-              surveillance 8 semaines : chez Sillage, ce protocole est inclus dans
+              surveillance 8 semaines : chez Essor, ce protocole est inclus dans
               chaque création de site, pas facturé en option.
             </p>
           </div>

@@ -14,7 +14,7 @@ export function organizationSchema() {
     "@type": "ProfessionalService",
     "@id": ORG_ID,
     name: SITE.brand,
-    legalName: "Sillage Agence SAS",
+    legalName: "Essor Agence SAS",
     description:
       "Agence d'acquisition à Paris : référencement naturel (SEO), Google Ads (SEA), création de sites web et visibilité dans les moteurs de recherche IA (GEO).",
     url: `${SITE.url}/`,
@@ -39,10 +39,10 @@ export function organizationSchema() {
       "Core Web Vitals",
     ],
     sameAs: [
-      "https://www.linkedin.com/company/sillage-agence",
-      "https://x.com/sillage_agence",
-      "https://www.youtube.com/@sillage-agence",
-      "https://github.com/sillage-agence",
+      "https://www.linkedin.com/company/essoragence",
+      "https://x.com/essor_agence",
+      "https://www.youtube.com/@essoragence",
+      "https://github.com/essoragence",
     ],
   };
 }

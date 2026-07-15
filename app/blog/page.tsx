@@ -7,7 +7,7 @@ import { Stagger, StaggerItem } from "@/components/animations/stagger";
 import { CardGlow } from "@/components/marketing/double-bezel-card";
 
 export const metadata = generatePageMetadata({
-  title: "Blog : SEO, Google Ads et visibilité IA | Sillage",
+  title: "Blog : SEO, Google Ads et visibilité IA | Essor",
   description:
     "Analyses fondées sur nos données de mission : SEO, Google Ads, création de sites et citation par les moteurs IA. Pas de contenu de remplissage",
   path: "/blog",

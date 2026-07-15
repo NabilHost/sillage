@@ -23,7 +23,7 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
             <Link href="/" className="flex items-baseline text-xl font-extrabold tracking-tight">
-              sillage
+              essor
               <span aria-hidden className="ml-1 size-2 rounded-full bg-accent" />
             </Link>
             <p className="mt-4 max-w-xs text-[14px] leading-relaxed text-muted">
@@ -78,11 +78,11 @@ export function Footer() {
 
         <div className="mt-12 flex flex-wrap items-center justify-between gap-3 border-t border-border pt-6">
           <p className="text-[12.5px] text-muted-2">
-            © {new Date().getFullYear()} Sillage. Paris, France.
+            © {new Date().getFullYear()} Essor. Paris, France.
           </p>
           <div className="flex items-center gap-4">
-            <a href="https://www.linkedin.com/company/sillage-agence" rel="noopener" className="text-[12.5px] text-muted-2 transition-colors hover:text-text">LinkedIn</a>
-            <a href="https://x.com/sillage_agence" rel="noopener" className="text-[12.5px] text-muted-2 transition-colors hover:text-text">X</a>
+            <a href="https://www.linkedin.com/company/essoragence" rel="noopener" className="text-[12.5px] text-muted-2 transition-colors hover:text-text">LinkedIn</a>
+            <a href="https://x.com/essor_agence" rel="noopener" className="text-[12.5px] text-muted-2 transition-colors hover:text-text">X</a>
           </div>
         </div>
       </div>

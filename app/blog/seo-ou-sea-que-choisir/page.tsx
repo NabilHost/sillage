@@ -19,7 +19,7 @@ const AUTHOR = {
 };
 
 export const metadata = generatePageMetadata({
-  title: "SEO ou SEA : que choisir ? L'arbre de décision | Sillage",
+  title: "SEO ou SEA : que choisir ? L'arbre de décision | Essor",
   description:
     "SEO ou SEA : l'arbre de décision selon votre horizon, votre budget et votre marché. Coûts comparés à 12 et 36 mois, seuils chiffrés et séquence recommandée",
   path: "/blog/seo-ou-sea-que-choisir",
@@ -272,7 +272,7 @@ export default function ArticlePage() {
               quel budget Google Ads pour être rentable
             </Link>{" "}
             donne la formule de calcul complète, et la{" "}
-            <Link href="/a-propos">méthode Sillage</Link> explique pourquoi chaque
+            <Link href="/a-propos">méthode Essor</Link> explique pourquoi chaque
             recommandation doit être falsifiable.
           </p>
         </div>

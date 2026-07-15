@@ -1,4 +1,4 @@
-# Calendrier LinkedIn Sillage : 13 posts (13 au 29 juillet 2026)
+# Calendrier LinkedIn Essor : 13 posts (13 au 29 juillet 2026)
 
 Rythme : 1 post par jour ouvré vers 8h30, publié automatiquement par la routine quotidienne via Zapier (page id 135966079).
 Règle de la routine : si une trend chaude est détectée dans la veille du jour, elle REMPLACE le post prévu du calendrier (le post décalé glisse au jour ouvré suivant). Marquer chaque post publié avec [PUBLIÉ].
@@ -8,7 +8,7 @@ Budget Zapier plan gratuit : 13 posts = 13 tâches sur 100 disponibles par mois.
 ---
 
 ## Post 1 · lun. 13/07 · Lancement de la page [PUBLIÉ]
-Sillage arrive sur LinkedIn.
+Essor arrive sur LinkedIn.
 
 Agence d'acquisition à Paris depuis 2024 : SEO, Google Ads, sites web et visibilité IA (ChatGPT, AI Overviews).
 

@@ -19,7 +19,7 @@ const AUTHOR = {
 };
 
 export const metadata = generatePageMetadata({
-  title: "AI Overviews : 6 mois de données, impact SEO réel | Sillage",
+  title: "AI Overviews : 6 mois de données, impact SEO réel | Essor",
   description:
     "Nous avons suivi 12 sites depuis l'arrivée des AI Overviews en France : baisse de clics mesurée, pages qui résistent, et ce qui déclenche une citation",
   path: "/blog/ai-overviews-impact-seo",
@@ -232,7 +232,7 @@ export default function ArticlePage() {
             Pour aller plus loin : notre page{" "}
             <Link href="/referencement-ia-geo">référencement IA (GEO)</Link> détaille le
             programme complet, notre <Link href="/agence-seo">offre SEO</Link> couvre le
-            socle indispensable, et la <Link href="/a-propos">méthode Sillage</Link>{" "}
+            socle indispensable, et la <Link href="/a-propos">méthode Essor</Link>{" "}
             explique comment chaque recommandation est vérifiée.
           </p>
         </div>

@@ -9,9 +9,9 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { SITE } from "@/lib/site";
 
 export const metadata = generatePageMetadata({
-  title: "Contact : demander un audit gratuit | Sillage",
+  title: "Contact : demander un audit gratuit | Essor",
   description:
-    "Demandez un audit SEO, Google Ads ou de citabilité IA. Réponse sous 48 h ouvrées, premier livrable sous 10 jours. Sillage, 14 rue du Sentier, Paris 2e",
+    "Demandez un audit SEO, Google Ads ou de citabilité IA. Réponse sous 48 h ouvrées, premier livrable sous 10 jours. Essor, 14 rue du Sentier, Paris 2e",
   path: "/contact",
   titleAbsolute: true,
 });
@@ -55,7 +55,7 @@ export default function ContactPage() {
                 <CardGlow position="bottom-left" />
                 <div className="relative space-y-3 text-[14px] text-muted">
                   <p>
-                    <strong className="text-text">Sillage</strong>
+                    <strong className="text-text">Essor</strong>
                     <br />
                     {SITE.street}, {SITE.zip} {SITE.city}
                   </p>

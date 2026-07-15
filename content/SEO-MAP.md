@@ -1,6 +1,6 @@
 # SEO-MAP.md — Cartographie mots-clés & anti-cannibalisation
 
-> Source de vérité pour le ciblage SEO de Sillage. **À lire avant de créer OU modifier
+> Source de vérité pour le ciblage SEO de Essor. **À lire avant de créer OU modifier
 > une page** (pilier, article, page locale). Objectif : une intention par URL, zéro
 > cannibalisation, un signal local propre sans se nicher à Paris.
 > Complément côté articles : `content/topics.json` (backlog éditorial).
@@ -23,7 +23,7 @@
 
 | URL | Type | Mot-clé principal | Secondaires captés | Intention |
 |---|---|---|---|---|
-| `/` | Home | marque « Sillage » | agence acquisition paris | Marque / national |
+| `/` | Home | marque « Essor » | agence acquisition paris | Marque / national |
 | `/agence-seo` | Pilier | **agence seo** (22 k) | agence seo paris (3,6 k), référencement naturel (1,6 k), consultant seo (2,9 k) | Commerciale |
 | `/agence-sea` | Pilier | **agence google ads** (880) | agence sea (590), adwords agence (320) | Commerciale |
 | `/creation-site-web` | Pilier | **création site internet** (6,6 k) | agence création site (720), conception sites web (880), devis site (590) | Commerciale |
@@ -40,7 +40,7 @@
 - Une seule **H1** par page, contenant le mot-clé principal.
 - Pas de lien croisé qui met deux pages en concurrence sur la même ancre.
 
-## 4. Local vs national — la règle Sillage
+## 4. Local vs national — la règle Essor
 
 - **Titles des piliers = nationaux**, SAUF `/agence-seo` qui garde « à Paris » (il capte
   les deux). On n'ajoute PAS « Paris » aux autres titles → on ne se niche pas.

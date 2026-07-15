@@ -19,7 +19,7 @@ const AUTHOR = {
 };
 
 export const metadata = generatePageMetadata({
-  title: "Combien coûte une agence SEO en 2026 ? Grilles réelles | Sillage",
+  title: "Combien coûte une agence SEO en 2026 ? Grilles réelles | Essor",
   description:
     "Tarifs SEO 2026 en France : 800 à 5 000 € HT/mois selon le profil, audit de 2 400 à 4 800 €. Grille détaillée, pièges de facturation et questions à poser avant de signer",
   path: "/blog/cout-agence-seo-2026",
@@ -111,7 +111,7 @@ export default function ArticlePage() {
             Le marché français du SEO se structure en trois paliers assez stables. Les
             indépendants et petites agences facturent entre 600 et 1 500 € HT par mois,
             audit souvent inclus mais production de contenu en supplément. Les agences
-            intermédiaires, dont Sillage fait partie, pratiquent entre 1 500 et
+            intermédiaires, dont Essor fait partie, pratiquent entre 1 500 et
             3 500 € HT par mois pour un accompagnement complet : technique, contenu,
             netlinking et reporting. Les grands cabinets et agences médias dépassent
             5 000 € HT mensuels, avec des équipes larges et des frais de structure
@@ -156,7 +156,7 @@ export default function ArticlePage() {
           <div className="callout">
             <span className="callout-label">À retenir</span>
             <p>
-              Chez Sillage : accompagnement dès 1 800 € HT par mois, audit seul de
+              Chez Essor : accompagnement dès 1 800 € HT par mois, audit seul de
               2 400 à 4 800 € HT, chaque livrable nommé dans le devis.
             </p>
           </div>
@@ -231,7 +231,7 @@ export default function ArticlePage() {
             <Link href="/blog/budget-google-ads-rentable">
               quel budget Google Ads pour être rentable
             </Link>{" "}
-            couvre le canal payant, et la <Link href="/a-propos">méthode Sillage</Link>{" "}
+            couvre le canal payant, et la <Link href="/a-propos">méthode Essor</Link>{" "}
             explique la falsifiabilité de chaque recommandation.
           </p>
         </div>

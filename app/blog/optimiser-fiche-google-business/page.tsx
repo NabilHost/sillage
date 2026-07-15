@@ -19,7 +19,7 @@ const AUTHOR = {
 };
 
 export const metadata = generatePageMetadata({
-  title: "Optimiser sa fiche Google Business Profile en 2026 | Sillage",
+  title: "Optimiser sa fiche Google Business Profile en 2026 | Essor",
   description:
     "Checklist Google Business Profile 2026 : catégories, avis, photos, NAP. Ce qui pèse vraiment dans le classement local et ce que Google a déprécié",
   path: "/blog/optimiser-fiche-google-business",
@@ -102,7 +102,7 @@ export default function ArticlePage() {
             </p>
             <p className="mt-5 border-y border-border py-3 text-[13px] text-muted-2">
               Par Claire Vasseur, directrice SEO. Sources : 19 audits de fiches
-              locales menés par Sillage de janvier à juin 2026, études Whitespark et
+              locales menés par Essor de janvier à juin 2026, études Whitespark et
               BrightLocal.
             </p>
           </header>
@@ -148,7 +148,7 @@ export default function ArticlePage() {
           <h2 id="avis">Comment gérer les avis pour peser dans le classement ?</h2>
           <p>
             Les avis pèsent doublement : dans le classement local et dans la décision
-            du client. Sur les 19 fiches auditées par Sillage au premier semestre
+            du client. Sur les 19 fiches auditées par Essor au premier semestre
             2026, les établissements du top 3 local affichaient en médiane 47 avis
             avec une note de 4,6, contre 12 avis pour les fiches reléguées au-delà de
             la première page de Maps. Trois pratiques font la différence. La
@@ -275,7 +275,7 @@ export default function ArticlePage() {
               combien de temps pour des résultats SEO
             </Link>{" "}
             donne les délais réalistes par levier, et la{" "}
-            <Link href="/a-propos">méthode Sillage</Link> explique comment chaque
+            <Link href="/a-propos">méthode Essor</Link> explique comment chaque
             recommandation est vérifiée.
           </p>
         </div>

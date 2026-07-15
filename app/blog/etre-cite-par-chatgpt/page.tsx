@@ -19,7 +19,7 @@ const AUTHOR = {
 };
 
 export const metadata = generatePageMetadata({
-  title: "Comment être cité par ChatGPT ? 3 facteurs mesurés | Sillage",
+  title: "Comment être cité par ChatGPT ? 3 facteurs mesurés | Essor",
   description:
     "Être cité par ChatGPT : 3 facteurs mesurés sur 12 sites, un protocole de test en 30 requêtes, et ce que le fichier llms.txt change vraiment",
   path: "/blog/etre-cite-par-chatgpt",
@@ -279,7 +279,7 @@ export default function ArticlePage() {
             <Link href="/blog/ai-overviews-impact-seo">
               AI Overviews : ce que 6 mois de données changent pour votre SEO
             </Link>{" "}
-            couvre le versant Google, et la <Link href="/a-propos">méthode Sillage</Link>{" "}
+            couvre le versant Google, et la <Link href="/a-propos">méthode Essor</Link>{" "}
             explique comment chaque recommandation est vérifiée.
           </p>
         </div>

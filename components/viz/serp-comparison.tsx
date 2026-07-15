@@ -13,7 +13,7 @@ function FakeLine({ w, strong = false }: { w: string; strong?: boolean }) {
 
 export function SerpComparison() {
   return (
-    <figure className="m-0 grid gap-3 sm:grid-cols-2" role="img" aria-label="Comparaison entre une page de résultats classique et une réponse IA citant Sillage">
+    <figure className="m-0 grid gap-3 sm:grid-cols-2" role="img" aria-label="Comparaison entre une page de résultats classique et une réponse IA citant Essor">
       {/* SERP classique */}
       <div className="rounded-2xl border border-border bg-bg-3 p-4">
         <p className="mb-3 font-mono text-[10.5px] text-muted-2">recherche classique</p>
@@ -42,7 +42,7 @@ export function SerpComparison() {
           <FakeLine w="46%" />
         </div>
         <div className="mt-3 inline-flex items-center gap-1.5 rounded-full border border-accent/40 bg-accent-soft px-2.5 py-1">
-          <span className="font-mono text-[10.5px] text-accent">↗ sillage-agence.fr</span>
+          <span className="font-mono text-[10.5px] text-accent">↗ essoragence.fr</span>
         </div>
         <p className="mt-3 text-[11px] text-muted-2">Une réponse, une source citée.</p>
       </div>

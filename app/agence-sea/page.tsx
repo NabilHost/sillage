@@ -6,7 +6,7 @@ import { ServicePageLayout } from "@/components/services/service-page-layout";
 import { SeaResults } from "@/components/services/sea-results";
 
 export const metadata = generatePageMetadata({
-  title: "Agence SEA : Google Ads pilotées à la marge | Sillage",
+  title: "Agence SEA : Google Ads pilotées à la marge | Essor",
   description:
     "Search, Shopping et PMax pilotées à la marge, pas au clic. Tracking serveur, structure propre, honoraires fixes dès 500 € HT/mois, jamais au pourcentage",
   path: "/agence-sea",
@@ -76,7 +76,7 @@ export default function AgenceSeaPage() {
           ],
           definitionTitle: "Comment gérons-nous vos campagnes Google Ads ?",
           definition:
-            "La gestion Google Ads chez Sillage repose sur trois fondations posées avant toute enchère. D'abord le tracking : conversions mesurées côté serveur, valeurs réelles importées (marge pour l'e-commerce, taux de qualification pour les leads), doublons éliminés. Ensuite la structure : dix-huit campagnes bien découpées valent mieux que deux cents qui se cannibalisent, chaque campagne a un rôle et un objectif de rentabilité propre. Enfin le pilotage : les enchères s'optimisent sur la marge après coûts publicitaires, jamais sur le volume de clics. Les honoraires sont fixes, à partir de 500 € HT par mois, jamais indexés sur le budget dépensé. Le rapport mensuel tient sur une page : dépense, revenus attribués, coût par acquisition, marge, et les trois décisions prises dans le mois.",
+            "La gestion Google Ads chez Essor repose sur trois fondations posées avant toute enchère. D'abord le tracking : conversions mesurées côté serveur, valeurs réelles importées (marge pour l'e-commerce, taux de qualification pour les leads), doublons éliminés. Ensuite la structure : dix-huit campagnes bien découpées valent mieux que deux cents qui se cannibalisent, chaque campagne a un rôle et un objectif de rentabilité propre. Enfin le pilotage : les enchères s'optimisent sur la marge après coûts publicitaires, jamais sur le volume de clics. Les honoraires sont fixes, à partir de 500 € HT par mois, jamais indexés sur le budget dépensé. Le rapport mensuel tient sur une page : dépense, revenus attribués, coût par acquisition, marge, et les trois décisions prises dans le mois.",
           calloutText:
             "Tracking serveur, structure resserrée, pilotage à la marge. Honoraires fixes, jamais au pourcentage du budget.",
           deliverablesTitle: "Le déroulé d'une reprise de compte",

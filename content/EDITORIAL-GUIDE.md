@@ -1,4 +1,4 @@
-# Guide éditorial Sillage — consommé par la routine quotidienne
+# Guide éditorial Essor — consommé par la routine quotidienne
 
 ## Stratégie mots-clés
 
@@ -11,7 +11,7 @@ Cible : requêtes longue traîne KD < 30, intention informational ou research, d
 ## Gabarit d'article (obligatoire, voir les 3 articles existants comme référence)
 
 1. Fichier : `app/blog/<slug>/page.tsx`, copier la structure de `app/blog/cout-agence-seo-2026/page.tsx`.
-2. Metadata via `generatePageMetadata` : title ≤ 60 car. avec `| Sillage`, description ≤ 155 car. sans point final, `ogType: "article"`.
+2. Metadata via `generatePageMetadata` : title ≤ 60 car. avec `| Essor`, description ≤ 155 car. sans point final, `ogType: "article"`.
 3. Schemas : `articleSchema` (author = toujours Claire Vasseur via objet AUTHOR local, jamais le défaut Nabil) + `personSchema` + `organizationSchema` + `breadcrumbSchema` + `faqPageSchema`.
 4. Longueur : **1 500 à 1 700 mots** de contenu rédigé.
 5. Structure : breadcrumb → header (badge catégorie, date, temps de lecture, H1 avec 1 mot en `em-accent`, lede chiffré, byline avec source des données) → 5-6 H2 **formulés en questions** → FAQ 4 questions → CTA card → retour blog.
@@ -37,7 +37,7 @@ Pas d'em-dash « — » séparateur. Pas de buzzwords (optimiser votre potentiel
 Un sujet d'actualité mérite un article si TOUS ces critères sont réunis :
 1. Annonce ou changement < 7 jours (Google, OpenAI, Anthropic, Perplexity, réglementation, étude majeure) qui touche le SEO, Google Ads, les sites web ou la recherche IA.
 2. Impact concret pour des PME/e-commerçants français (pas une actu US sans effet ici).
-3. Angle Sillage possible : que faut-il FAIRE, avec quels chiffres, quelle vérification.
+3. Angle Essor possible : que faut-il FAIRE, avec quels chiffres, quelle vérification.
 4. Pas déjà couvert par un article existant (sinon : mettre à jour l'article existant, changer dateModified).
 
 Si trend retenue : l'article trend passe devant le backlog ce jour-là. Slug court, catégorie « Actualité », mention de la date de l'info en byline.

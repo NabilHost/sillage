@@ -1,8 +1,8 @@
-# CLAUDE.md — Projet Sillage (reprise de contexte)
+# CLAUDE.md — Projet Essor (reprise de contexte)
 
 ## Ce qu'est ce projet
 
-Site de l'agence **Sillage** (agence d'acquisition fictive-en-cours-de-lancement de Nabil Brahim, Paris) : SEO, Google Ads/SEA, création de sites, visibilité IA (GEO). Next.js 16 (App Router, Turbopack) + TypeScript + Tailwind CSS v4 (`@theme` dans `app/globals.css`, PAS de tailwind.config) + Framer Motion 12. Construit selon le socle `~/Workspace/web/helprospect/docs/templates/CLAUDE-STARTER.md` (design system obsidian #0A0A0A / accent orange #FF6B35, fonts Bricolage Grotesque + Fraunces italic + JetBrains Mono via next/font).
+Site de l'agence **Essor** (agence d'acquisition fictive-en-cours-de-lancement de Nabil Brahim, Paris) : SEO, Google Ads/SEA, création de sites, visibilité IA (GEO). Next.js 16 (App Router, Turbopack) + TypeScript + Tailwind CSS v4 (`@theme` dans `app/globals.css`, PAS de tailwind.config) + Framer Motion 12. Construit selon le socle `~/Workspace/web/helprospect/docs/templates/CLAUDE-STARTER.md` (design system obsidian #0A0A0A / accent orange #FF6B35, fonts Bricolage Grotesque + Fraunces italic + JetBrains Mono via next/font).
 
 Le build local passe (`npm run build`). `npm run dev` fonctionne.
 
@@ -37,4 +37,4 @@ Le build local passe (`npm run build`). `npm run dev` fonctionne.
 
 ## Identité (données actuelles, certaines à confirmer avec Nabil)
 
-Directeur & fondateur : Nabil Brahim (SEA, 10 ans, +5 M€ générés). Équipe fictive d'exemple : Claire Vasseur (SEO), Inès Bellamy (GEO), Thomas Roussel (dev). Coordonnées PLACEHOLDER à remplacer avant prod : téléphone, adresse, RCS (`lib/site.ts`, mentions légales). Domaine cible provisoire : sillage-agence.fr (changer `SITE.url` dans `lib/site.ts` si autre domaine ; tout suit sauf `public/llms.txt` à aligner à la main). Chiffres des cas clients = exemples plausibles à remplacer par des vrais.
+Directeur & fondateur : Nabil Brahim (SEA, 10 ans, +5 M€ générés). Équipe fictive d'exemple : Claire Vasseur (SEO), Inès Bellamy (GEO), Thomas Roussel (dev). Coordonnées PLACEHOLDER à remplacer avant prod : téléphone, adresse, RCS (`lib/site.ts`, mentions légales). Domaine cible provisoire : essoragence.fr (changer `SITE.url` dans `lib/site.ts` si autre domaine ; tout suit sauf `public/llms.txt` à aligner à la main). Chiffres des cas clients = exemples plausibles à remplacer par des vrais.

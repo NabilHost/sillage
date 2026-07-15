@@ -1,4 +1,4 @@
-# Sillage — Site agence SEO / SEA / Sites / GEO
+# Essor — Site agence SEO / SEA / Sites / GEO
 
 Next.js 16 (App Router, Turbopack) + Tailwind CSS v4 (`@theme`) + Framer Motion 12.
 Construit selon le socle CLAUDE-STARTER (design system obsidian, animations, SEO/GEO, anti-patterns).

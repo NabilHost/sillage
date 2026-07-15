@@ -5,7 +5,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { ServicePageLayout } from "@/components/services/service-page-layout";
 
 export const metadata = generatePageMetadata({
-  title: "Référencement IA (GEO) : être cité par ChatGPT | Sillage",
+  title: "Référencement IA (GEO) : être cité par ChatGPT | Essor",
   description:
     "Audit de citabilité, blocs de réponse, données structurées, présence d'entité. Être cité par ChatGPT, Perplexity, Gemini et les AI Overviews, sans les mythes",
   path: "/referencement-ia-geo",

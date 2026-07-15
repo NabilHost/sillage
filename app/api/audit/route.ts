@@ -52,7 +52,7 @@ export async function POST(req: NextRequest) {
        vers une boîte perso) tant que le domaine définitif n'est pas vérifié dans Resend. */
     const from =
       process.env.RESEND_FROM ??
-      `Sillage <formulaire@${new URL(SITE.url).hostname.replace("www.", "")}>`;
+      `Essor <formulaire@${new URL(SITE.url).hostname.replace("www.", "")}>`;
     const to = process.env.CONTACT_TO ?? SITE.email;
     try {
       const { Resend } = await import("resend");

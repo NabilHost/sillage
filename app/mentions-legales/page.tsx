@@ -3,7 +3,7 @@ import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata = generatePageMetadata({
   title: "Mentions légales",
-  description: "Mentions légales du site sillage-agence.fr : éditeur, hébergeur, données personnelles.",
+  description: "Mentions légales du site essoragence.fr : éditeur, hébergeur, données personnelles.",
   path: "/mentions-legales",
   noindex: true,
 });
@@ -24,13 +24,13 @@ export default function MentionsLegalesPage() {
       <div className="article-prose mt-10">
         <h2>Éditeur du site</h2>
         <p>
-          Sillage Agence SAS, capital de 10 000 €, RCS Paris 000 000 000.
+          Essor Agence SAS, capital de 10 000 €, RCS Paris 000 000 000.
           <br />
           Siège social : 14 rue du Sentier, 75002 Paris.
           <br />
           Directeur de la publication : Nabil Brahim.
           <br />
-          Contact : bonjour@sillage-agence.fr, 01 45 00 00 00.
+          Contact : bonjour@essoragence.fr, 01 45 00 00 00.
         </p>
         <h2>Hébergement</h2>
         <p>
@@ -43,7 +43,7 @@ export default function MentionsLegalesPage() {
           traiter votre demande. Elles ne sont ni cédées ni utilisées à des fins de
           prospection sans votre accord. Conformément au RGPD, vous pouvez exercer vos
           droits d&apos;accès, de rectification et de suppression en écrivant à
-          bonjour@sillage-agence.fr.
+          bonjour@essoragence.fr.
         </p>
         <h2>Cookies</h2>
         <p>

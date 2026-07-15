@@ -29,7 +29,7 @@ export function NavMobile() {
     <>
       <div className="sticky top-0 z-40 flex items-center justify-between border-b border-border/50 bg-bg/80 px-4 py-3.5 backdrop-blur-xl md:hidden">
         <Link href="/" className="flex items-baseline text-lg font-extrabold tracking-tight">
-          sillage
+          essor
           <span aria-hidden className="ml-1 size-2 rounded-full bg-accent" />
         </Link>
         <button
@@ -46,7 +46,7 @@ export function NavMobile() {
         <div className="fixed inset-0 z-50 flex flex-col bg-bg md:hidden">
           <div className="flex items-center justify-between border-b border-border/50 px-4 py-3.5">
             <Link href="/" onClick={() => setOpen(false)} className="flex items-baseline text-lg font-extrabold tracking-tight">
-              sillage
+              essor
               <span aria-hidden className="ml-1 size-2 rounded-full bg-accent" />
             </Link>
             <button

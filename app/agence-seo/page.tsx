@@ -5,7 +5,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { ServicePageLayout } from "@/components/services/service-page-layout";
 
 export const metadata = generatePageMetadata({
-  title: "Agence SEO à Paris : référencement naturel | Sillage",
+  title: "Agence SEO à Paris : référencement naturel | Essor",
   description:
     "Audit technique, architecture, contenu et netlinking. Accompagnement dès 1 800 € HT/mois, indicateurs contractuels, chaque recommandation vérifiable",
   path: "/agence-seo",
@@ -14,7 +14,7 @@ export const metadata = generatePageMetadata({
 
 const FAQ_PLAIN = [
   {
-    q: "Que contient un audit SEO Sillage ?",
+    q: "Que contient un audit SEO Essor ?",
     a: "Un crawl complet du site, l'analyse Search Console sur 16 mois, la revue des Core Web Vitals (LCP, INP, CLS) sur données de terrain, la validation des données structurées, l'analyse de l'architecture et du maillage interne, une revue concurrentielle sur vos 20 requêtes prioritaires. Livré en 10 jours ouvrés : rapport chiffré, score sur 100, trois priorités classées par impact.",
   },
   {
@@ -73,9 +73,9 @@ export default function AgenceSeoPage() {
             { strong: "Premier livrable sous 10 jours ouvrés.", rest: "Indicateurs de suivi contractuels dès le mois 1." },
             { strong: "Chaque recommandation est falsifiable :", rest: "elle indique comment vérifier qu'elle a échoué." },
           ],
-          definitionTitle: "En quoi consiste un accompagnement SEO chez Sillage ?",
+          definitionTitle: "En quoi consiste un accompagnement SEO chez Essor ?",
           definition:
-            "Un accompagnement SEO chez Sillage couvre les quatre piliers du référencement naturel : la technique (crawl, indexation, Core Web Vitals, données structurées), l'architecture (arborescence et maillage interne alignés sur la demande réelle), le contenu (pages conçues pour répondre à une intention de recherche précise) et l'autorité (liens obtenus par relations presse et contenus cités). La mission démarre par un audit livré en dix jours ouvrés, avec un score global sur 100 et trois priorités classées par impact estimé. Le travail avance ensuite par sprints mensuels avec des livrables nommés. Chaque recommandation est accompagnée d'un test de falsifiabilité : l'indicateur qui permettra de constater, en quelques semaines, si elle produit l'effet attendu. Les tarifs démarrent à 1 800 € HT par mois pour un site vitrine.",
+            "Un accompagnement SEO chez Essor couvre les quatre piliers du référencement naturel : la technique (crawl, indexation, Core Web Vitals, données structurées), l'architecture (arborescence et maillage interne alignés sur la demande réelle), le contenu (pages conçues pour répondre à une intention de recherche précise) et l'autorité (liens obtenus par relations presse et contenus cités). La mission démarre par un audit livré en dix jours ouvrés, avec un score global sur 100 et trois priorités classées par impact estimé. Le travail avance ensuite par sprints mensuels avec des livrables nommés. Chaque recommandation est accompagnée d'un test de falsifiabilité : l'indicateur qui permettra de constater, en quelques semaines, si elle produit l'effet attendu. Les tarifs démarrent à 1 800 € HT par mois pour un site vitrine.",
           calloutText:
             "4 piliers, des sprints mensuels, et un indicateur de vérification attaché à chaque recommandation.",
           deliverablesTitle: "Ce que vous recevez, concrètement",

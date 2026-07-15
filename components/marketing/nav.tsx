@@ -43,7 +43,7 @@ export function Nav() {
           className="flex items-center gap-1 rounded-full border border-border bg-bg-2/70 py-2 pl-5 pr-2 backdrop-blur-xl shadow-[inset_0_1px_0_rgba(255,255,255,0.04),0_10px_40px_rgba(0,0,0,0.5)]"
         >
           <Link href="/" onClick={closeMenu} className="mr-3 flex items-baseline text-[17px] font-extrabold tracking-tight">
-            sillage
+            essor
             <span aria-hidden className="ml-1 size-2 rounded-full bg-accent" />
           </Link>
 

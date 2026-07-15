@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-export const alt = "Sillage, agence SEO, SEA et visibilité IA à Paris";
+export const alt = "Essor, agence SEO, SEA et visibilité IA à Paris";
 
 /** OG image globale (fallback). Les pages clés peuvent définir la leur. */
 export default async function Image() {
@@ -21,7 +21,7 @@ export default async function Image() {
         }}
       >
         <div style={{ display: "flex", alignItems: "baseline", fontSize: 44, fontWeight: 800 }}>
-          <span>sillage</span>
+          <span>essor</span>
           <span
             style={{
               marginLeft: 8,
@@ -42,7 +42,7 @@ export default async function Image() {
             <span style={{ color: "#FF6B35" }}>Cité par les IA.</span>
           </div>
         </div>
-        <div style={{ fontSize: 22, opacity: 0.5, display: "flex" }}>sillage-agence.fr</div>
+        <div style={{ fontSize: 22, opacity: 0.5, display: "flex" }}>essoragence.fr</div>
       </div>
     ),
     { ...size }
