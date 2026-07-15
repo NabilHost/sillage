@@ -3,6 +3,7 @@ import { generatePageMetadata } from "@/lib/seo";
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from "@/lib/schema";
 import { JsonLd } from "@/components/seo/json-ld";
 import { ServicePageLayout } from "@/components/services/service-page-layout";
+import { TrackRecordTeaser } from "@/components/services/track-record-teaser";
 
 export const metadata = generatePageMetadata({
   title: "Création de site web rapide et conçu pour le SEO | Essor",
@@ -100,6 +101,23 @@ export default function CreationSiteWebPage() {
           ],
           tableNote:
             "Le choix technique est argumenté par écrit en phase de cadrage, avec les coûts de possession à trois ans.",
+          extraSection: (
+            <TrackRecordTeaser
+              eyebrow="résultats e-commerce · boutiques en gestion"
+              title={
+                <>
+                  Un site n&apos;est réussi que s&apos;il <em className="em-accent">vend</em>.
+                </>
+              }
+              lede="Les boutiques qu'on conçoit et refond sont faites pour vendre et pour référencer. Voici ce qu'elles produisent, chiffres réels anonymisés sous NDA."
+              stats={[
+                { v: "1,38 M€", l: "de CA e-commerce généré sur 6 boutiques" },
+                { v: "+248 %", l: "de croissance annuelle médiane" },
+                { v: "+41 %", l: "de trafic organique pendant une refonte, sans perte" },
+                { v: "3,8 %", l: "de taux de conversion sur les meilleures boutiques" },
+              ]}
+            />
+          ),
           faqTitle: "Questions fréquentes sur la création de site",
           faq: FAQ_PLAIN,
           ctaFinalTitle: (

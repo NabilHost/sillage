@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Reveal } from "@/components/animations/reveal";
 import { DoubleBezelCard } from "@/components/marketing/double-bezel-card";
 
@@ -166,6 +167,19 @@ export function SeaResults() {
             </DoubleBezelCard>
           </Reveal>
         </div>
+
+        <Reveal delay={0.1}>
+          <p className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-2 text-[14px] text-muted">
+            Ce compte fait partie d&apos;un track record de 6 comptes e-commerce, ROAS moyen 4,2×.
+            <Link
+              href="/resultats"
+              className="group inline-flex items-center gap-1.5 font-semibold text-accent"
+            >
+              Voir les 6 comptes
+              <span aria-hidden className="transition-transform duration-300 group-hover:translate-x-0.5">→</span>
+            </Link>
+          </p>
+        </Reveal>
       </div>
     </section>
   );

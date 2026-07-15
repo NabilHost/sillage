@@ -3,6 +3,7 @@ import { generatePageMetadata } from "@/lib/seo";
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from "@/lib/schema";
 import { JsonLd } from "@/components/seo/json-ld";
 import { ServicePageLayout } from "@/components/services/service-page-layout";
+import { TrackRecordTeaser } from "@/components/services/track-record-teaser";
 
 export const metadata = generatePageMetadata({
   title: "Agence SEO à Paris : référencement naturel | Essor",
@@ -105,6 +106,24 @@ export default function AgenceSeoPage() {
               accompagnement, nous le disons au premier appel et nous vous orientons vers{" "}
               <Link href="/agence-sea" className="text-muted underline underline-offset-2 hover:text-accent">le SEA</Link>.
             </>
+          ),
+          extraSection: (
+            <TrackRecordTeaser
+              eyebrow="preuves SEO · comptes en gestion"
+              title={
+                <>
+                  Le SEO, sur des comptes à <em className="em-accent">toutes</em> les
+                  maturités.
+                </>
+              }
+              lede="D'un e-commerce établi à un restaurant local suivi sur 16 mois, jusqu'à un site fraîchement lancé. Chiffres réels, captures Search Console anonymisées sous NDA."
+              stats={[
+                { v: "32,5 k", l: "clics SEO cumulés" },
+                { v: "+41 %", l: "trafic organique gagné pendant une refonte" },
+                { v: "4,7", l: "position moyenne en SEO local (16 mois)" },
+                { v: "3", l: "propriétés SEO additionnelles suivies" },
+              ]}
+            />
           ),
           faqTitle: "Questions fréquentes sur le SEO",
           faq: FAQ_PLAIN,
