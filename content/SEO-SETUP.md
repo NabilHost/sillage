@@ -57,6 +57,50 @@ vérification Search Console, et le statut de soumission du sitemap.
 
 ---
 
+## Fiche Google Business Profile (à faire exécuter par Cowork)
+
+> ⚠️ Prérequis : **vraie adresse + vrai téléphone** (Google vérifie souvent par courrier
+> postal). Le NAP doit être IDENTIQUE au site (`lib/site.ts`). Remplacer les placeholders
+> ci-dessous par les vraies coordonnées, et les reporter aussi dans `lib/site.ts`.
+
+Bloc à copier-coller à l'agent Cowork :
+
+---
+
+Tu vas créer et optimiser ma fiche Google Business Profile pour mon agence Essor. Je suis
+présent pour me connecter. Utilise le MÊME compte Google que ma Search Console.
+
+Infos (NAP) à respecter à l'identique :
+- Nom : Essor
+- Adresse : [ADRESSE RÉELLE]
+- Téléphone : [TÉLÉPHONE RÉEL]
+- Site : https://www.agence-essor.fr
+- Date d'ouverture : 2024
+
+1) CRÉATION : google.com/business → connexion → Ajouter une entreprise → nom « Essor » →
+   catégorie principale « Agence de marketing ».
+2) ADRESSE & ZONE : adresse réelle ci-dessus (établissement physique) ; zones desservies
+   Paris, Île-de-France, France.
+3) CONTACT : téléphone réel, site https://www.agence-essor.fr.
+4) VÉRIFICATION : choisir la méthode proposée (courrier / téléphone / vidéo). Si courrier,
+   il arrive sous ~5-14 jours avec un code à saisir : me prévenir.
+5) OPTIMISATION (même vérif en cours) :
+   - Catégories secondaires : Consultant marketing, Agence de publicité, Concepteur de sites Web.
+   - Description : « Essor est une agence d'acquisition basée à Paris. Nous aidons les PME,
+     e-commerçants et éditeurs SaaS à être visibles là où leurs clients cherchent :
+     référencement naturel (SEO), Google Ads, création de sites et d'applications, et
+     visibilité dans les moteurs IA (ChatGPT, Perplexity, AI Overviews). Notre méthode est
+     publique et chaque recommandation s'accompagne d'un indicateur vérifiable. Audit chiffré
+     offert sous 10 jours. Nous intervenons à Paris et partout en France. »
+   - Services : Référencement naturel (SEO), Google Ads (SEA), Création de sites et
+     d'applications, Visibilité IA (GEO).
+   - Horaires + photos (logo Essor, bureau/équipe).
+
+Quand c'est fait : statut de vérification + confirmer que nom/adresse/téléphone matchent le
+site au caractère près.
+
+---
+
 ## Après ça (côté agent code / moi)
 - Une fois la propriété Search Console vérifiée sous le compte Google, on pourra suivre
   impressions / clics / positions et piloter l'indexation.
