@@ -81,7 +81,8 @@
         "/agence-seo",
         "/contact"
       ],
-      "status": "todo"
+      "status": "done",
+      "published": "2026-07-15"
     },
     {
       "slug": "agence-seo-ou-freelance",

@@ -31,6 +31,7 @@ Le build local passe (`npm run build`). `npm run dev` fonctionne.
 
 - Gabarit article : copier `app/blog/cout-agence-seo-2026/page.tsx`. Règles complètes : `content/EDITORIAL-GUIDE.md`. Cible 1500-1700 mots.
 - Backlog priorisé de 12 mots-clés KD<30 : `content/topics.json` (statuts todo/done).
+- **SEO : lire `content/SEO-MAP.md` avant de créer/modifier une page** (carte mots-clés → pages, règle une-intention-par-URL, anti-cannibalisation, stratégie local vs national). Piliers = requêtes commerciales nationales ; articles = requêtes informationnelles qui pointent vers leur pilier. Jamais de page « service + ville » dupliquée.
 - À chaque nouvel article, mettre à jour : blog hub POSTS, sitemap.ts, llms.txt, search-palette ARTICLES, topics.json.
 - Une tâche planifiée Cowork « sillage-blog-quotidien » (7h30) écrit un article/jour dans ce dossier ; les fichiers doivent être relus puis commit+push pour être déployés.
 

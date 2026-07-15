@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/refonte-site-sans-perdre-seo",
+    category: "Sites web",
+    date: "2026-07-15",
+    dateDisplay: "15 juillet 2026",
+    reading: "8 min",
+    title: "Refondre son site sans perdre son référencement : le protocole",
+    excerpt:
+      "Une bascule sans protocole coûte en moyenne 43 % des sessions organiques. Les 5 étapes : inventaire, 301 page à page, parité sémantique, recette et surveillance 8 semaines.",
+    wide: true,
+  },
+  {
     href: "/blog/optimiser-fiche-google-business",
     category: "SEO local",
     date: "2026-07-14",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Optimiser sa fiche Google Business Profile : la checklist 2026",
     excerpt:
       "Une fiche complète reçoit 7 fois plus de clics et les signaux GBP pèsent 32 % du classement local. La checklist poste par poste, et ce que Google a déprécié.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/etre-cite-par-chatgpt",

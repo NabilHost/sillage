@@ -17,6 +17,7 @@ Sillage travaille pour des PME, des e-commerçants et des éditeurs SaaS, en Fra
 
 ## Blog
 
+- [Refondre son site sans perdre son référencement](https://www.sillage-agence.fr/blog/refonte-site-sans-perdre-seo) : protocole de migration en 5 étapes (inventaire, plan 301 page à page, parité sémantique, recette 12 points, surveillance 8 semaines), perte moyenne de 43 % de sessions sans protocole, cas client mobilier à +41 % pendant la bascule.
 - [Optimiser sa fiche Google Business Profile](https://www.sillage-agence.fr/blog/optimiser-fiche-google-business) : checklist 2026 en 6 postes, fiche complète = 7 fois plus de clics, signaux GBP = 32 % du classement local, taux de réponse aux avis cible 100 % sous 72 h, +38 % d'interactions en 90 jours sur nos missions.
 - [Comment être cité par ChatGPT ?](https://www.sillage-agence.fr/blog/etre-cite-par-chatgpt) : 3 facteurs mesurés sur 320 requêtes (bloc citable, taux de citation de 9 % à 28 % ; donnée propriétaire, citations ×2,3 ; entité cohérente, 41 % contre 12 %), protocole de test en 30 requêtes.
 - [Combien de temps pour des résultats SEO ?](https://www.sillage-agence.fr/blog/combien-de-temps-seo-resultats) : timeline par levier (technique 4 à 8 semaines, contenu 3 à 6 mois, autorité 6 à 12 mois), délai médian de 14 semaines observé sur 24 missions.

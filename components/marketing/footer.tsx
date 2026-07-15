@@ -27,7 +27,8 @@ export function Footer() {
               <span aria-hidden className="ml-1 size-2 rounded-full bg-accent" />
             </Link>
             <p className="mt-4 max-w-xs text-[14px] leading-relaxed text-muted">
-              Agence d&apos;acquisition à Paris. SEO, Google Ads, création de sites et
+              Agence d&apos;acquisition basée à Paris, au service de clients partout
+              en France. SEO, Google Ads, création de sites et d&apos;applications,
               visibilité dans les moteurs IA.
             </p>
             <p className="mt-4 text-[13px] text-muted-2">

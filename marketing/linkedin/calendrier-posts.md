@@ -51,7 +51,7 @@ Avant de comparer deux devis : combien d'heures senior, sur quels livrables nomm
 
 #SEO #PME
 
-## Post 3 · mer. 15/07 · Délais SEO
+## Post 3 · mer. 15/07 · Délais SEO [PUBLIÉ]
 « Combien de temps avant les premiers résultats SEO ? »
 
 La vraie réponse, mesurée sur 24 missions :

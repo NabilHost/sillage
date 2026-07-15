@@ -12,6 +12,7 @@ const PAGES = [
 ];
 
 const ARTICLES = [
+  { label: "Refondre son site sans perdre son référencement", href: "/blog/refonte-site-sans-perdre-seo" },
   { label: "Optimiser sa fiche Google Business Profile", href: "/blog/optimiser-fiche-google-business" },
   { label: "Comment être cité par ChatGPT ?", href: "/blog/etre-cite-par-chatgpt" },
   { label: "Combien de temps pour des résultats SEO ?", href: "/blog/combien-de-temps-seo-resultats" },
