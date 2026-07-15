@@ -484,7 +484,11 @@ export default function HomePage() {
             </h2>
             <p className="mt-4 max-w-xl text-[15px] text-muted">
               Trois missions récentes, chiffres tels qu&apos;ils apparaissent dans
-              Search Console et Analytics. Références détaillées sur demande.
+              Search Console et Analytics.{" "}
+              <Link href="/resultats" className="font-semibold text-text underline decoration-accent/40 underline-offset-4 transition-colors hover:text-accent">
+                Voir le track record des 6 comptes
+              </Link>
+              .
             </p>
           </Reveal>
 

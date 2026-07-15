@@ -38,6 +38,7 @@ export const NAV_SERVICES = [
 
 export const NAV_LINKS = [
   { href: "/a-propos", label: "Méthode" },
+  { href: "/resultats", label: "Résultats" },
   { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
 ] as const;
