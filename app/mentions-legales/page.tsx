@@ -3,7 +3,7 @@ import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata = generatePageMetadata({
   title: "Mentions légales",
-  description: "Mentions légales du site essoragence.fr : éditeur, hébergeur, données personnelles.",
+  description: "Mentions légales du site agence-essor.fr : éditeur, hébergeur, données personnelles.",
   path: "/mentions-legales",
   noindex: true,
 });
@@ -30,7 +30,7 @@ export default function MentionsLegalesPage() {
           <br />
           Directeur de la publication : Nabil Brahim.
           <br />
-          Contact : bonjour@essoragence.fr, 01 45 00 00 00.
+          Contact : bonjour@agence-essor.fr, 01 45 00 00 00.
         </p>
         <h2>Hébergement</h2>
         <p>
@@ -43,7 +43,7 @@ export default function MentionsLegalesPage() {
           traiter votre demande. Elles ne sont ni cédées ni utilisées à des fins de
           prospection sans votre accord. Conformément au RGPD, vous pouvez exercer vos
           droits d&apos;accès, de rectification et de suppression en écrivant à
-          bonjour@essoragence.fr.
+          bonjour@agence-essor.fr.
         </p>
         <h2>Cookies</h2>
         <p>

@@ -39,10 +39,10 @@ export function organizationSchema() {
       "Core Web Vitals",
     ],
     sameAs: [
-      "https://www.linkedin.com/company/essoragence",
+      "https://www.linkedin.com/company/agence-essor",
       "https://x.com/essor_agence",
-      "https://www.youtube.com/@essoragence",
-      "https://github.com/essoragence",
+      "https://www.youtube.com/@agence-essor",
+      "https://github.com/agence-essor",
     ],
   };
 }

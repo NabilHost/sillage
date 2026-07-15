@@ -81,7 +81,7 @@ export function Footer() {
             © {new Date().getFullYear()} Essor. Paris, France.
           </p>
           <div className="flex items-center gap-4">
-            <a href="https://www.linkedin.com/company/essoragence" rel="noopener" className="text-[12.5px] text-muted-2 transition-colors hover:text-text">LinkedIn</a>
+            <a href="https://www.linkedin.com/company/agence-essor" rel="noopener" className="text-[12.5px] text-muted-2 transition-colors hover:text-text">LinkedIn</a>
             <a href="https://x.com/essor_agence" rel="noopener" className="text-[12.5px] text-muted-2 transition-colors hover:text-text">X</a>
           </div>
         </div>

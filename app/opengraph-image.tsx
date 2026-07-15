@@ -42,7 +42,7 @@ export default async function Image() {
             <span style={{ color: "#FF6B35" }}>Cité par les IA.</span>
           </div>
         </div>
-        <div style={{ fontSize: 22, opacity: 0.5, display: "flex" }}>essoragence.fr</div>
+        <div style={{ fontSize: 22, opacity: 0.5, display: "flex" }}>agence-essor.fr</div>
       </div>
     ),
     { ...size }

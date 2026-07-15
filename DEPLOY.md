@@ -27,7 +27,7 @@ git push -u origin main
 
 ## 4. Domaine (15 min + propagation DNS)
 
-1. Achetez le domaine (OVH, Gandi…). Si ce n'est pas `essoragence.fr`, remplacez `SITE.url` dans `lib/site.ts` ET les URL absolues de `public/llms.txt`, puis commit + push.
+1. Achetez le domaine (OVH, Gandi…). Si ce n'est pas `agence-essor.fr`, remplacez `SITE.url` dans `lib/site.ts` ET les URL absolues de `public/llms.txt`, puis commit + push.
 2. Vercel → Settings → Domains → ajouter le domaine avec `www.` en principal.
 3. Chez le registrar : `A @ → 76.76.21.21` et `CNAME www → cname.vercel-dns.com`.
 

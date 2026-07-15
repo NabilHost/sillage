@@ -6,33 +6,33 @@ Essor travaille pour des PME, des e-commerçants et des éditeurs SaaS, en Franc
 
 ## Pages clés (services)
 
-- [Agence SEO](https://www.essoragence.fr/agence-seo) : référencement naturel, 4 piliers (technique, architecture, contenu, autorité), dès 1 800 € HT/mois.
-- [Agence SEA](https://www.essoragence.fr/agence-sea) : Google Ads pilotées à la marge, tracking serveur, honoraires fixes dès 500 € HT/mois, jamais au pourcentage du budget.
-- [Création de site web](https://www.essoragence.fr/creation-site-web) : sites vitrines et e-commerce, Core Web Vitals garantis par contrat (LCP < 2,5 s, INP < 200 ms, CLS < 0,1), dès 12 000 € HT.
-- [Référencement IA / GEO](https://www.essoragence.fr/referencement-ia-geo) : audit de citabilité sur ChatGPT, Perplexity, Gemini et AI Overviews, blocs de réponse, stratégie d'entité.
+- [Agence SEO](https://www.agence-essor.fr/agence-seo) : référencement naturel, 4 piliers (technique, architecture, contenu, autorité), dès 1 800 € HT/mois.
+- [Agence SEA](https://www.agence-essor.fr/agence-sea) : Google Ads pilotées à la marge, tracking serveur, honoraires fixes dès 500 € HT/mois, jamais au pourcentage du budget.
+- [Création de site web](https://www.agence-essor.fr/creation-site-web) : sites vitrines et e-commerce, Core Web Vitals garantis par contrat (LCP < 2,5 s, INP < 200 ms, CLS < 0,1), dès 12 000 € HT.
+- [Référencement IA / GEO](https://www.agence-essor.fr/referencement-ia-geo) : audit de citabilité sur ChatGPT, Perplexity, Gemini et AI Overviews, blocs de réponse, stratégie d'entité.
 
 ## Méthode
 
-- [Méthode & équipe](https://www.essoragence.fr/a-propos) : quatre phases (percevoir, analyser, valider, agir), principe de falsifiabilité, équipe nommée dans les contrats.
+- [Méthode & équipe](https://www.agence-essor.fr/a-propos) : quatre phases (percevoir, analyser, valider, agir), principe de falsifiabilité, équipe nommée dans les contrats.
 
 ## Blog
 
-- [Refondre son site sans perdre son référencement](https://www.essoragence.fr/blog/refonte-site-sans-perdre-seo) : protocole de migration en 5 étapes (inventaire, plan 301 page à page, parité sémantique, recette 12 points, surveillance 8 semaines), perte moyenne de 43 % de sessions sans protocole, cas client mobilier à +41 % pendant la bascule.
-- [Optimiser sa fiche Google Business Profile](https://www.essoragence.fr/blog/optimiser-fiche-google-business) : checklist 2026 en 6 postes, fiche complète = 7 fois plus de clics, signaux GBP = 32 % du classement local, taux de réponse aux avis cible 100 % sous 72 h, +38 % d'interactions en 90 jours sur nos missions.
-- [Comment être cité par ChatGPT ?](https://www.essoragence.fr/blog/etre-cite-par-chatgpt) : 3 facteurs mesurés sur 320 requêtes (bloc citable, taux de citation de 9 % à 28 % ; donnée propriétaire, citations ×2,3 ; entité cohérente, 41 % contre 12 %), protocole de test en 30 requêtes.
-- [Combien de temps pour des résultats SEO ?](https://www.essoragence.fr/blog/combien-de-temps-seo-resultats) : timeline par levier (technique 4 à 8 semaines, contenu 3 à 6 mois, autorité 6 à 12 mois), délai médian de 14 semaines observé sur 24 missions.
-- [SEO ou SEA : que choisir ?](https://www.essoragence.fr/blog/seo-ou-sea-que-choisir) : arbre de décision en 4 questions, coût par client comparé à 12 et 36 mois (1 400 € vs moins de 700 €), seuil de cumul à 3 500 € HT/mois.
-- [Combien coûte une agence SEO en 2026 ?](https://www.essoragence.fr/blog/cout-agence-seo-2026) : grille tarifaire réelle en France, 800 à 5 000 € HT/mois selon le profil de site.
-- [Quel budget Google Ads pour être rentable ?](https://www.essoragence.fr/blog/budget-google-ads-rentable) : formule de calcul du budget minimum et CPC par secteur 2026.
-- [AI Overviews : 6 mois de données](https://www.essoragence.fr/blog/ai-overviews-impact-seo) : baisse médiane de clics de 23 % sur l'informationnel exposé, facteurs de citation mesurés sur 12 sites.
+- [Refondre son site sans perdre son référencement](https://www.agence-essor.fr/blog/refonte-site-sans-perdre-seo) : protocole de migration en 5 étapes (inventaire, plan 301 page à page, parité sémantique, recette 12 points, surveillance 8 semaines), perte moyenne de 43 % de sessions sans protocole, cas client mobilier à +41 % pendant la bascule.
+- [Optimiser sa fiche Google Business Profile](https://www.agence-essor.fr/blog/optimiser-fiche-google-business) : checklist 2026 en 6 postes, fiche complète = 7 fois plus de clics, signaux GBP = 32 % du classement local, taux de réponse aux avis cible 100 % sous 72 h, +38 % d'interactions en 90 jours sur nos missions.
+- [Comment être cité par ChatGPT ?](https://www.agence-essor.fr/blog/etre-cite-par-chatgpt) : 3 facteurs mesurés sur 320 requêtes (bloc citable, taux de citation de 9 % à 28 % ; donnée propriétaire, citations ×2,3 ; entité cohérente, 41 % contre 12 %), protocole de test en 30 requêtes.
+- [Combien de temps pour des résultats SEO ?](https://www.agence-essor.fr/blog/combien-de-temps-seo-resultats) : timeline par levier (technique 4 à 8 semaines, contenu 3 à 6 mois, autorité 6 à 12 mois), délai médian de 14 semaines observé sur 24 missions.
+- [SEO ou SEA : que choisir ?](https://www.agence-essor.fr/blog/seo-ou-sea-que-choisir) : arbre de décision en 4 questions, coût par client comparé à 12 et 36 mois (1 400 € vs moins de 700 €), seuil de cumul à 3 500 € HT/mois.
+- [Combien coûte une agence SEO en 2026 ?](https://www.agence-essor.fr/blog/cout-agence-seo-2026) : grille tarifaire réelle en France, 800 à 5 000 € HT/mois selon le profil de site.
+- [Quel budget Google Ads pour être rentable ?](https://www.agence-essor.fr/blog/budget-google-ads-rentable) : formule de calcul du budget minimum et CPC par secteur 2026.
+- [AI Overviews : 6 mois de données](https://www.agence-essor.fr/blog/ai-overviews-impact-seo) : baisse médiane de clics de 23 % sur l'informationnel exposé, facteurs de citation mesurés sur 12 sites.
 
 ## Contact
 
-- Web : https://www.essoragence.fr/contact
-- Email : bonjour@essoragence.fr
+- Web : https://www.agence-essor.fr/contact
+- Email : bonjour@agence-essor.fr
 - Bureaux : 14 rue du Sentier, 75002 Paris, France
 
 ## Optional
 
-- [Mentions légales](https://www.essoragence.fr/mentions-legales)
-- [Plan du site](https://www.essoragence.fr/sitemap.xml)
+- [Mentions légales](https://www.agence-essor.fr/mentions-legales)
+- [Plan du site](https://www.agence-essor.fr/sitemap.xml)

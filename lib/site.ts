@@ -1,11 +1,11 @@
 /** Configuration centrale. Remplacez url par le domaine définitif avant prod. */
 
 export const SITE = {
-  url: "https://www.essoragence.fr",
+  url: "https://www.agence-essor.fr",
   brand: "Essor",
   slogan: "Visible sur Google, cité par les IA",
   twitterHandle: "@essor_agence",
-  email: "bonjour@essoragence.fr",
+  email: "bonjour@agence-essor.fr",
   phone: "+33145000000",
   phoneDisplay: "01 45 00 00 00",
   street: "14 rue du Sentier",

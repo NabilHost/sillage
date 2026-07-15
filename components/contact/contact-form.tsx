@@ -121,7 +121,7 @@ export function ContactForm() {
         </button>
         {status === "error" && (
           <p className="mt-3 text-[13px] text-accent" role="alert">
-            L&apos;envoi a échoué. Écrivez-nous directement : bonjour@essoragence.fr
+            L&apos;envoi a échoué. Écrivez-nous directement : bonjour@agence-essor.fr
           </p>
         )}
         <p className="mt-3 text-[12.5px] text-muted-2">

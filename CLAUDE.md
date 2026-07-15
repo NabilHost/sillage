@@ -37,4 +37,4 @@ Le build local passe (`npm run build`). `npm run dev` fonctionne.
 
 ## Identité (données actuelles, certaines à confirmer avec Nabil)
 
-Directeur & fondateur : Nabil Brahim (SEA, 10 ans, +5 M€ générés). Équipe fictive d'exemple : Claire Vasseur (SEO), Inès Bellamy (GEO), Thomas Roussel (dev). Coordonnées PLACEHOLDER à remplacer avant prod : téléphone, adresse, RCS (`lib/site.ts`, mentions légales). Domaine cible provisoire : essoragence.fr (changer `SITE.url` dans `lib/site.ts` si autre domaine ; tout suit sauf `public/llms.txt` à aligner à la main). Chiffres des cas clients = exemples plausibles à remplacer par des vrais.
+Directeur & fondateur : Nabil Brahim (SEA, 10 ans, +5 M€ générés). Équipe fictive d'exemple : Claire Vasseur (SEO), Inès Bellamy (GEO), Thomas Roussel (dev). Coordonnées PLACEHOLDER à remplacer avant prod : téléphone, adresse, RCS (`lib/site.ts`, mentions légales). Domaine cible provisoire : agence-essor.fr (changer `SITE.url` dans `lib/site.ts` si autre domaine ; tout suit sauf `public/llms.txt` à aligner à la main). Chiffres des cas clients = exemples plausibles à remplacer par des vrais.

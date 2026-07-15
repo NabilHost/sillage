@@ -42,7 +42,7 @@ export function SerpComparison() {
           <FakeLine w="46%" />
         </div>
         <div className="mt-3 inline-flex items-center gap-1.5 rounded-full border border-accent/40 bg-accent-soft px-2.5 py-1">
-          <span className="font-mono text-[10.5px] text-accent">↗ essoragence.fr</span>
+          <span className="font-mono text-[10.5px] text-accent">↗ agence-essor.fr</span>
         </div>
         <p className="mt-3 text-[11px] text-muted-2">Une réponse, une source citée.</p>
       </div>
