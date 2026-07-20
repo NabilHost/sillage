@@ -9,3 +9,4 @@ npm-install.log
 next-env.d.ts
 tsconfig.tsbuildinfo
 .vercel
+scripts/*.log
