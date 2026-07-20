@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/a-propos`, lastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.url}/resultats`, lastModified, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/blog`, lastModified, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${SITE.url}/blog/agence-seo-ou-freelance`, lastModified: new Date("2026-07-16"), changeFrequency: "yearly", priority: 0.65 },
     { url: `${SITE.url}/blog/refonte-site-sans-perdre-seo`, lastModified: new Date("2026-07-15"), changeFrequency: "yearly", priority: 0.65 },
     { url: `${SITE.url}/blog/optimiser-fiche-google-business`, lastModified: new Date("2026-07-14"), changeFrequency: "yearly", priority: 0.65 },
     { url: `${SITE.url}/blog/etre-cite-par-chatgpt`, lastModified: new Date("2026-07-13"), changeFrequency: "yearly", priority: 0.65 },

@@ -3,6 +3,7 @@
 Rythme : 1 post par jour ouvré vers 8h30, publié automatiquement par la routine quotidienne via Zapier (page id 135966079).
 Règle de la routine : si une trend chaude est détectée dans la veille du jour, elle REMPLACE le post prévu du calendrier (le post décalé glisse au jour ouvré suivant). Marquer chaque post publié avec [PUBLIÉ].
 Règles : un chiffre dans les 2 premières lignes, pas de buzzword, une question ou un CTA en fin, 3 hashtags max.
+Visuels : toute image jointe aux posts (Instagram, Facebook, LinkedIn) doit être au format CARRÉ 1080x1080 (lisible mobile), texte centré dans la zone sûre, typo Poppins, fond photo brand-essor assombri. Référence : public/images/social-essor.jpg.
 Budget Zapier plan gratuit : 13 posts = 13 tâches sur 100 disponibles par mois.
 
 ---
@@ -20,7 +21,7 @@ Premier chiffre : sur notre panel de 12 sites, 74 % des citations obtenues dans 
 
 #SEO #GoogleAds #VisibilitéIA
 
-## Post 5 · ven. 17/07 · Article ChatGPT
+## Post 5 · ven. 17/07 · Article ChatGPT [PUBLIÉ]
 Comment être cité par ChatGPT ? On a testé 320 requêtes sur 3 mois.
 
 Résultat : 74 % des citations vont à des pages qui combinent 3 facteurs.
@@ -35,7 +36,7 @@ Protocole de test complet dans l'article (lien en commentaire).
 
 #ChatGPT #GEO #SEO
 
-## Post 2 · mar. 14/07 · Coût agence SEO
+## Post 2 · jeu. 30/07 · Coût agence SEO (non publié le 14/07, reprogrammé)
 Combien coûte une agence SEO en France en 2026 ?
 
 On a relevé les grilles publiques de 30 agences :
@@ -81,7 +82,7 @@ Concession honnête : si un jour les modèles l'utilisent, on aura une heure d'a
 
 #GEO #VisibilitéIA #SEO
 
-## Post 6 · lun. 20/07 · Budget Google Ads
+## Post 6 · lun. 20/07 · Budget Google Ads [PUBLIÉ LI+FB, IG échec : image social-essor.jpg pas en ligne, redéployer le site]
 Quel budget Google Ads minimum pour que ça vaille le coup ?
 
 La formule : 100 clics par cycle de décision, minimum.
@@ -94,7 +95,7 @@ Et le seuil pour déléguer à une agence : environ 1 000 €/mois de média. En
 
 #GoogleAds #SEA
 
-## Post 4 · jeu. 16/07 · Donnée propriétaire
+## Post 4 · jeu. 16/07 · Donnée propriétaire [PUBLIÉ]
 Le contenu le plus rentable qu'une PME puisse publier tient en une phrase.
 
 « Nos 340 interventions de 2025 : délai médian de 48 heures. »

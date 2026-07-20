@@ -12,6 +12,7 @@ const PAGES = [
 ];
 
 const ARTICLES = [
+  { label: "Agence SEO ou freelance : que choisir ?", href: "/blog/agence-seo-ou-freelance" },
   { label: "Refondre son site sans perdre son référencement", href: "/blog/refonte-site-sans-perdre-seo" },
   { label: "Optimiser sa fiche Google Business Profile", href: "/blog/optimiser-fiche-google-business" },
   { label: "Comment être cité par ChatGPT ?", href: "/blog/etre-cite-par-chatgpt" },

@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/agence-seo-ou-freelance",
+    category: "SEO",
+    date: "2026-07-16",
+    dateDisplay: "16 juillet 2026",
+    reading: "8 min",
+    title: "Agence SEO ou freelance : comment choisir sans se tromper ?",
+    excerpt:
+      "Freelance senior : 600 à 1 500 € HT/mois. Agence : 1 500 à 3 500 €. Les trois critères qui comptent (heures senior, continuité, périmètre) et le seuil des 800 € HT.",
+    wide: true,
+  },
+  {
     href: "/blog/refonte-site-sans-perdre-seo",
     category: "Sites web",
     date: "2026-07-15",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Refondre son site sans perdre son référencement : le protocole",
     excerpt:
       "Une bascule sans protocole coûte en moyenne 43 % des sessions organiques. Les 5 étapes : inventaire, 301 page à page, parité sémantique, recette et surveillance 8 semaines.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/optimiser-fiche-google-business",
