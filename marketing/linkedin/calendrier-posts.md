@@ -67,7 +67,7 @@ Ce qu'il faut surveiller mois par mois plutôt que les positions : indexation, i
 
 #SEO #Acquisition
 
-## Post 7 · mar. 21/07 · Mythe llms.txt
+## Post 7 · mar. 21/07 · Mythe llms.txt [PUBLIÉ LI+IG, FB échec : page Essor absente de la connexion Zapier, re-connecter le compte]
 Le llms.txt est le paratonnerre contre la sécheresse du SEO en 2026.
 
 Beaucoup de prestataires le vendent comme LE levier de visibilité IA. Les faits :
@@ -108,7 +108,7 @@ Coût : une demi-journée. Durée de vie : 12 mois.
 
 #ContentMarketing #GEO
 
-## Post 8 · mer. 22/07 · SEO ou SEA
+## Post 8 · mer. 22/07 · SEO ou SEA [PUBLIÉ LI+IG, FB échec : page Essor absente de la connexion Zapier, re-connecter le compte]
 SEO ou Google Ads ? Mauvaise question. La bonne : dans quel ordre.
 
 Coût par client comparé sur nos missions à 12 et 36 mois :
@@ -121,7 +121,7 @@ Souvent la réponse est « les deux », rarement « les deux en même temps dès
 
 #SEO #GoogleAds #Stratégie
 
-## Post 9 · jeu. 23/07 · Pièges de facturation
+## Post 9 · ven. 31/07 · Pièges de facturation (non publié le 23/07, reprogrammé)
 4 clauses à lire avant de signer avec une agence SEO :
 
 1. Engagement 12 mois avant tout résultat. Un prestataire confiant accepte 3 mois.
@@ -133,7 +133,7 @@ Aucune de ces clauses n'est illégale. Chacune déplace le risque vers vous.
 
 #SEO #PME
 
-## Post 10 · ven. 24/07 · AI Overviews
+## Post 10 · ven. 24/07 · AI Overviews [PUBLIÉ LI+IG, FB échec : page Essor absente de la connexion Zapier, re-connecter le compte]
 Les AI Overviews ont fait baisser les clics de 23 % sur les pages informationnelles exposées.
 
 C'est la médiane sur 12 sites suivis depuis leur arrivée en France.
