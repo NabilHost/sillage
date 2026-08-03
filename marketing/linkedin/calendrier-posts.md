@@ -36,7 +36,8 @@ Protocole de test complet dans l'article (lien en commentaire).
 
 #ChatGPT #GEO #SEO
 
-## Post 2 · jeu. 30/07 · Coût agence SEO (non publié le 14/07, reprogrammé)
+## Post 2 · jeu. 30/07 · Coût agence SEO (non publié le 14/07, reprogrammé) [PUBLIÉ LI+IG, FB échec : page Essor absente de la connexion Zapier, re-connecter le compte]
+Image : /images/social/post-02.jpg (fallback social-essor.jpg si pas encore en ligne)
 Combien coûte une agence SEO en France en 2026 ?
 
 On a relevé les grilles publiques de 30 agences :
@@ -122,6 +123,7 @@ Souvent la réponse est « les deux », rarement « les deux en même temps dès
 #SEO #GoogleAds #Stratégie
 
 ## Post 9 · ven. 31/07 · Pièges de facturation (non publié le 23/07, reprogrammé)
+Image : /images/social/post-09.jpg (fallback social-essor.jpg si pas encore en ligne)
 4 clauses à lire avant de signer avec une agence SEO :
 
 1. Engagement 12 mois avant tout résultat. Un prestataire confiant accepte 3 mois.
@@ -149,7 +151,8 @@ La question n'est plus « comment éviter les AI Overviews » mais « comment y 
 
 #AIOverviews #SEO #Google
 
-## Post 11 · lun. 27/07 · Protocole 30 requêtes
+## Post 11 · lun. 03/08 · Protocole 30 requêtes (non publié le 27/07, reprogrammé)
+Image : /images/social/post-11.jpg (fallback social-essor.jpg si pas encore en ligne)
 Testez votre visibilité dans ChatGPT en 45 minutes, sans outil payant.
 
 Le protocole qu'on applique chaque mois sur nos comptes :
@@ -163,7 +166,8 @@ Repères sur notre panel : un site travaillé ressort sur 20 à 35 % de ses requ
 
 #GEO #ChatGPT
 
-## Post 12 · mar. 28/07 · Répartition budget SEO
+## Post 12 · mar. 28/07 · Répartition budget SEO [PUBLIÉ LI+IG, FB échec : page Essor absente de la connexion Zapier, re-connecter le compte]
+Image : /images/social/post-12.jpg (fallback social-essor.jpg si pas encore en ligne)
 À quoi ressemble un budget SEO bien dépensé ? La répartition qu'on défend :
 
 Début de mission :
@@ -180,7 +184,8 @@ Demandez cette répartition dans le devis. Sa simple présence est un bon filtre
 
 #SEO #Budget
 
-## Post 13 · mer. 29/07 · Bilan + audit
+## Post 13 · mar. 04/08 · Bilan + audit (non publié le 29/07, reprogrammé)
+Image : /images/social/post-13.jpg (fallback social-essor.jpg si pas encore en ligne)
 Un mois de partage de données de mission. Ce qui a le plus résonné :
 
 - Les citations ChatGPT se gagnent avec 3 facteurs mesurables, pas avec un fichier magique
