@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/cout-creation-site-internet-2026",
+    category: "Sites web",
+    date: "2026-08-03",
+    dateDisplay: "3 août 2026",
+    reading: "8 min",
+    title: "Combien coûte la création d'un site internet en 2026 ?",
+    excerpt:
+      "Site vitrine : 1 500 à 6 000 € HT. E-commerce : 8 000 à 25 000 €. Le coût de possession à 3 ans double la facture, et 60 % des devis omettent contenus, migration et maintenance.",
+    wide: true,
+  },
+  {
     href: "/blog/agence-seo-ou-freelance",
     category: "SEO",
     date: "2026-07-16",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Agence SEO ou freelance : comment choisir sans se tromper ?",
     excerpt:
       "Freelance senior : 600 à 1 500 € HT/mois. Agence : 1 500 à 3 500 €. Les trois critères qui comptent (heures senior, continuité, périmètre) et le seuil des 800 € HT.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/refonte-site-sans-perdre-seo",

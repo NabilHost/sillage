@@ -122,7 +122,7 @@ Souvent la réponse est « les deux », rarement « les deux en même temps dès
 
 #SEO #GoogleAds #Stratégie
 
-## Post 9 · ven. 31/07 · Pièges de facturation (non publié le 23/07, reprogrammé)
+## Post 9 · jeu. 06/08 · Pièges de facturation (non publié le 23/07 ni le 31/07, reprogrammé) [PUBLIÉ LI+IG, FB échec : les 4 connexions Facebook Pages de Zapier sont invalides (session expirée / aucune page listée), reconnecter le compte]
 Image : /images/social/post-09.jpg (fallback social-essor.jpg si pas encore en ligne)
 4 clauses à lire avant de signer avec une agence SEO :
 
@@ -151,7 +151,7 @@ La question n'est plus « comment éviter les AI Overviews » mais « comment y 
 
 #AIOverviews #SEO #Google
 
-## Post 11 · lun. 03/08 · Protocole 30 requêtes (non publié le 27/07, reprogrammé)
+## Post 11 · ven. 07/08 · Protocole 30 requêtes (non publié le 27/07 ni le 03/08, reprogrammé)
 Image : /images/social/post-11.jpg (fallback social-essor.jpg si pas encore en ligne)
 Testez votre visibilité dans ChatGPT en 45 minutes, sans outil payant.
 
@@ -184,7 +184,7 @@ Demandez cette répartition dans le devis. Sa simple présence est un bon filtre
 
 #SEO #Budget
 
-## Post 13 · mar. 04/08 · Bilan + audit (non publié le 29/07, reprogrammé)
+## Post 13 · lun. 10/08 · Bilan + audit (non publié le 29/07 ni le 04/08, reprogrammé)
 Image : /images/social/post-13.jpg (fallback social-essor.jpg si pas encore en ligne)
 Un mois de partage de données de mission. Ce qui a le plus résonné :
 
@@ -197,3 +197,12 @@ La suite : un article par jour sur le blog, les données de nos missions chaque 
 Votre marché justifie-t-il un investissement SEO ? Envoyez votre URL : audit chiffré sous 10 jours, score sur 100, trois priorités. Et un avis honnête si la réponse est non.
 
 #SEO #GoogleAds #VisibilitéIA
+
+---
+
+## Journal de continuité
+
+- 06/08/2026 : trous de publication constatés sur 4 jours ouvrés (31/07, 03/08, 04/08, 05/08). Post 9 publié aujourd'hui, Post 11 replacé au 07/08, Post 13 au 10/08.
+- Facebook : les 4 connexions « Facebook Pages » de Zapier sont hors service (2 sessions invalidées, 2 ne listent aucune page). Aucun post Facebook possible tant que le compte n'est pas reconnecté dans Zapier.
+- LinkedIn : l'envoi avec le paramètre `image` renvoie « Could not find entity ». Les posts LinkedIn partent donc en texte seul ; l'image dédiée reste utilisée sur Instagram.
+- Calendrier épuisé après le Post 13 (10/08) : générer les posts suivants à partir des articles publiés.
