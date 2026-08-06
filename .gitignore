@@ -10,3 +10,6 @@ next-env.d.ts
 tsconfig.tsbuildinfo
 .vercel
 scripts/*.log
+
+# Donnees de prospection : JAMAIS dans le depot public
+marketing/prospection/
