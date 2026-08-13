@@ -1,4 +1,4 @@
-# Calendrier LinkedIn Essor : 13 posts (13 au 29 juillet 2026)
+# Calendrier LinkedIn Essor : 14 posts (13 juillet au 17 août 2026)
 
 Rythme : 1 post par jour ouvré vers 8h30, publié automatiquement par la routine quotidienne via Zapier (page id 135966079).
 Règle de la routine : si une trend chaude est détectée dans la veille du jour, elle REMPLACE le post prévu du calendrier (le post décalé glisse au jour ouvré suivant). Marquer chaque post publié avec [PUBLIÉ].
@@ -151,7 +151,7 @@ La question n'est plus « comment éviter les AI Overviews » mais « comment y 
 
 #AIOverviews #SEO #Google
 
-## Post 11 · ven. 07/08 · Protocole 30 requêtes (non publié le 27/07 ni le 03/08, reprogrammé)
+## Post 11 · ven. 14/08 · Protocole 30 requêtes (non publié le 27/07, 03/08 ni 07/08, reprogrammé)
 Image : /images/social/post-11.jpg (fallback social-essor.jpg si pas encore en ligne)
 Testez votre visibilité dans ChatGPT en 45 minutes, sans outil payant.
 
@@ -184,7 +184,7 @@ Demandez cette répartition dans le devis. Sa simple présence est un bon filtre
 
 #SEO #Budget
 
-## Post 13 · lun. 10/08 · Bilan + audit (non publié le 29/07 ni le 04/08, reprogrammé)
+## Post 13 · lun. 17/08 · Bilan + audit (non publié le 29/07, 04/08 ni 10/08, reprogrammé)
 Image : /images/social/post-13.jpg (fallback social-essor.jpg si pas encore en ligne)
 Un mois de partage de données de mission. Ce qui a le plus résonné :
 
@@ -198,10 +198,35 @@ Votre marché justifie-t-il un investissement SEO ? Envoyez votre URL : audit ch
 
 #SEO #GoogleAds #VisibilitéIA
 
+## Post 14 · jeu. 13/08 · TREND Google Ads 17 août (remplace le post du calendrier prévu ce jour) [PUBLIÉ LI+IG, FB échec auth : aucune page listée sur les 4 connexions Facebook Pages]
+Image : /images/social/post-14.jpg (généré le 13/08, pas encore déployé ; fallback social-essor.jpg utilisé sur Instagram)
+Le 17 août, Google Ads change une règle qui touche toutes les campagnes limitées par le budget. Il reste 4 jours.
+
+Aujourd'hui, une campagne bridée par son budget avec un CPA cible à 40 € qui livre à 22 € garde son avantage : Google optimise sous la cible.
+
+À partir du 17 août, l'algorithme optimise vers la cible affichée. Une campagne qui surperformait va tendre vers ses 40 €. Même budget, moins de conversions.
+
+Concerné : Search, Shopping, Performance Max et Demand Gen, au statut « Limité par le budget », en CPA cible ou ROAS cible.
+
+Ce qu'on fait cette semaine sur les comptes clients :
+- lister les campagnes en « Limité par le budget »
+- comparer CPA réel et CPA cible sur 90 jours
+- ramener la cible au niveau réellement observé, pas au niveau souhaité
+- augmenter le budget là où le CPA réel reste rentable
+
+La concession honnête : sur un compte déjà aligné, où le CPA réel colle à la cible, il n'y aura rien à voir. Le sujet ne concerne que ceux qui ont laissé une cible confortable très au-dessus de la réalité.
+
+Votre cible actuelle correspond-elle à ce que vous êtes prêt à payer, ou à ce que vous aviez saisi il y a un an ?
+
+#GoogleAds #SEA
+
 ---
 
 ## Journal de continuité
 
+- 13/08/2026 : trous de publication sur 4 jours ouvrés (07/08, 10/08, 11/08, 12/08). Trend chaude détectée (changement Google Ads du 17/08 sur les enchères à cible en campagnes limitées par le budget) : Post 14 rédigé et publié aujourd'hui à la place du calendrier. Post 11 replacé au 14/08, Post 13 au 17/08.
+- 13/08/2026 : visuel post-14.jpg généré dans public/images/social/. Il ne sera en ligne qu'après le prochain déploiement fait par le job de la machine ; fallback social-essor.jpg utilisé sur Instagram.
+- 13/08/2026 : Facebook toujours HS. Les 4 connexions « Facebook Pages » ne listent aucune page (testé sur les connexions 65185572 et 65185068). Reconnecter le compte dans Zapier.
 - 06/08/2026 : trous de publication constatés sur 4 jours ouvrés (31/07, 03/08, 04/08, 05/08). Post 9 publié aujourd'hui, Post 11 replacé au 07/08, Post 13 au 10/08.
 - Facebook : les 4 connexions « Facebook Pages » de Zapier sont hors service (2 sessions invalidées, 2 ne listent aucune page). Aucun post Facebook possible tant que le compte n'est pas reconnecté dans Zapier.
 - LinkedIn : l'envoi avec le paramètre `image` renvoie « Could not find entity ». Les posts LinkedIn partent donc en texte seul ; l'image dédiée reste utilisée sur Instagram.
