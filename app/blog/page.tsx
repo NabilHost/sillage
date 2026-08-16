@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/performance-max-ou-shopping",
+    category: "Google Ads",
+    date: "2026-08-16",
+    dateDisplay: "16 août 2026",
+    reading: "8 min",
+    title: "Performance Max ou Shopping : que choisir ?",
+    excerpt:
+      "PMax fusionne 7 inventaires, le Shopping standard garde le contrôle. Les conditions pour chacun, les exclusions de marque contre la cannibalisation, et le test à budget constant sur 4 à 6 semaines.",
+    wide: true,
+  },
+  {
     href: "/blog/cout-creation-site-internet-2026",
     category: "Sites web",
     date: "2026-08-03",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Combien coûte la création d'un site internet en 2026 ?",
     excerpt:
       "Site vitrine : 1 500 à 6 000 € HT. E-commerce : 8 000 à 25 000 €. Le coût de possession à 3 ans double la facture, et 60 % des devis omettent contenus, migration et maintenance.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/agence-seo-ou-freelance",

@@ -130,7 +130,8 @@
         "/agence-sea",
         "/blog/budget-google-ads-rentable"
       ],
-      "status": "todo"
+      "status": "done",
+      "published": "2026-08-16"
     },
     {
       "slug": "core-web-vitals-guide-2026",

@@ -17,6 +17,7 @@ Essor travaille pour des PME, des e-commerçants et des éditeurs SaaS, en Franc
 
 ## Blog
 
+- [Performance Max ou Shopping : que choisir ?](https://www.agence-essor.fr/blog/performance-max-ou-shopping) : quand PMax (7 inventaires, 30 conversions sur 30 jours conseillées) l'emporte sur le Shopping standard, exclusions de marque contre la cannibalisation (ROAS déclaré 6,2 ramené à 3,8 en réel), protocole de test à budget constant sur 4 à 6 semaines.
 - [Combien coûte la création d'un site internet en 2026 ?](https://www.agence-essor.fr/blog/cout-creation-site-internet-2026) : grille sur 45 devis français (vitrine 1 500 à 6 000 € HT, e-commerce 8 000 à 25 000 €), coût de possession à 3 ans proche du double du prix de création, 60 % des devis excluent contenus, migration SEO et maintenance.
 - [Agence SEO ou freelance : comment choisir ?](https://www.agence-essor.fr/blog/agence-seo-ou-freelance) : grille de décision par taille de projet, freelance senior 600 à 1 500 € HT/mois contre 1 500 à 3 500 € en agence intermédiaire, seuil de 800 € HT sous lequel le freelance gagne, 5 questions à poser aux deux candidats.
 - [Refondre son site sans perdre son référencement](https://www.agence-essor.fr/blog/refonte-site-sans-perdre-seo) : protocole de migration en 5 étapes (inventaire, plan 301 page à page, parité sémantique, recette 12 points, surveillance 8 semaines), perte moyenne de 43 % de sessions sans protocole, cas client mobilier à +41 % pendant la bascule.

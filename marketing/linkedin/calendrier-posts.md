@@ -151,8 +151,8 @@ La question n'est plus « comment éviter les AI Overviews » mais « comment y 
 
 #AIOverviews #SEO #Google
 
-## Post 11 · ven. 14/08 · Protocole 30 requêtes (non publié le 27/07, 03/08 ni 07/08, reprogrammé)
-Image : /images/social/post-11.jpg (fallback social-essor.jpg si pas encore en ligne)
+## Post 11 · ven. 14/08 · Protocole 30 requêtes (non publié le 27/07, 03/08 ni 07/08, reprogrammé) [PUBLIÉ LI+IG, FB échec auth : session invalidée sur une connexion, aucune page listée sur les autres]
+Image : /images/social/post-11.jpg (en ligne, utilisée sur Instagram)
 Testez votre visibilité dans ChatGPT en 45 minutes, sans outil payant.
 
 Le protocole qu'on applique chaque mois sur nos comptes :
@@ -224,6 +224,9 @@ Votre cible actuelle correspond-elle à ce que vous êtes prêt à payer, ou à 
 
 ## Journal de continuité
 
+- 14/08/2026 : Post 11 publié sur LinkedIn et Instagram. Aucun trou de publication à combler (13/08 couvert par le Post 14). Visuel post-11.jpg confirmé en ligne en 1080x1080, utilisé sur Instagram.
+- 14/08/2026 : veille du jour sans actu chaude exploitable. Une rumeur de core update Google début août circule (sources SEO, non confirmée par Google) : à transmettre à l'agent blog, pas de post trend rédigé faute de donnée vérifiable.
+- 14/08/2026 : Facebook toujours HS. Connexion 65185333 : « session has been invalidated ». Connexion 65185561 : aucune page listée. Reconnecter le compte dans Zapier.
 - 13/08/2026 : trous de publication sur 4 jours ouvrés (07/08, 10/08, 11/08, 12/08). Trend chaude détectée (changement Google Ads du 17/08 sur les enchères à cible en campagnes limitées par le budget) : Post 14 rédigé et publié aujourd'hui à la place du calendrier. Post 11 replacé au 14/08, Post 13 au 17/08.
 - 13/08/2026 : visuel post-14.jpg généré dans public/images/social/. Il ne sera en ligne qu'après le prochain déploiement fait par le job de la machine ; fallback social-essor.jpg utilisé sur Instagram.
 - 13/08/2026 : Facebook toujours HS. Les 4 connexions « Facebook Pages » ne listent aucune page (testé sur les connexions 65185572 et 65185068). Reconnecter le compte dans Zapier.
