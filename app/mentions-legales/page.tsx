@@ -24,7 +24,7 @@ export default function MentionsLegalesPage() {
       <div className="article-prose mt-10">
         <h2>Éditeur du site</h2>
         <p>
-          Essor Agence SAS, capital de 10 000 €, RCS Paris 000 000 000.
+          Essor Agence SAS, capital de 10 000 €, RCS Paris 929 407 435.
           <br />
           Siège social : 194 quai de Jemmapes, 75010 Paris.
           <br />
