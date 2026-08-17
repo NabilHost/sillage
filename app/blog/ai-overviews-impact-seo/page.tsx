@@ -233,7 +233,8 @@ export default function ArticlePage() {
             <Link href="/referencement-ia-geo">référencement IA (GEO)</Link> détaille le
             programme complet, notre <Link href="/agence-seo">offre SEO</Link> couvre le
             socle indispensable, et la <Link href="/a-propos">méthode Essor</Link>{" "}
-            explique comment chaque recommandation est vérifiée.
+            explique comment chaque recommandation est vérifiée. Sur le même sujet :{" "}
+            <Link href="/blog/etre-cite-par-chatgpt">comment être cité par ChatGPT</Link>.
           </p>
         </div>
       </div>

@@ -184,9 +184,9 @@ Demandez cette répartition dans le devis. Sa simple présence est un bon filtre
 
 #SEO #Budget
 
-## Post 13 · lun. 17/08 · Bilan + audit (non publié le 29/07, 04/08 ni 10/08, reprogrammé)
-Image : /images/social/post-13.jpg (fallback social-essor.jpg si pas encore en ligne)
-Un mois de partage de données de mission. Ce qui a le plus résonné :
+## Post 13 · lun. 17/08 · Bilan + audit (non publié le 29/07, 04/08 ni 10/08, reprogrammé) [PUBLIÉ LI+IG, FB échec auth : session invalidée / aucune page listée sur les 4 connexions]
+Image : /images/social/post-13.jpg (en ligne, utilisée sur Instagram)
+13 posts en un mois de partage de données de mission. Ce qui a le plus résonné :
 
 - Les citations ChatGPT se gagnent avec 3 facteurs mesurables, pas avec un fichier magique
 - Le SEO rentable est une propriété de votre marché avant d'être une promesse d'agence
@@ -224,6 +224,10 @@ Votre cible actuelle correspond-elle à ce que vous êtes prêt à payer, ou à 
 
 ## Journal de continuité
 
+- 17/08/2026 : Post 13 publié sur LinkedIn et Instagram (urn:li:share:7495010220709023744 / IG 18113204767949977). Visuel dédié post-13.jpg confirmé en ligne en 1080x1080 et utilisé sur Instagram. Première ligne légèrement réécrite pour placer un chiffre dès l'ouverture.
+- 17/08/2026 : aucun trou de publication. 13/08 = Post 14, 14/08 = Post 11, 17/08 = Post 13. Calendrier désormais ÉPUISÉ : à partir du 18/08, générer chaque post à partir d'un article de blog publié, l'ajouter ici et produire son visuel dédié.
+- 17/08/2026 : veille sans actu chaude nécessitant un post trend. Le changement Google Ads sur les campagnes limitées par le budget entre en vigueur aujourd'hui, mais il est déjà couvert par le Post 14 du 13/08 : pas de doublon. Signal transmis à l'agent blog : (a) volatilité SERP non confirmée par Google depuis début août, (b) bascule des parts de trafic IA (ChatGPT autour de 53 % du trafic chatbots contre 76 % un an plus tôt, Gemini au-dessus du quart).
+- 17/08/2026 : Facebook toujours HS. Connexion 65185572 : aucune page listée. Connexion 65185068 : « session has been invalidated ». Reconnecter le compte dans Zapier.
 - 14/08/2026 : Post 11 publié sur LinkedIn et Instagram. Aucun trou de publication à combler (13/08 couvert par le Post 14). Visuel post-11.jpg confirmé en ligne en 1080x1080, utilisé sur Instagram.
 - 14/08/2026 : veille du jour sans actu chaude exploitable. Une rumeur de core update Google début août circule (sources SEO, non confirmée par Google) : à transmettre à l'agent blog, pas de post trend rédigé faute de donnée vérifiable.
 - 14/08/2026 : Facebook toujours HS. Connexion 65185333 : « session has been invalidated ». Connexion 65185561 : aucune page listée. Reconnecter le compte dans Zapier.

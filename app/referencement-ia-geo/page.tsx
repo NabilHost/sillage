@@ -113,7 +113,10 @@ export default function GeoPage() {
               <Link href="/agence-seo" className="underline underline-offset-2 hover:text-accent">Accompagnement SEO</Link>{" "}
               (le socle indispensable),{" "}
               <Link href="/creation-site-web" className="underline underline-offset-2 hover:text-accent">Création de site</Link>{" "}
-              pour des blocs de réponse intégrés dès la conception.
+              pour des blocs de réponse intégrés dès la conception. À lire aussi :{" "}
+              <Link href="/blog/etre-cite-par-chatgpt" className="underline underline-offset-2 hover:text-accent">comment être cité par ChatGPT</Link>{" "}
+              et{" "}
+              <Link href="/blog/ai-overviews-impact-seo" className="underline underline-offset-2 hover:text-accent">l&apos;impact des AI Overviews sur le SEO</Link>.
             </>
           ),
         }}

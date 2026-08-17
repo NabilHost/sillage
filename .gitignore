@@ -13,3 +13,4 @@ scripts/*.log
 
 # Donnees de prospection : JAMAIS dans le depot public
 marketing/prospection/
+scripts/seo-reports/
