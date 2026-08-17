@@ -146,7 +146,8 @@
         "/creation-site-web",
         "/agence-seo"
       ],
-      "status": "todo"
+      "status": "done",
+      "published": "2026-08-17"
     },
     {
       "slug": "seo-local-pme-artisans",

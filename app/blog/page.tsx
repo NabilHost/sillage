@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/core-web-vitals-guide-2026",
+    category: "Technique",
+    date: "2026-08-17",
+    dateDisplay: "17 août 2026",
+    reading: "8 min",
+    title: "Core Web Vitals 2026 : LCP, INP et CLS expliqués",
+    excerpt:
+      "LCP sous 2,5 s, INP sous 200 ms, CLS sous 0,1, au 75e centile des vrais utilisateurs. Comment corriger chaque goulot, et pourquoi l'INP a rendu périmés les guides qui parlent encore de FID.",
+    wide: true,
+  },
+  {
     href: "/blog/performance-max-ou-shopping",
     category: "Google Ads",
     date: "2026-08-16",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Performance Max ou Shopping : que choisir ?",
     excerpt:
       "PMax fusionne 7 inventaires, le Shopping standard garde le contrôle. Les conditions pour chacun, les exclusions de marque contre la cannibalisation, et le test à budget constant sur 4 à 6 semaines.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/cout-creation-site-internet-2026",
