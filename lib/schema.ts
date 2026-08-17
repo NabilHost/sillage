@@ -28,7 +28,7 @@ export function organizationSchema() {
       postalCode: SITE.zip,
       addressCountry: "FR",
     },
-    geo: { "@type": "GeoCoordinates", latitude: 48.8687, longitude: 2.3474 },
+    geo: { "@type": "GeoCoordinates", latitude: 48.8735, longitude: 2.3665 },
     areaServed: { "@type": "Country", name: "France" },
     knowsAbout: [
       "SEO",

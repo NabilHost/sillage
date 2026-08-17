@@ -26,7 +26,7 @@ export default function MentionsLegalesPage() {
         <p>
           Essor Agence SAS, capital de 10 000 €, RCS Paris 000 000 000.
           <br />
-          Siège social : 14 rue du Sentier, 75002 Paris.
+          Siège social : 194 quai de Jemmapes, 75010 Paris.
           <br />
           Directeur de la publication : Nabil Brahim.
           <br />

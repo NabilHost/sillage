@@ -11,7 +11,7 @@ import { SITE } from "@/lib/site";
 export const metadata = generatePageMetadata({
   title: "Contact : demander un audit gratuit | Essor",
   description:
-    "Demandez un audit SEO, Google Ads ou de citabilité IA. Réponse sous 48 h ouvrées, premier livrable sous 10 jours. Essor, 14 rue du Sentier, Paris 2e",
+    "Demandez un audit SEO, Google Ads ou de citabilité IA. Réponse sous 48 h ouvrées, premier livrable sous 10 jours. Essor, 194 quai de Jemmapes, Paris 10e",
   path: "/contact",
   titleAbsolute: true,
 });

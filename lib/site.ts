@@ -8,9 +8,9 @@ export const SITE = {
   email: "contact@agence-essor.fr",
   phone: "+33695972290",
   phoneDisplay: "06 95 97 22 90",
-  street: "14 rue du Sentier",
+  street: "194 quai de Jemmapes",
   city: "Paris",
-  zip: "75002",
+  zip: "75010",
 } as const;
 
 export const NAV_SERVICES = [
