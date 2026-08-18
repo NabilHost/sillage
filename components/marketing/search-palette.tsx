@@ -12,6 +12,7 @@ const PAGES = [
 ];
 
 const ARTICLES = [
+  { label: "Comment être cité par Perplexity ?", href: "/blog/etre-cite-par-perplexity" },
   { label: "Core Web Vitals 2026 : LCP, INP, CLS", href: "/blog/core-web-vitals-guide-2026" },
   { label: "Performance Max ou Shopping : que choisir ?", href: "/blog/performance-max-ou-shopping" },
   { label: "Combien coûte un site internet en 2026 ?", href: "/blog/cout-creation-site-internet-2026" },

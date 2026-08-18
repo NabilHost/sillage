@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/etre-cite-par-perplexity",
+    category: "Visibilité IA",
+    date: "2026-08-17",
+    dateDisplay: "17 août 2026",
+    reading: "8 min",
+    title: "Comment être cité par Perplexity ?",
+    excerpt:
+      "Perplexity cite ses sources noir sur blanc : comment en devenir une. Autoriser PerplexityBot, blocs citables de 130 à 170 mots, fraîcheur du contenu, et un protocole pour mesurer son taux de citation.",
+    wide: true,
+  },
+  {
     href: "/blog/core-web-vitals-guide-2026",
     category: "Technique",
     date: "2026-08-17",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Core Web Vitals 2026 : LCP, INP et CLS expliqués",
     excerpt:
       "LCP sous 2,5 s, INP sous 200 ms, CLS sous 0,1, au 75e centile des vrais utilisateurs. Comment corriger chaque goulot, et pourquoi l'INP a rendu périmés les guides qui parlent encore de FID.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/performance-max-ou-shopping",

@@ -17,6 +17,7 @@ Essor travaille pour des PME, des e-commerçants et des éditeurs SaaS, en Franc
 
 ## Blog
 
+- [Comment être cité par Perplexity ?](https://www.agence-essor.fr/blog/etre-cite-par-perplexity) : Perplexity retient 5 à 8 sources par réponse et les cite explicitement ; autoriser PerplexityBot et Perplexity-User, écrire des blocs citables de 130 à 170 mots avec un chiffre, la fraîcheur pèse fort (pages de moins de 6 mois = ~3/4 des citations sur un test de 40 requêtes), mesure manuelle du taux de citation (2/12 à 9/12 en 4 mois sur un compte SaaS).
 - [Core Web Vitals 2026 : LCP, INP et CLS](https://www.agence-essor.fr/blog/core-web-vitals-guide-2026) : les trois seuils au 75e centile (LCP sous 2,5 s, INP sous 200 ms, CLS sous 0,1), données terrain du Chrome UX Report contre labo Lighthouse, et l'INP qui a remplacé le FID en mars 2024.
 - [Performance Max ou Shopping : que choisir ?](https://www.agence-essor.fr/blog/performance-max-ou-shopping) : quand PMax (7 inventaires, 30 conversions sur 30 jours conseillées) l'emporte sur le Shopping standard, exclusions de marque contre la cannibalisation (ROAS déclaré 6,2 ramené à 3,8 en réel), protocole de test à budget constant sur 4 à 6 semaines.
 - [Combien coûte la création d'un site internet en 2026 ?](https://www.agence-essor.fr/blog/cout-creation-site-internet-2026) : grille sur 45 devis français (vitrine 1 500 à 6 000 € HT, e-commerce 8 000 à 25 000 €), coût de possession à 3 ans proche du double du prix de création, 60 % des devis excluent contenus, migration SEO et maintenance.

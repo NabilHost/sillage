@@ -193,6 +193,16 @@
         "/creation-site-web"
       ],
       "status": "todo"
+    },
+    {
+      "slug": "etre-cite-par-perplexity",
+      "keyword": "être cité par Perplexity",
+      "intent": "informational",
+      "category": "Visibilité IA",
+      "author": "claire",
+      "status": "done",
+      "published": "2026-08-17",
+      "trend": true
     }
   ]
 }
