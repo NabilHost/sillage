@@ -28,9 +28,9 @@ export default function MentionsLegalesPage() {
           <br />
           Siège social : 194 quai de Jemmapes, 75010 Paris.
           <br />
-          Directeur de la publication : Nabil Brahim.
+          Représentant légal et directeur de la publication : Nabil Brahim, CEO.
           <br />
-          Contact : bonjour@agence-essor.fr, 01 45 00 00 00.
+          Contact : contact@agence-essor.fr, 06 95 97 22 90.
         </p>
         <h2>Hébergement</h2>
         <p>
@@ -43,7 +43,7 @@ export default function MentionsLegalesPage() {
           traiter votre demande. Elles ne sont ni cédées ni utilisées à des fins de
           prospection sans votre accord. Conformément au RGPD, vous pouvez exercer vos
           droits d&apos;accès, de rectification et de suppression en écrivant à
-          bonjour@agence-essor.fr.
+          contact@agence-essor.fr.
         </p>
         <h2>Cookies</h2>
         <p>
