@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/seo-local-pme-artisans",
+    category: "SEO local",
+    date: "2026-08-23",
+    dateDisplay: "23 août 2026",
+    reading: "8 min",
+    title: "SEO local pour PME : par où commencer ?",
+    excerpt:
+      "Les 3 couches du référencement local (fiche Google, NAP, avis), comment couvrir plusieurs villes sans doorway pages, et le seuil de 30 pages villes au-delà duquel Google pénalise.",
+    wide: true,
+  },
+  {
     href: "/blog/etre-cite-par-perplexity",
     category: "Visibilité IA",
     date: "2026-08-17",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Comment être cité par Perplexity ?",
     excerpt:
       "Perplexity cite ses sources noir sur blanc : comment en devenir une. Autoriser PerplexityBot, blocs citables de 130 à 170 mots, fraîcheur du contenu, et un protocole pour mesurer son taux de citation.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/core-web-vitals-guide-2026",

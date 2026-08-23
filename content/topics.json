@@ -162,7 +162,8 @@
         "/agence-seo",
         "/blog/optimiser-fiche-google-business"
       ],
-      "status": "todo"
+      "status": "done",
+      "published": "2026-08-23"
     },
     {
       "slug": "donnees-structurees-seo-guide",

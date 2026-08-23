@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/a-propos`, lastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.url}/resultats`, lastModified, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/blog`, lastModified, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${SITE.url}/blog/seo-local-pme-artisans`, lastModified: new Date("2026-08-23"), changeFrequency: "yearly", priority: 0.65 },
     { url: `${SITE.url}/blog/etre-cite-par-perplexity`, lastModified: new Date("2026-08-17"), changeFrequency: "yearly", priority: 0.65 },
     { url: `${SITE.url}/blog/core-web-vitals-guide-2026`, lastModified: new Date("2026-08-17"), changeFrequency: "yearly", priority: 0.65 },
     { url: `${SITE.url}/blog/performance-max-ou-shopping`, lastModified: new Date("2026-08-16"), changeFrequency: "yearly", priority: 0.65 },
