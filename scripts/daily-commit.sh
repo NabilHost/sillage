@@ -21,7 +21,7 @@ SITEURL="https://www.agence-essor.fr"
 alert() { osascript -e "display notification \"$1\" with title \"Essor blog\" sound name \"Basso\"" >/dev/null 2>&1; }
 info()  { osascript -e "display notification \"$1\" with title \"Essor blog\"" >/dev/null 2>&1; }
 fail()  { echo "$1"; print -r -- "$1" > "$FLAG"; alert "$2"; }
-push()  { git push origin main || { sleep 15; git push origin main; }; }
+push()  { for i in 1 2 3 4 5 6; do git push origin main && return 0; sleep 30; done; return 1; }
 
 # Auto-indexation : pousse à Google les articles ajoutés/modifiés dans le dernier commit.
 index_new_articles() {
