@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/donnees-structurees-seo-guide",
+    category: "Technique",
+    date: "2026-08-26",
+    dateDisplay: "26 août 2026",
+    reading: "8 min",
+    title: "Données structurées SEO : le guide pratique 2026",
+    excerpt:
+      "Six types JSON-LD couvrent 90 % des besoins, Google a retiré FAQ et HowTo des rich results, et 62 % des sites français audités portent au moins deux erreurs bloquantes.",
+    wide: true,
+  },
+  {
     href: "/blog/seo-local-pme-artisans",
     category: "SEO local",
     date: "2026-08-23",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "SEO local pour PME : par où commencer ?",
     excerpt:
       "Les 3 couches du référencement local (fiche Google, NAP, avis), comment couvrir plusieurs villes sans doorway pages, et le seuil de 30 pages villes au-delà duquel Google pénalise.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/etre-cite-par-perplexity",

@@ -178,7 +178,8 @@
         "/referencement-ia-geo",
         "/agence-seo"
       ],
-      "status": "todo"
+      "status": "done",
+      "published": "2026-08-26"
     },
     {
       "slug": "taux-de-conversion-landing-page",

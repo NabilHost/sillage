@@ -12,6 +12,7 @@ const PAGES = [
 ];
 
 const ARTICLES = [
+  { label: "Données structurées SEO : le guide pratique 2026", href: "/blog/donnees-structurees-seo-guide" },
   { label: "SEO local pour PME : par où commencer ?", href: "/blog/seo-local-pme-artisans" },
   { label: "Comment être cité par Perplexity ?", href: "/blog/etre-cite-par-perplexity" },
   { label: "Core Web Vitals 2026 : LCP, INP, CLS", href: "/blog/core-web-vitals-guide-2026" },
