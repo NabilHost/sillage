@@ -279,7 +279,9 @@ export default function ArticlePage() {
             <Link href="/blog/ai-overviews-impact-seo">
               AI Overviews : ce que 6 mois de données changent pour votre SEO
             </Link>{" "}
-            couvre le versant Google, et la <Link href="/a-propos">méthode Essor</Link>{" "}
+            couvre le versant Google,{" "}
+            <Link href="/blog/etre-cite-par-perplexity">comment être cité par Perplexity</Link>{" "}
+            l&apos;autre grand moteur génératif, et la <Link href="/a-propos">méthode Essor</Link>{" "}
             explique comment chaque recommandation est vérifiée.
           </p>
         </div>

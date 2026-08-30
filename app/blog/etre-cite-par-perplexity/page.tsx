@@ -256,7 +256,9 @@ export default function ArticlePage() {
             <Link href="/referencement-ia-geo">référencement IA (GEO)</Link> détaille le
             programme complet, l&apos;article{" "}
             <Link href="/blog/etre-cite-par-chatgpt">comment être cité par ChatGPT</Link>{" "}
-            couvre l&apos;autre moteur, et vous pouvez{" "}
+            couvre l&apos;autre moteur,{" "}
+            <Link href="/blog/ai-overviews-impact-seo">l&apos;impact des AI Overviews</Link>{" "}
+            le versant Google, et vous pouvez{" "}
             <Link href="/contact">demander un audit de citabilité IA</Link> pour mesurer
             votre présence de départ.
           </p>

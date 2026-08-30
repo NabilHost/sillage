@@ -234,7 +234,8 @@ export default function ArticlePage() {
             programme complet, notre <Link href="/agence-seo">offre SEO</Link> couvre le
             socle indispensable, et la <Link href="/a-propos">méthode Essor</Link>{" "}
             explique comment chaque recommandation est vérifiée. Sur le même sujet :{" "}
-            <Link href="/blog/etre-cite-par-chatgpt">comment être cité par ChatGPT</Link>.
+            <Link href="/blog/etre-cite-par-chatgpt">comment être cité par ChatGPT</Link>{" "}
+            et <Link href="/blog/etre-cite-par-perplexity">comment être cité par Perplexity</Link>.
           </p>
         </div>
       </div>
