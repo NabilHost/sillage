@@ -205,6 +205,185 @@
       "status": "done",
       "published": "2026-08-17",
       "trend": true
+    },
+    {
+      "slug": "audit-seo-comment-ca-marche",
+      "keyword": "audit SEO",
+      "intent": "informational",
+      "category": "SEO",
+      "kd_est": 24,
+      "volume_est": "1300/mois",
+      "angle": "Ce que contient un audit SEO sérieux (technique, contenu, autorité, GEO), les livrables et le délai, et les 5 red flags d'un audit bidon vendu comme prétexte à un abonnement.",
+      "author": "claire",
+      "links": [
+        "/agence-seo",
+        "/contact",
+        "/blog/cout-agence-seo-2026"
+      ],
+      "status": "todo"
+    },
+    {
+      "slug": "maillage-interne-cocon-semantique",
+      "keyword": "maillage interne SEO",
+      "intent": "informational",
+      "category": "SEO",
+      "kd_est": 21,
+      "volume_est": "720/mois",
+      "angle": "Hub-and-spoke, cocon sémantique, ancres : comment le maillage interne fait remonter des pages sans backlink. Cas mesuré : de la position 26 à la page 1 par le seul maillage.",
+      "author": "claire",
+      "links": [
+        "/agence-seo",
+        "/blog/refonte-site-sans-perdre-seo"
+      ],
+      "status": "todo"
+    },
+    {
+      "slug": "netlinking-backlinks-qualite",
+      "keyword": "netlinking backlinks qualité",
+      "intent": "informational",
+      "category": "SEO",
+      "kd_est": 28,
+      "volume_est": "880/mois",
+      "angle": "Ce qui distingue un backlink qui compte d'un lien inutile : autorité thématique, dofollow, contexte. Pourquoi les packs d'annuaires sont ignorés, et 4 sources de liens réellement efficaces.",
+      "author": "claire",
+      "links": [
+        "/agence-seo"
+      ],
+      "status": "todo"
+    },
+    {
+      "slug": "seo-ecommerce-fiches-produits",
+      "keyword": "SEO fiche produit e-commerce",
+      "intent": "informational",
+      "category": "SEO",
+      "kd_est": 26,
+      "volume_est": "1100/mois",
+      "angle": "Optimiser une fiche produit pour Google et Shopping : balisage Product, contenu unique vs description fabricant, maillage catégorie vers produit, gestion des ruptures et des produits similaires.",
+      "author": "claire",
+      "links": [
+        "/agence-seo",
+        "/creation-site-web"
+      ],
+      "status": "todo"
+    },
+    {
+      "slug": "cout-agence-google-ads",
+      "keyword": "combien coûte une agence Google Ads",
+      "intent": "informational",
+      "category": "Google Ads",
+      "kd_est": 23,
+      "volume_est": "590/mois",
+      "angle": "Honoraires fixes vs pourcentage du budget : pourquoi le % pousse l'agence à dépenser plus. Grille réelle 2026 et seuil de budget sous lequel déléguer n'est pas rentable.",
+      "author": "claire",
+      "links": [
+        "/agence-sea",
+        "/blog/budget-google-ads-rentable"
+      ],
+      "status": "todo"
+    },
+    {
+      "slug": "google-ads-vs-meta-ads",
+      "keyword": "Google Ads ou Meta Ads",
+      "intent": "informational",
+      "category": "Google Ads",
+      "kd_est": 25,
+      "volume_est": "1600/mois",
+      "angle": "Intention vs interruption : quand Google Ads (demande existante) bat Meta (création de désir) et inversement. Arbre de décision par type d'offre, coût par lead comparé.",
+      "author": "claire",
+      "links": [
+        "/agence-sea"
+      ],
+      "status": "todo"
+    },
+    {
+      "slug": "quality-score-google-ads",
+      "keyword": "améliorer quality score Google Ads",
+      "intent": "informational",
+      "category": "Google Ads",
+      "kd_est": 20,
+      "volume_est": "480/mois",
+      "angle": "Les 3 composantes du Quality Score (pertinence annonce, CTR attendu, expérience de la landing), leur impact réel sur le CPC (jusqu'à -50 %), et ce qui relève du mythe.",
+      "author": "claire",
+      "links": [
+        "/agence-sea",
+        "/blog/taux-de-conversion-landing-page"
+      ],
+      "status": "todo"
+    },
+    {
+      "slug": "delai-creation-site-internet",
+      "keyword": "combien de temps pour créer un site internet",
+      "intent": "informational",
+      "category": "Sites web",
+      "kd_est": 18,
+      "volume_est": "720/mois",
+      "angle": "Vitrine 4 à 6 semaines, e-commerce 8 à 14 : le planning réel phase par phase, et les 3 causes de retard (contenus client, allers-retours design, cahier des charges flou).",
+      "author": "claire",
+      "links": [
+        "/creation-site-web",
+        "/blog/cout-creation-site-internet-2026"
+      ],
+      "status": "todo"
+    },
+    {
+      "slug": "site-vitrine-ou-ecommerce",
+      "keyword": "site vitrine ou e-commerce",
+      "intent": "informational",
+      "category": "Sites web",
+      "kd_est": 19,
+      "volume_est": "640/mois",
+      "angle": "Choisir selon le modèle de vente, pas selon l'envie : vitrine et prise de contact vs tunnel d'achat. Coûts, maintenance et implications SEO comparés.",
+      "author": "claire",
+      "links": [
+        "/creation-site-web"
+      ],
+      "status": "todo"
+    },
+    {
+      "slug": "cms-nextjs-vs-wordpress",
+      "keyword": "Next.js ou WordPress",
+      "intent": "informational",
+      "category": "Sites web",
+      "kd_est": 27,
+      "volume_est": "1300/mois",
+      "angle": "Performance et sécurité (Next.js) vs autonomie éditoriale (WordPress) : le vrai arbitrage 2026, avec l'impact sur les Core Web Vitals et le coût de possession à 3 ans.",
+      "author": "claire",
+      "links": [
+        "/creation-site-web",
+        "/blog/core-web-vitals-guide-2026"
+      ],
+      "status": "todo"
+    },
+    {
+      "slug": "etre-cite-par-gemini",
+      "keyword": "être cité par Gemini",
+      "intent": "informational",
+      "category": "Visibilité IA",
+      "kd_est": 22,
+      "volume_est": "390/mois",
+      "angle": "Google AI Mode et Gemini : comment devenir une source citée. Différences avec ChatGPT et Perplexity, rôle de l'entité Google (fiche, Knowledge Graph), protocole de mesure du taux de citation.",
+      "author": "claire",
+      "links": [
+        "/referencement-ia-geo",
+        "/blog/etre-cite-par-chatgpt",
+        "/blog/etre-cite-par-perplexity"
+      ],
+      "status": "todo"
+    },
+    {
+      "slug": "llms-txt-guide",
+      "keyword": "llms.txt à quoi ça sert",
+      "intent": "informational",
+      "category": "Visibilité IA",
+      "kd_est": 16,
+      "volume_est": "320/mois",
+      "angle": "Le fichier llms.txt : utilité réelle pour la citation par les IA, ce qu'il change et ne change pas, comment le structurer. Position honnête sur son adoption encore partielle.",
+      "author": "claire",
+      "links": [
+        "/referencement-ia-geo",
+        "/blog/donnees-structurees-seo-guide"
+      ],
+      "status": "todo"
     }
   ]
 }
