@@ -12,6 +12,7 @@ const PAGES = [
 ];
 
 const ARTICLES = [
+  { label: "Améliorer le taux de conversion d'une landing page", href: "/blog/taux-de-conversion-landing-page" },
   { label: "Données structurées SEO : le guide pratique 2026", href: "/blog/donnees-structurees-seo-guide" },
   { label: "SEO local pour PME : par où commencer ?", href: "/blog/seo-local-pme-artisans" },
   { label: "Comment être cité par Perplexity ?", href: "/blog/etre-cite-par-perplexity" },

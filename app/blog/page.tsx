@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/taux-de-conversion-landing-page",
+    category: "Google Ads",
+    date: "2026-09-01",
+    dateDisplay: "1 septembre 2026",
+    reading: "8 min",
+    title: "Améliorer le taux de conversion d'une landing page",
+    excerpt:
+      "Pourquoi 2 % n'est pas une fatalité : 6 frictions mesurées sur nos comptes Google Ads, avec l'impact chiffré de chaque correction sur le coût par lead (de +18 % à +48 %).",
+    wide: true,
+  },
+  {
     href: "/blog/donnees-structurees-seo-guide",
     category: "Technique",
     date: "2026-08-26",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Données structurées SEO : le guide pratique 2026",
     excerpt:
       "Six types JSON-LD couvrent 90 % des besoins, Google a retiré FAQ et HowTo des rich results, et 62 % des sites français audités portent au moins deux erreurs bloquantes.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/seo-local-pme-artisans",
