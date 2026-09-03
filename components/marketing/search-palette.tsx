@@ -12,6 +12,7 @@ const PAGES = [
 ];
 
 const ARTICLES = [
+  { label: "Audit SEO : que contient un audit sérieux ?", href: "/blog/audit-seo-comment-ca-marche" },
   { label: "Améliorer le taux de conversion d'une landing page", href: "/blog/taux-de-conversion-landing-page" },
   { label: "Données structurées SEO : le guide pratique 2026", href: "/blog/donnees-structurees-seo-guide" },
   { label: "SEO local pour PME : par où commencer ?", href: "/blog/seo-local-pme-artisans" },

@@ -220,7 +220,8 @@
         "/contact",
         "/blog/cout-agence-seo-2026"
       ],
-      "status": "todo"
+      "status": "done",
+      "published": "2026-09-03"
     },
     {
       "slug": "maillage-interne-cocon-semantique",

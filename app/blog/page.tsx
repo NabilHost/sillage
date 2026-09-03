@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/audit-seo-comment-ca-marche",
+    category: "SEO",
+    date: "2026-09-03",
+    dateDisplay: "3 septembre 2026",
+    reading: "8 min",
+    title: "Audit SEO : que contient un audit sérieux ?",
+    excerpt:
+      "Un audit SEO sérieux fait 40 à 90 pages, couvre 4 dimensions (technique, contenu, autorité, GEO), coûte 1 500 à 5 000 € HT et prend 8 à 15 jours ouvrés. Plus les 5 red flags d'un audit vendu comme prétexte à un abonnement.",
+    wide: true,
+  },
+  {
     href: "/blog/taux-de-conversion-landing-page",
     category: "Google Ads",
     date: "2026-09-01",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Améliorer le taux de conversion d'une landing page",
     excerpt:
       "Pourquoi 2 % n'est pas une fatalité : 6 frictions mesurées sur nos comptes Google Ads, avec l'impact chiffré de chaque correction sur le coût par lead (de +18 % à +48 %).",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/donnees-structurees-seo-guide",
