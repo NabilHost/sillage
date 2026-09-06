@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/maillage-interne-cocon-semantique",
+    category: "SEO",
+    date: "2026-09-06",
+    dateDisplay: "6 septembre 2026",
+    reading: "8 min",
+    title: "Maillage interne SEO : la méthode qui fait remonter des pages",
+    excerpt:
+      "Cas mesuré : position 26 à position 4 en 11 semaines, sans un seul backlink acquis. Hub-and-spoke, cocon sémantique, ratio d'ancres et 5 erreurs de maillage qui font perdre 43 % de trafic pendant une refonte.",
+    wide: true,
+  },
+  {
     href: "/blog/audit-seo-comment-ca-marche",
     category: "SEO",
     date: "2026-09-03",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Audit SEO : que contient un audit sérieux ?",
     excerpt:
       "Un audit SEO sérieux fait 40 à 90 pages, couvre 4 dimensions (technique, contenu, autorité, GEO), coûte 1 500 à 5 000 € HT et prend 8 à 15 jours ouvrés. Plus les 5 red flags d'un audit vendu comme prétexte à un abonnement.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/taux-de-conversion-landing-page",

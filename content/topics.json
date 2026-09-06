@@ -236,7 +236,8 @@
         "/agence-seo",
         "/blog/refonte-site-sans-perdre-seo"
       ],
-      "status": "todo"
+      "status": "done",
+      "published": "2026-09-06"
     },
     {
       "slug": "netlinking-backlinks-qualite",
