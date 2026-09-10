@@ -251,7 +251,8 @@
       "links": [
         "/agence-seo"
       ],
-      "status": "todo"
+      "status": "done",
+      "published": "2026-09-10"
     },
     {
       "slug": "seo-ecommerce-fiches-produits",

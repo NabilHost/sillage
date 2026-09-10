@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/netlinking-backlinks-qualite",
+    category: "SEO",
+    date: "2026-09-10",
+    dateDisplay: "10 septembre 2026",
+    reading: "8 min",
+    title: "Netlinking et backlinks : les liens qui comptent vraiment",
+    excerpt:
+      "Sur 340 backlinks audités, 67 % n'ont aucun impact mesurable. Les 3 critères d'un lien qui compte (Trust Flow thématique, contexte, ancre descriptive), les 4 sources réellement efficaces et les 5 signaux de sur-optimisation à éviter.",
+    wide: true,
+  },
+  {
     href: "/blog/maillage-interne-cocon-semantique",
     category: "SEO",
     date: "2026-09-06",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Maillage interne SEO : la méthode qui fait remonter des pages",
     excerpt:
       "Cas mesuré : position 26 à position 4 en 11 semaines, sans un seul backlink acquis. Hub-and-spoke, cocon sémantique, ratio d'ancres et 5 erreurs de maillage qui font perdre 43 % de trafic pendant une refonte.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/audit-seo-comment-ca-marche",

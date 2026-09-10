@@ -12,6 +12,7 @@ const PAGES = [
 ];
 
 const ARTICLES = [
+  { label: "Netlinking et backlinks : les liens qui comptent vraiment", href: "/blog/netlinking-backlinks-qualite" },
   { label: "Maillage interne SEO : la méthode qui fait remonter des pages", href: "/blog/maillage-interne-cocon-semantique" },
   { label: "Audit SEO : que contient un audit sérieux ?", href: "/blog/audit-seo-comment-ca-marche" },
   { label: "Améliorer le taux de conversion d'une landing page", href: "/blog/taux-de-conversion-landing-page" },
