@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/seo-ecommerce-fiches-produits",
+    category: "SEO",
+    date: "2026-09-13",
+    dateDisplay: "13 septembre 2026",
+    reading: "8 min",
+    title: "SEO fiche produit e-commerce : les 6 leviers qui font remonter",
+    excerpt:
+      "Sur 22 e-commerces audités, 71 % des fiches produits ne dépassent pas la deuxième page. Contenu unique (450 mots contre 180), balisage Product complet, maillage à 6-10 liens internes : 6 leviers chiffrés pour remonter un catalogue.",
+    wide: true,
+  },
+  {
     href: "/blog/netlinking-backlinks-qualite",
     category: "SEO",
     date: "2026-09-10",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Netlinking et backlinks : les liens qui comptent vraiment",
     excerpt:
       "Sur 340 backlinks audités, 67 % n'ont aucun impact mesurable. Les 3 critères d'un lien qui compte (Trust Flow thématique, contexte, ancre descriptive), les 4 sources réellement efficaces et les 5 signaux de sur-optimisation à éviter.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/maillage-interne-cocon-semantique",

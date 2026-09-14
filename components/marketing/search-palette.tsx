@@ -12,6 +12,7 @@ const PAGES = [
 ];
 
 const ARTICLES = [
+  { label: "SEO fiche produit e-commerce : les 6 leviers qui font remonter", href: "/blog/seo-ecommerce-fiches-produits" },
   { label: "Netlinking et backlinks : les liens qui comptent vraiment", href: "/blog/netlinking-backlinks-qualite" },
   { label: "Maillage interne SEO : la méthode qui fait remonter des pages", href: "/blog/maillage-interne-cocon-semantique" },
   { label: "Audit SEO : que contient un audit sérieux ?", href: "/blog/audit-seo-comment-ca-marche" },
