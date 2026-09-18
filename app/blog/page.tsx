@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/cout-agence-google-ads",
+    category: "Google Ads",
+    date: "2026-09-17",
+    dateDisplay: "17 septembre 2026",
+    reading: "8 min",
+    title: "Combien coûte une agence Google Ads en 2026 ? Grille réelle et pièges",
+    excerpt:
+      "500 à 3 000 € HT/mois selon la taille du compte, plus un setup de 800 à 3 500 €. Forfait ou pourcentage du budget, seuil de délégation autour de 1 500 € HT de budget média, et 4 clauses à surveiller avant de signer.",
+    wide: true,
+  },
+  {
     href: "/blog/seo-ecommerce-fiches-produits",
     category: "SEO",
     date: "2026-09-13",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "SEO fiche produit e-commerce : les 6 leviers qui font remonter",
     excerpt:
       "Sur 22 e-commerces audités, 71 % des fiches produits ne dépassent pas la deuxième page. Contenu unique (450 mots contre 180), balisage Product complet, maillage à 6-10 liens internes : 6 leviers chiffrés pour remonter un catalogue.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/netlinking-backlinks-qualite",
