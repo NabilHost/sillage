@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/google-ads-vs-meta-ads",
+    category: "Google Ads",
+    date: "2026-09-20",
+    dateDisplay: "20 septembre 2026",
+    reading: "8 min",
+    title: "Google Ads ou Meta Ads : lequel choisir en 2026 ?",
+    excerpt:
+      "Google capte l'intention, Meta crée le désir. Sur 40 comptes Essor, coût par lead 22 à 96 € HT côté Google, 14 à 68 € HT côté Meta. Seuil de complémentarité à 2 000 € HT de budget mensuel, tracking serveur obligatoire.",
+    wide: true,
+  },
+  {
     href: "/blog/cout-agence-google-ads",
     category: "Google Ads",
     date: "2026-09-17",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Combien coûte une agence Google Ads en 2026 ? Grille réelle et pièges",
     excerpt:
       "500 à 3 000 € HT/mois selon la taille du compte, plus un setup de 800 à 3 500 €. Forfait ou pourcentage du budget, seuil de délégation autour de 1 500 € HT de budget média, et 4 clauses à surveiller avant de signer.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/seo-ecommerce-fiches-produits",

@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/a-propos`, lastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.url}/resultats`, lastModified, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/blog`, lastModified, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${SITE.url}/blog/google-ads-vs-meta-ads`, lastModified: new Date("2026-09-20"), changeFrequency: "yearly", priority: 0.65 },
     { url: `${SITE.url}/blog/cout-agence-google-ads`, lastModified: new Date("2026-09-17"), changeFrequency: "yearly", priority: 0.65 },
     { url: `${SITE.url}/blog/seo-ecommerce-fiches-produits`, lastModified: new Date("2026-09-13"), changeFrequency: "yearly", priority: 0.65 },
     { url: `${SITE.url}/blog/netlinking-backlinks-qualite`, lastModified: new Date("2026-09-10"), changeFrequency: "yearly", priority: 0.65 },

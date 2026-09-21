@@ -12,6 +12,7 @@ const PAGES = [
 ];
 
 const ARTICLES = [
+  { label: "Google Ads ou Meta Ads : lequel choisir en 2026 ?", href: "/blog/google-ads-vs-meta-ads" },
   { label: "Combien coûte une agence Google Ads en 2026 ?", href: "/blog/cout-agence-google-ads" },
   { label: "SEO fiche produit e-commerce : les 6 leviers qui font remonter", href: "/blog/seo-ecommerce-fiches-produits" },
   { label: "Netlinking et backlinks : les liens qui comptent vraiment", href: "/blog/netlinking-backlinks-qualite" },
