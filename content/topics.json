@@ -314,7 +314,8 @@
         "/agence-sea",
         "/blog/taux-de-conversion-landing-page"
       ],
-      "status": "todo"
+      "status": "done",
+      "published": "2026-09-24"
     },
     {
       "slug": "delai-creation-site-internet",

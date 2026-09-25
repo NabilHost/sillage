@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/quality-score-google-ads",
+    category: "Google Ads",
+    date: "2026-09-24",
+    dateDisplay: "24 septembre 2026",
+    reading: "8 min",
+    title: "Améliorer son Quality Score Google Ads en 2026",
+    excerpt:
+      "Sur 47 comptes audités, QS médian à 5, tiers des mots-clés sous 4. Un QS de 9 divise le CPC par 1,9 face à un QS de 3. Les 3 composantes officielles, 3 corrections rapides et 4 mythes à écarter.",
+    wide: true,
+  },
+  {
     href: "/blog/google-ads-vs-meta-ads",
     category: "Google Ads",
     date: "2026-09-20",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Google Ads ou Meta Ads : lequel choisir en 2026 ?",
     excerpt:
       "Google capte l'intention, Meta crée le désir. Sur 40 comptes Essor, coût par lead 22 à 96 € HT côté Google, 14 à 68 € HT côté Meta. Seuil de complémentarité à 2 000 € HT de budget mensuel, tracking serveur obligatoire.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/cout-agence-google-ads",
