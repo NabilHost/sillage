@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/delai-creation-site-internet",
+    category: "Sites web",
+    date: "2026-09-29",
+    dateDisplay: "29 septembre 2026",
+    reading: "8 min",
+    title: "Combien de temps pour créer un site internet ?",
+    excerpt:
+      "Vitrine 4 à 6 semaines, e-commerce 8 à 14, sur-mesure 14 à 24 : la médiane sur 24 projets Essor. Planning phase par phase, 3 causes de retard (contenus client, allers-retours design, périmètre flou) et les leviers pour livrer plus vite sans dégrader le résultat.",
+    wide: true,
+  },
+  {
     href: "/blog/quality-score-google-ads",
     category: "Google Ads",
     date: "2026-09-24",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Améliorer son Quality Score Google Ads en 2026",
     excerpt:
       "Sur 47 comptes audités, QS médian à 5, tiers des mots-clés sous 4. Un QS de 9 divise le CPC par 1,9 face à un QS de 3. Les 3 composantes officielles, 3 corrections rapides et 4 mythes à écarter.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/google-ads-vs-meta-ads",

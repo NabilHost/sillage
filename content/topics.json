@@ -330,7 +330,8 @@
         "/creation-site-web",
         "/blog/cout-creation-site-internet-2026"
       ],
-      "status": "todo"
+      "status": "done",
+      "published": "2026-09-29"
     },
     {
       "slug": "site-vitrine-ou-ecommerce",
