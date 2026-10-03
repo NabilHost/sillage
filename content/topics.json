@@ -345,7 +345,8 @@
       "links": [
         "/creation-site-web"
       ],
-      "status": "todo"
+      "status": "done",
+      "published": "2026-10-02"
     },
     {
       "slug": "cms-nextjs-vs-wordpress",

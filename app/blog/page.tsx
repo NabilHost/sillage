@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/site-vitrine-ou-ecommerce",
+    category: "Sites web",
+    date: "2026-10-02",
+    dateDisplay: "2 octobre 2026",
+    reading: "8 min",
+    title: "Site vitrine ou e-commerce : lequel choisir ?",
+    excerpt:
+      "Vitrine 1 500 à 6 000 € HT, e-commerce 8 000 à 25 000 € : le bon format dépend du modèle de vente, pas de l'envie. Coûts à 3 ans (jusqu'à 60 000 €), charge hebdomadaire (1 à 12 h), implications SEO et règles de bascule, sur 24 projets Essor.",
+    wide: true,
+  },
+  {
     href: "/blog/delai-creation-site-internet",
     category: "Sites web",
     date: "2026-09-29",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Combien de temps pour créer un site internet ?",
     excerpt:
       "Vitrine 4 à 6 semaines, e-commerce 8 à 14, sur-mesure 14 à 24 : la médiane sur 24 projets Essor. Planning phase par phase, 3 causes de retard (contenus client, allers-retours design, périmètre flou) et les leviers pour livrer plus vite sans dégrader le résultat.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/quality-score-google-ads",

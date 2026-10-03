@@ -12,6 +12,7 @@ const PAGES = [
 ];
 
 const ARTICLES = [
+  { label: "Site vitrine ou e-commerce : lequel choisir ?", href: "/blog/site-vitrine-ou-ecommerce" },
   { label: "Combien de temps pour créer un site internet ?", href: "/blog/delai-creation-site-internet" },
   { label: "Améliorer son Quality Score Google Ads en 2026", href: "/blog/quality-score-google-ads" },
   { label: "Google Ads ou Meta Ads : lequel choisir en 2026 ?", href: "/blog/google-ads-vs-meta-ads" },
