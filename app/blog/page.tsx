@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/cms-nextjs-vs-wordpress",
+    category: "Sites web",
+    date: "2026-10-05",
+    dateDisplay: "5 octobre 2026",
+    reading: "9 min",
+    title: "Next.js ou WordPress : lequel choisir en 2026 ?",
+    excerpt:
+      "LCP terrain 820 ms contre 2,9 s, coût 3 ans de 9 à 60 k€, charge éditoriale et sécurité : l'arbitrage honnête entre les deux stacks pour une PME française, mesuré sur 24 projets Essor livrés 2024-2026 et 18 audits CMS septembre 2026.",
+    wide: true,
+  },
+  {
     href: "/blog/site-vitrine-ou-ecommerce",
     category: "Sites web",
     date: "2026-10-02",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Site vitrine ou e-commerce : lequel choisir ?",
     excerpt:
       "Vitrine 1 500 à 6 000 € HT, e-commerce 8 000 à 25 000 € : le bon format dépend du modèle de vente, pas de l'envie. Coûts à 3 ans (jusqu'à 60 000 €), charge hebdomadaire (1 à 12 h), implications SEO et règles de bascule, sur 24 projets Essor.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/delai-creation-site-internet",

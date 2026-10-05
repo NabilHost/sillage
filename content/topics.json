@@ -361,7 +361,8 @@
         "/creation-site-web",
         "/blog/core-web-vitals-guide-2026"
       ],
-      "status": "todo"
+      "status": "done",
+      "published": "2026-10-05"
     },
     {
       "slug": "etre-cite-par-gemini",
