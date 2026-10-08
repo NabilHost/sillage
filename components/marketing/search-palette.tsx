@@ -12,6 +12,7 @@ const PAGES = [
 ];
 
 const ARTICLES = [
+  { label: "Comment être cité par Gemini en 2026 ?", href: "/blog/etre-cite-par-gemini" },
   { label: "Next.js ou WordPress : lequel choisir en 2026 ?", href: "/blog/cms-nextjs-vs-wordpress" },
   { label: "Site vitrine ou e-commerce : lequel choisir ?", href: "/blog/site-vitrine-ou-ecommerce" },
   { label: "Combien de temps pour créer un site internet ?", href: "/blog/delai-creation-site-internet" },

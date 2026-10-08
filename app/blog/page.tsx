@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/etre-cite-par-gemini",
+    category: "Visibilité IA",
+    date: "2026-10-08",
+    dateDisplay: "8 octobre 2026",
+    reading: "9 min",
+    title: "Comment être cité par Gemini en 2026 ?",
+    excerpt:
+      "Sur 60 requêtes françaises testées en septembre 2026, 43 % des citations Google AI Mode pointent vers des propriétés Google (YouTube 29,5 %, Maps/Scholar 13,5 %). Les 4 leviers (index, entité, blocs citables, YouTube) et le protocole de mesure sur un panel de 30 requêtes.",
+    wide: true,
+  },
+  {
     href: "/blog/cms-nextjs-vs-wordpress",
     category: "Sites web",
     date: "2026-10-05",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Next.js ou WordPress : lequel choisir en 2026 ?",
     excerpt:
       "LCP terrain 820 ms contre 2,9 s, coût 3 ans de 9 à 60 k€, charge éditoriale et sécurité : l'arbitrage honnête entre les deux stacks pour une PME française, mesuré sur 24 projets Essor livrés 2024-2026 et 18 audits CMS septembre 2026.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/site-vitrine-ou-ecommerce",

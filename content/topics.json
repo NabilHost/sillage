@@ -378,7 +378,8 @@
         "/blog/etre-cite-par-chatgpt",
         "/blog/etre-cite-par-perplexity"
       ],
-      "status": "todo"
+      "status": "done",
+      "published": "2026-10-08"
     },
     {
       "slug": "llms-txt-guide",
