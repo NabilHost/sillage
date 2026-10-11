@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/llms-txt-guide",
+    category: "Visibilité IA",
+    date: "2026-10-11",
+    dateDisplay: "11 octobre 2026",
+    reading: "9 min",
+    title: "llms.txt : à quoi ça sert vraiment en 2026 ?",
+    excerpt:
+      "10,13 % des sites l'implémentent (SE Ranking, 300 000 domaines), 97 % des fichiers n'ont reçu aucune requête bot IA en mai 2026 (Ahrefs, 137 000 sites), zéro moteur grand public n'a confirmé le lire. Utilité réelle, cas d'usage mesurés et protocole en 30 à 80 lignes.",
+    wide: true,
+  },
+  {
     href: "/blog/etre-cite-par-gemini",
     category: "Visibilité IA",
     date: "2026-10-08",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Comment être cité par Gemini en 2026 ?",
     excerpt:
       "Sur 60 requêtes françaises testées en septembre 2026, 43 % des citations Google AI Mode pointent vers des propriétés Google (YouTube 29,5 %, Maps/Scholar 13,5 %). Les 4 leviers (index, entité, blocs citables, YouTube) et le protocole de mesure sur un panel de 30 requêtes.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/cms-nextjs-vs-wordpress",

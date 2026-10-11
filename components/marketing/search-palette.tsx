@@ -12,6 +12,7 @@ const PAGES = [
 ];
 
 const ARTICLES = [
+  { label: "llms.txt : à quoi ça sert vraiment en 2026 ?", href: "/blog/llms-txt-guide" },
   { label: "Comment être cité par Gemini en 2026 ?", href: "/blog/etre-cite-par-gemini" },
   { label: "Next.js ou WordPress : lequel choisir en 2026 ?", href: "/blog/cms-nextjs-vs-wordpress" },
   { label: "Site vitrine ou e-commerce : lequel choisir ?", href: "/blog/site-vitrine-ou-ecommerce" },
