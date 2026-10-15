@@ -396,6 +396,22 @@
       ],
       "status": "done",
       "published": "2026-10-11"
+    },
+    {
+      "slug": "google-ads-controles-canaux-budget",
+      "keyword": "priorisation canaux Google Ads",
+      "intent": "informational",
+      "category": "Actualité",
+      "angle": "Trend 15 octobre 2026 : Google Ads déploie des contrôles de priorisation de canaux et un plafond en pourcentage sur les canaux secondaires (Search, Shopping, PMax, Demand Gen). Protocole de réglage en 4 étapes, données panel Essor 11 comptes PME, gains chiffrés 11-18 % sur CPL.",
+      "author": "claire",
+      "links": [
+        "/agence-sea",
+        "/blog/performance-max-ou-shopping",
+        "/blog/budget-google-ads-rentable"
+      ],
+      "status": "done",
+      "published": "2026-10-15",
+      "trend": true
     }
   ]
 }

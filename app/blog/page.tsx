@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/google-ads-controles-canaux-budget",
+    category: "Actualité",
+    date: "2026-10-15",
+    dateDisplay: "15 octobre 2026",
+    reading: "7 min",
+    title: "Google Ads : priorisation des canaux (oct. 2026)",
+    excerpt:
+      "Google Ads déploie depuis le 15 octobre 2026 un contrôle en pourcentage sur chaque canal secondaire (Display, YouTube, réseau partenaire) pour Search, Shopping, Performance Max et Demand Gen. Sur 11 comptes PME Essor, part partenaire PMax à 32 % du budget pour 9 % des conversions : protocole en 4 étapes, plafond progressif à 15 %, coût par lead réduit de 11 à 18 % sur 30 jours.",
+    wide: true,
+  },
+  {
     href: "/blog/llms-txt-guide",
     category: "Visibilité IA",
     date: "2026-10-11",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "llms.txt : à quoi ça sert vraiment en 2026 ?",
     excerpt:
       "10,13 % des sites l'implémentent (SE Ranking, 300 000 domaines), 97 % des fichiers n'ont reçu aucune requête bot IA en mai 2026 (Ahrefs, 137 000 sites), zéro moteur grand public n'a confirmé le lire. Utilité réelle, cas d'usage mesurés et protocole en 30 à 80 lignes.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/etre-cite-par-gemini",
