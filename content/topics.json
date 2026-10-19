@@ -412,6 +412,23 @@
       "status": "done",
       "published": "2026-10-15",
       "trend": true
+    },
+    {
+      "slug": "google-ads-promotions-automatiques",
+      "keyword": "promotions automatiques Google Ads",
+      "intent": "informational",
+      "category": "Actualité",
+      "angle": "Trend 12 octobre 2026 : Google Ads détecte les offres publiées sur le site marchand (flux Merchant Center, crawl pages produits, bandeaux) et les applique en extension aux campagnes Search, DSA et PMax éligibles. Risque marge, 3 indicateurs de surveillance hebdomadaire, protocole en 4 étapes et règle de décision par profil marge brute.",
+      "author": "claire",
+      "links": [
+        "/agence-sea",
+        "/blog/performance-max-ou-shopping",
+        "/blog/budget-google-ads-rentable",
+        "/contact"
+      ],
+      "status": "done",
+      "published": "2026-10-19",
+      "trend": true
     }
   ]
 }

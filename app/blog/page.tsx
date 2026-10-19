@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/google-ads-promotions-automatiques",
+    category: "Actualité",
+    date: "2026-10-19",
+    dateDisplay: "19 octobre 2026",
+    reading: "8 min",
+    title: "Google Ads : promotions automatiques (oct. 2026)",
+    excerpt:
+      "Depuis le 12 octobre 2026, Google Ads détecte les offres publiées sur votre site marchand et les applique aux campagnes Search et Performance Max. Sur 18 sites Essor audités, 42 % portaient un bandeau promotionnel oublié depuis plus de 30 jours : risque marge, protocole en 4 étapes et 3 indicateurs à surveiller chaque semaine.",
+    wide: true,
+  },
+  {
     href: "/blog/google-ads-controles-canaux-budget",
     category: "Actualité",
     date: "2026-10-15",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Google Ads : priorisation des canaux (oct. 2026)",
     excerpt:
       "Google Ads déploie depuis le 15 octobre 2026 un contrôle en pourcentage sur chaque canal secondaire (Display, YouTube, réseau partenaire) pour Search, Shopping, Performance Max et Demand Gen. Sur 11 comptes PME Essor, part partenaire PMax à 32 % du budget pour 9 % des conversions : protocole en 4 étapes, plafond progressif à 15 %, coût par lead réduit de 11 à 18 % sur 30 jours.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/llms-txt-guide",

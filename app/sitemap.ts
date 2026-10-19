@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/a-propos`, lastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.url}/resultats`, lastModified, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/blog`, lastModified, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${SITE.url}/blog/google-ads-promotions-automatiques`, lastModified: new Date("2026-10-19"), changeFrequency: "yearly", priority: 0.65 },
     { url: `${SITE.url}/blog/google-ads-controles-canaux-budget`, lastModified: new Date("2026-10-15"), changeFrequency: "yearly", priority: 0.65 },
     { url: `${SITE.url}/blog/llms-txt-guide`, lastModified: new Date("2026-10-11"), changeFrequency: "yearly", priority: 0.65 },
     { url: `${SITE.url}/blog/etre-cite-par-gemini`, lastModified: new Date("2026-10-08"), changeFrequency: "yearly", priority: 0.65 },
