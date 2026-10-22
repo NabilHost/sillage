@@ -429,6 +429,23 @@
       "status": "done",
       "published": "2026-10-19",
       "trend": true
+    },
+    {
+      "slug": "robots-txt-crawlers-ia",
+      "keyword": "robots.txt crawlers IA",
+      "intent": "informational",
+      "category": "Actualité",
+      "angle": "Trend 21 octobre 2026 : Google Search Central publie une vidéo (Non-Canonical Cabinet episode 2, 9 min 31 s, Gary Illyes et Cherry Prommawin) rappelant que robots.txt (RFC 9309) limite le crawling, pas l'usage. Cinq familles de bots IA (OpenAI, Anthropic, Google-Extended, Perplexity, Meta) concentrent 92 % des requêtes IA sur 18 sites PME Essor. Stratégie segmentée : citations AI Overviews conservées à 94 %, GPTBot d'entraînement coupé en 72 h. Protocole robots.txt en 4 blocs, 15-40 lignes.",
+      "author": "claire",
+      "links": [
+        "/referencement-ia-geo",
+        "/blog/llms-txt-guide",
+        "/blog/etre-cite-par-chatgpt",
+        "/contact"
+      ],
+      "status": "done",
+      "published": "2026-10-22",
+      "trend": true
     }
   ]
 }

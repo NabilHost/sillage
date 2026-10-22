@@ -12,6 +12,7 @@ const PAGES = [
 ];
 
 const ARTICLES = [
+  { label: "Robots.txt et crawlers IA : le rappel Google (oct. 2026)", href: "/blog/robots-txt-crawlers-ia" },
   { label: "Google Ads : promotions automatiques (oct. 2026)", href: "/blog/google-ads-promotions-automatiques" },
   { label: "Google Ads : priorisation des canaux (oct. 2026)", href: "/blog/google-ads-controles-canaux-budget" },
   { label: "llms.txt : à quoi ça sert vraiment en 2026 ?", href: "/blog/llms-txt-guide" },

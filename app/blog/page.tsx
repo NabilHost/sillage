@@ -16,6 +16,17 @@ export const metadata = generatePageMetadata({
 
 const POSTS = [
   {
+    href: "/blog/robots-txt-crawlers-ia",
+    category: "Actualité",
+    date: "2026-10-22",
+    dateDisplay: "22 octobre 2026",
+    reading: "9 min",
+    title: "Robots.txt et crawlers IA : le rappel Google (oct. 2026)",
+    excerpt:
+      "Google Search Central a publié le 21 octobre 2026 une vidéo de 9 min 31 s qui rappelle une distinction cruciale : robots.txt gère le crawling, pas l'usage. Sur 18 sites PME Essor, 5 familles de bots concentrent 92 % des requêtes IA (OpenAI, Anthropic, Google, Perplexity, Meta). Stratégie segmentée : citations AI Overviews conservées à 94 % et GPTBot d'entraînement coupé en 72 heures.",
+    wide: true,
+  },
+  {
     href: "/blog/google-ads-promotions-automatiques",
     category: "Actualité",
     date: "2026-10-19",
@@ -24,7 +35,7 @@ const POSTS = [
     title: "Google Ads : promotions automatiques (oct. 2026)",
     excerpt:
       "Depuis le 12 octobre 2026, Google Ads détecte les offres publiées sur votre site marchand et les applique aux campagnes Search et Performance Max. Sur 18 sites Essor audités, 42 % portaient un bandeau promotionnel oublié depuis plus de 30 jours : risque marge, protocole en 4 étapes et 3 indicateurs à surveiller chaque semaine.",
-    wide: true,
+    wide: false,
   },
   {
     href: "/blog/google-ads-controles-canaux-budget",
